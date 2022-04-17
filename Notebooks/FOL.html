@@ -4,20 +4,17 @@
 	<head>
 		<link href="../letter_style.css" rel="stylesheet" type="text/css">
 
-
+		
+	
+		
 <!-- Access to MathJax through their server !-->
 
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']],
-    processEscapes: true}
-});
-</script>
-<script type="text/javascript"
-src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
+<script type="text/javascript" charset="utf-8" 
+src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,
+https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 
 	</head>
+
 
 <body>
 <cite><a href="../index.html">Sagar</a></cite>
@@ -28,7 +25,7 @@ src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorM
 
 		<p>Some important ideas from Lectures on <a href = "https://www.youtube.com/watch?v=kCEAFjjTJyU&list=PL2cqwPeM9PtMqpoeaD5oV2cSIpn5dhJI3">"Logic for Computer Science"</a> by David Ben Shai.</p>
 		<p><b>Inductively Defined Sets</b>. <BR>
-			<b>Defintion 1.</b>b>Given a set $A$ (core set) in a universe $X$ and a set of functions $P$ of arbitrary arities over $X$. Then  $I(A,P)$ is defined as the minimal set (w.r.t inclusion) that contains the core set $A$ and is closed under $P$.</p>
+			<b>Defintion 1.</b> Given a set $A$ (core set) in a universe $X$ and a set of functions $P$ of arbitrary arities over $X$. Then  $I(A,P)$ is defined as the minimal set (w.r.t inclusion) that contains the core set $A$ and is closed under $P$.</p>
 		<p>
 		<b>Defintion 2.</b> Given a set $A$ (core set) in a universe $X$ and a set of functions $P$ of arbitrary arities over $X$. Then  $I(A,P)$ is defined as:
 		$$\bigcap_{i}\{B  | A \subseteq B \text{ and } B \text{ is closed under P }\}$$
