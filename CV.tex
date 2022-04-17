@@ -1,0 +1,143 @@
+%------------------------------------
+% Dario Taraborelli
+% Typesetting your academic CV in LaTeX
+%
+% URL: http://nitens.org/taraborelli/cvtex
+% DISCLAIMER: This template is provided for free and without any guarantee 
+% that it will correctly compile on your system if you have a non-standard  
+% configuration.
+% Some rights reserved: http://creativecommons.org/licenses/by-sa/3.0/
+%------------------------------------
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[10pt, a4paper]{article}
+\usepackage{fontspec} 
+\usepackage[none]{hyphenat}
+
+% DOCUMENT LAYOUT
+\usepackage{geometry} 
+\geometry{a4paper, textwidth=5.5in, textheight=8.5in, marginparsep=7pt, marginparwidth=.6in}
+\setlength\parindent{0in}
+
+% FONTS
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\defaultfontfeatures{Mapping=tex-text} % converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
+\setromanfont [Ligatures={Common}, BoldFont={Fontin Bold}, ItalicFont={Fontin Italic}]{Fontin}
+\setsansfont [Ligatures={Common}, BoldFont={Fontin Sans Bold}, ItalicFont={Fontin Sans Italic}]{Fontin Sans}
+\setmonofont[Scale=0.8]{Monaco} 
+% ---- CUSTOM AMPERSAND
+\newcommand{\amper}{{\fontspec[Scale=.95]{Fontin}\selectfont\itshape\&}}
+% ---- MARGIN YEARS
+\usepackage{marginnote}
+\newcommand{\years}[1]{\marginnote{\scriptsize #1}}
+\renewcommand*{\raggedleftmarginnote}{}
+\setlength{\marginparsep}{7pt}
+\reversemarginpar
+
+% HEADINGS
+\usepackage{sectsty} 
+\usepackage[normalem]{ulem} 
+\sectionfont{\rmfamily\mdseries\upshape\Large}
+\subsectionfont{\rmfamily\bfseries\upshape\normalsize} 
+\subsubsectionfont{\rmfamily\mdseries\upshape\normalsize} 
+
+% PDF SETUP
+% ---- FILL IN HERE THE DOC TITLE AND AUTHOR
+\usepackage[xetex, bookmarks, colorlinks, breaklinks, pdftitle={Albert Einstein - vita},pdfauthor={My name}]{hyperref}  
+\hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=blue} 
+
+% DOCUMENT
+\begin{document}
+
+{\LARGE Sagar Malhotra }\\[1cm]
+ Fondazione Bruno Kessler\\
+ Via Sommarive, 18\\
+Trento, Trentino \texttt{38123}
+Italy\\[.2cm]
+Phone: \texttt{+39 320 841 2396}\\
+email: \href{mailto:sagar.malhotra@unitn.it}{sagar.malhotra@unitn.it}\\[0.2cm]
+
+\textsc{url}: \href{https://countinglogic.github.io}{countinglogic.github.io}\\[0.2cm] 
+
+Born:  May 6, 1994\\
+Nationality:  Indian
+
+%%\hrule
+\section*{Current position}
+\years{11.2019-01.2023}\textsc{PhD Candidate}\\
+Advisor: Luciano Serafini\\
+University of Trento, Italy\\
+Fondazione Bruno Kessler, Italy
+
+%\hrule
+\section*{Research Experience and Education}
+\noindent
+\years{2018-2019}\textsc{Junior Research Fellow}\\
+Advisors: Luciano Serafini, Radim Nedbal\\
+Project: Variational Inference in Hybrid Domains\\
+Data and Knowledge Management Unit\\
+Fondazione Bruno Kessler, Italy\\
+
+\years{2018}\textsc{MSc} in Physics\\
+Advisors: Roberto Iuppa (Unitn), Marco Cristoforetti (FBK)\\ 
+Thesis: Deep Learning For Track Reconstruction in Next Generation HEP Experiments\\
+Fondazione Bruno Kessler, Italy\\
+University of Trento, Italy\\
+
+\years{2015}\textsc{BSc} in Physics with Honors\\
+University of Delhi, India
+
+\section*{Conference Publications}
+
+\noindent
+\years{2022}\textbf{Sagar Malhotra} and Luciano Serafini. Weighted Model Counting in FO$^2$ with Cardinality Constraints and Counting Quantifiers: A Closed Form Formula \\ \emph{(Accepted for \textbf{Oral} presentation) Proceedings of the $36^{th}$ AAAI Conference on Artificial Intelligence.} \href{https://arxiv.org/abs/2110.05992}{arXiv:2110.05992} \\
+\newpage
+\years{2021}\textbf{Sagar Malhotra} and Luciano Serafini. A Combinatorial Approach to Weighted Model Counting in the Two Variable Fragment with Cardinality Constraints\\ \emph{ Proceedings of the $20^{th}$ International Conference of the Italian Association for Artificial Intelligence, 2021}\\
+
+
+\section*{Workshop Publications}
+\noindent
+\years{2021}\textbf{Sagar Malhotra} and Luciano Serafini. Weighted Model Counting in FO$^2$ with Cardinality Constraints and Counting Quantifiers: A Closed Form Formula\\ \emph{$10^{th}$ International Workshop on Statistical Relational AI, 2021}\\
+
+\section*{Submitted Papers and Preprints}
+\years{2022}\textbf{Sagar Malhotra} and Luciano Serafini. On Projectivity in Markov Logic Networks\\ \emph{Under Review}.\href{https://arxiv.org/abs/2204.04009}{arXiv:2204.04009}\\
+
+
+\section*{Talks}
+\noindent
+\years{2022}On Projectively in Markov Logic Networks, DKM Group Seminar \\
+\years{2022}Weighted First-Order Model Counting, AAAI 2022@FBK Workshop
+%%\hrule
+
+
+\section*{Awards and Achievements}
+\years{2018}Bronze medal in TrackML particle tracking challenge on Kaggle.\\
+\years{2017} Part of the winning team in Industrial Problem Solving using Physics\\
+\years{2017}Awarded fully funded trip to Innovation Days-Innsbruck in StartUp Lab, Trento\\
+\years{2016}Awarded full-Scholarship for the Joint Masters in Theoretical Physics at University of Trento and SISSA- Trieste (Declined)\\
+\years{2016}Awarded Opera Universitaria Scholarship for Masters in Physics at University of Trento\\
+\years{2016}Amongst top 5$\%$ candidates in the Joint Entrance Screening Test- Physics 2016 among $\sim$ 5000 candidates\\
+\years{2016}Amongst top 5 $\%$ candidates in IIT Joint Admission Test for Masters in Physics  2016 among $\sim$ 10000 candidates\\
+
+
+
+
+
+% \section*{Service to the profession}
+
+% ...
+
+%\vspace{1cm}
+\vfill{}
+%\hrulefill
+
+\begin{center}
+{\scriptsize  Last updated: \today\- •\- 
+% ---- FILL IN THE FULL URL TO YOUR CV HERE
+\href{https://countinglogic.github.io/research/CV/CV.pdf}{For latest version click here. }}
+\end{center}
+
+\end{document}
