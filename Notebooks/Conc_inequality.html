@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+	<head>
+		<link href="../letter_style.css" rel="stylesheet" type="text/css">
+
+		
+	
+		
+<!-- Access to MathJax through their server !-->
+
+<script type="text/javascript" charset="utf-8" 
+src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,
+https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
+
+	</head>
+
+
+<body>
+<cite><a href="../index.html">Sagar</a></cite>
+
+<div class="text">
+	<div class="left">
+		<h1 style="font-weight: normal;">Concentration Inequality </h1>
+Concentration inequalities dominate a lot of the literature in approximate counting. Since it is one of the topics I would like to dive into,
+here I try to take note of some of them.
+<h3 style="font-weight: normal;">Markov Inequality</h3>	
+\begin{equation}
+Pr(X \geq a) \leq \frac{E[X]}{a}
+\end{equation}
+<b>Proof.</b>
+
+\begin{align*}
+E[X] &= \sum x P(X = x)\\
+E[X] &= \sum_{x \geq a} x P(X=x) + \sum_{x < a} x. P(X = x)\\
+E[X] &\geq \sum_{x \geq a} a P(X=x)\\
+E[X] &\geq  a P(X\geq a)\\
+\frac{E[X]}{a} &\geq  P(X\geq a)
+
+\end{align*} 
+
+
+<h3 style="font-weight: normal;">Chebyshev's Inequality</h3>	
+
+Given a random variable $X$, such that $X$ has a finite expected value. The standard deviation of $X$ i.e. $\sigma = \sqrt{E[(X - E[X]^{2})]}$ is finite. Then for every constant $a > 0 $:
+\begin{equation}
+Pr(|X-E[X]| \geq a) \leq \frac{\sigma^{2}}{a^2}
+\end{equation}
+
+
+<b>Proof.</b>
+
+\begin{equation*}
+Pr(|X-E[X]| \geq c)  = Pr((X-E[X])^{2} \geq c^{2})
+\end{equation*} 
+Now, $|X-E[X]|$  is a finite random variable it self. Hence, using Markov Inequality, we have that:
+\begin{align*}
+Pr(|X-E[X]|^{2} \geq c^{2}) &\geq \frac{E[(X-E[X])^{2}]}{c^{2}}\\
+Pr(|X-E[X]|^{2} \geq c^{2}) &\geq \frac{\sigma^{2}}{c^{2}}\\
+\end{align*}
+
+
+		</div>
+		</div>
