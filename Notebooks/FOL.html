@@ -24,19 +24,37 @@ https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 		<h1 style="font-weight: normal;">Mathematical Logic</h1>
 
 		<p>Some important ideas from Lectures on <a href = "https://www.youtube.com/watch?v=kCEAFjjTJyU&list=PL2cqwPeM9PtMqpoeaD5oV2cSIpn5dhJI3">"Logic for Computer Science"</a> by David Ben Shai.</p>
-		<p><b>Inductively Defined Sets</b>. <BR>
+		<h3 style="font-weight: normal;">Inductively defined Sets</h3>
 			<b>Defintion 1.</b> Given a set $A$ (core set) in a universe $X$ and a set of functions $P$ of arbitrary arities over $X$. Then  $I(A,P)$ is defined as the minimal set (w.r.t inclusion) that contains the core set $A$ and is closed under $P$.</p>
 		<p>
 		<b>Defintion 2.</b> Given a set $A$ (core set) in a universe $X$ and a set of functions $P$ of arbitrary arities over $X$. Then  $I(A,P)$ is defined as:
-		$$\bigcap_{i}\{B  | A \subseteq B \text{ and } B \text{ is closed under P }\}$$
+		
+		\begin{equation}
+		\label{eq: IAP}
+		\bigcap_{i}\{B  | A \subseteq B \text{ and } B \text{ is closed under P }\}
+		\end{equation}
 		We wish to prove the equivalence of these definitions i.e. <BR>
 			<center><b>Defintion 1.</b> $\leftrightarrow$ <b>Defintion 2.</b></center>
 	</p>
 	<p><i>Note that the minimality of $I(A,P)$ in the second definition is not completely trivial. Minimality w.r.t inclusion also leads to uniqueness. </i> 
 	</p>
+	<h3 style="font-weight: normal;">Almost trivial but useful results</h3>
+	Let us have a collection of sets $\{B_i\}_i$. Then for every $B_k \in \{B_i\}_i$ :
+	\begin{equation}
+	\label{eq: subset}
+	\bigcap_{i}\{B_i\} \subset B_k 
+	\end{equation}
 
-		
-		
+	<h3 style="font-weight: normal;">Structural Induction</h3>
+	Given an $I(A,P)$ and given a property $H$, our goal is to show that all members of $I(A,P)$ have the property $H$. A property is essentially a subset of $X$, hence, it is enough to show that $I(A,P) \subseteq H$. 
+	<P>
+	<li> Base Case: Show that $A \subseteq H$
+	<li> Induction Step: Show that $H$ is closed under $P$</li>
+	</P>
+	<P>
+	Due to \ref{eq: subset} and \ref{eq: IAP}, we have that $I(A,P) \subseteq H$, we have that $I(A,P) \subseteq H$. 
+	</P>
+	
 		
 		</div>
 		</div>
