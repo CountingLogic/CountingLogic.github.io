@@ -21,10 +21,11 @@ https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 
 <div class="text">
 	<div class="left">
-		<h1 style="font-weight: normal;">Concentration Inequality </h1>
+		<h1 style="font-weight: normal;">Concentration Inequalities </h1>
 Concentration inequalities dominate a lot of the literature in approximate counting. Since it is one of the topics I would like to dive into,
 here I try to take note of some of them.
 <h3 style="font-weight: normal;">Markov Inequality</h3>	
+<b>Lemma 1.</b> 
 \begin{equation}
 Pr(X \geq a) \leq \frac{E[X]}{a}
 \end{equation}
@@ -42,7 +43,7 @@ E[X] &\geq  a P(X\geq a)\\
 
 <h3 style="font-weight: normal;">Chebyshev's Inequality</h3>	
 
-Given a random variable $X$, such that $X$ has a finite expected value. The standard deviation of $X$ i.e. $\sigma = \sqrt{E[(X - E[X]^{2})]}$ is finite. Then for every constant $a > 0 $:
+<b>Lemma 2.</b> Given a random variable $X$, such that $X$ has a finite expected value. The standard deviation of $X$ i.e. $\sigma = \sqrt{E[(X - E[X]^{2})]}$ is finite. Then for every constant $a > 0 $:
 \begin{equation}
 Pr(|X-E[X]| \geq a) \leq \frac{\sigma^{2}}{a^2}
 \end{equation}
@@ -57,8 +58,25 @@ Now, $|X-E[X]|^2$  is a finite random variable it self. Hence, using Markov Ineq
 \begin{align*}
 Pr(|X-E[X]|^{2} \geq c^{2}) &\geq \frac{E[(X-E[X])^{2}]}{c^{2}}\\
 Pr(|X-E[X]|^{2} \geq c^{2}) &\geq \frac{\sigma^{2}}{c^{2}}\\
+Pr(|X-E[X]| \geq c) &\geq \frac{\sigma^{2}}{c^{2}}\\
 \end{align*}
 
 
+
+<b>Corollary 2.1.</b> Given a random variable $X$, such that $X$ has a finite expected value. The standard deviation of $X$ i.e. $\sigma = \sqrt{E[(X - E[X]^{2})]}$ is finite. Then for every constant $a > 0 $:
+\begin{equation}
+Pr(|X-E[X]| \geq a) \leq \frac{E[|X-E[X]|^{n}]}{a^{n}}
+\end{equation}
+
+<h3 style="font-weight: normal;"> Gaussian Tail Bound</h3>
+<b>Lemma 3.</b> If $X_1,\dots,X_n \overset{\text{iid}}{\sim} \mathcal{N(\mu,\sigma)}$, then :
+\begin{equation}
+Pr[|X-\mu| > a] \leq \frac{}
+\end{equation}
+<BR>
+<b>Proof.</b> Let $X$ be a random variable which has a density $\phi(x) = \frac{1}{\sqrt{2\pi}}e^{\frac{-(x-\mu)^2}{2\sigma^{2}}}$. The derivative of $\phi(x)$ is given as $-x\phi(x)$. Now:
+\begin{align*}
+
+\end{align*}
 		</div>
 		</div>
