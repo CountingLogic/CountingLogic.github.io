@@ -2,6 +2,11 @@
 
 <html>
 	<head>
+		<style>
+			h1 {font-weight: normal;}
+			h2 {font-weight: normal;}
+			h3 {font-weight: normal;} 
+		</style>
 		<link href="../letter_style.css" rel="stylesheet" type="text/css">
 
 		
@@ -24,7 +29,7 @@ https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 		<h1 style="font-weight: normal;">Mathematical Logic</h1>
 
 		<p>Some important ideas from Lectures on <a href = "https://www.youtube.com/watch?v=kCEAFjjTJyU&list=PL2cqwPeM9PtMqpoeaD5oV2cSIpn5dhJI3">"Logic for Computer Science"</a> by David Ben Shai.</p>
-		<h3 style="font-weight: normal;">Inductively defined Sets</h3>
+		<h3 style="font-weight: normal;">Inductively defined Sets (Lecture 2)</h3>
 			<b>Defintion 1.</b> Given a set $A$ (core set) in a universe $X$ and a set of functions $P$ of arbitrary arities over $X$. Then  $I(A,P)$ is defined as the minimal set (w.r.t inclusion) that contains the core set $A$ and is closed under $P$.</p>
 		<p>
 		<b>Defintion 2.</b> Given a set $A$ (core set) in a universe $X$ and a set of functions $P$ of arbitrary arities over $X$. Then  $I(A,P)$ is defined as:
@@ -38,14 +43,14 @@ https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 	</p>
 	<p><i>Note that the minimality of $I(A,P)$ in the second definition is not completely trivial. Minimality w.r.t inclusion also leads to uniqueness. </i> 
 	</p>
-	<h3 style="font-weight: normal;">Almost trivial but useful results</h3>
+	<h3 style="font-weight: normal;">An Auxiliary Result (Lecture 2) </h3>
 	Let us have a collection of sets $\{B_i\}_i$. Then for every $B_k \in \{B_i\}_i$ :
 	\begin{equation}
 	\label{eq: subset}
 	\bigcap_{i}\{B_i\} \subset B_k 
 	\end{equation}
 
-	<h3 style="font-weight: normal;">Structural Induction</h3>
+	<h3 style="font-weight: normal;">Structural Induction  (Lecture 2)</h3>
 	Given an $I(A,P)$ and given a property $H$, our goal is to show that all members of $I(A,P)$ have the property $H$. A property is essentially a subset of $X$, hence, it is enough to show that $I(A,P) \subseteq H$. 
 	<P>
 	<li> Base Case: Show that $A \subseteq H$
@@ -54,7 +59,34 @@ https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 	<P>
 	After the above steps, we have shown that $H$ is one of the $B$ in equation \ref{eq: IAP}. Using equation \ref{eq: subset}, we have that $I(A,P)\subseteq H$. Hence, Completing the proof. 
 	</P>
-	
-		
+
+	<h3>Construction Sequence (Lecture 2)</h3>
+	<b>Defintion 3</b>. A <i>Construction Sequence</i> for a given $\alpha \in I(A,P)$ is the sequence $CS = \{\alpha_1,...,\alpha_n\}$, where $n \in \mathbb{N}$ such that for every $\alpha_i \in CS$, one of the following is true:
+	<li> $\alpha_i \in A $
+	<li> $\alpha_i = f(\alpha_{j_1},\dots,\alpha_{j_s})$, where $j_{q}$ are smaller than $i$ and $f \in P$.
+
+	<P>
+		A proof is a special type of construction sequence. 
+	</P>
+	<b>Claim:</b> For every valid expression $\alpha$, $\alpha \in I(A,P)$ if and only if there exists a $CS$ for $\alpha$.
+
+	<h3>Showing that $\alpha \not \in I(A,P)$ (Lecture 2)</h3>
+	Key Idea: Identify syntactical properties $T$ (equivalently subsets of $X$) such that if $\alpha \in T \rightarrow \alpha \in I(A,P)$. Equivalently, identify 
+	$T$ such that $I(A,P) \subseteq T$. For showing that $I(A,P) \subseteq T$ use structural induction.  
+
+	<h3> Showing that $\alpha \not \in I(A,P)$ for Propositional Logic (Lecture 3)</h3> 
+	Key Ideas:
+	<li> Identify $T$ syntactically  such that it contains $A$ and is closed under $P$. Clearly, $T$ is a super set of $I(A,P)$ by definition.
+	<li> T: If $\alpha \in PL$, where $PL$ stands for $I(A,P)$ for propositional logic, then $\alpha$ has the same number of left and right brackets
+	<li> T: If $\alpha \in PL$, where $PL$ stands for $I(A,P)$ for propositional logic, then every proper initial segment of $\alpha$ has more left brackets than right brackets.
+	<li> <b>Construction Tree:</b> Input: $\alpha$ Output: Decision wether WFF or not
+		<li> 1. Check if $\alpha \in A$
+		<li> 2. Check if it starts with a right bracket and ends with a left bracket else reject
+		<li> 3. Remove left bracket if the next symbol is $\neg$ i.e. (\neg \beta) then copy $\beta$, go to step 1. setting $\alpha = \beta$ else got to 4.
+		<li> 4. (Notice, a left bracket has been removed) Parse the expression from left till the number of right and left brackets is equal, remove the last left bracket.
+			Split and got to step 1, for each of the branches.
+<P>
+	Why is a construction Tree a proof of WFF? A CS can be constructed  by ordering the Construction tree from bottom up with respect to the levels.
+</P>
 		</div>
 		</div>
