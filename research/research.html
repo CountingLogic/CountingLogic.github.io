@@ -3,7 +3,11 @@
 <html>
 	<head>
 		<link href="../letter_style.css" rel="stylesheet" type="text/css">
-
+<style>
+	li{
+    margin: 10px 0;
+}
+</style>
 		
 	
 		
@@ -33,12 +37,15 @@ https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 
 		<h2 style="font-weight: normal;"> Research Interests</h2>
 		<P><b>Tractable Probabilistic Inference in Relational Domains</b> <BR>
-			I am interested in probabilistic models over relational structures. I have worked in settings, where the relational structures are defined in a first-order language. In such a setting, 
+			I am interested in probabilistic models over relational structures. I have worked in settings, where the relational structures are defined in a first-order logic language. In such a setting, 
 			the probabilistic inference task reduces to <a href = "https://arxiv.org/abs/1412.1505">weighted model counting </a>of a first-order logic formula. This
-			is intractable in general. Hence, my work has focused on identifying tractable fragments of first order logic, where model counting can be performed in polynomial time. I am particularly interested in analytical approaches to weighted model counting</a>, which yield <a href = "https://arxiv.org/abs/2110.05992">closed form formulae for model counting. </a>
+			is intractable in general. Hence, my work has focused on identifying tractable fragments of first order logic, where model counting can be performed in polynomial time. I am particularly interested in analytical approaches to weighted model counting</a>, which yield closed form formulae. My first research contribution has been identifying <a href = "https://arxiv.org/abs/2110.05992">closed form formulae for model counting</a> in First Order Logic with two variables and it's extensions with counting quantifiers. I am still diving into more literature on this, but it seems it is quite hard to expand the fragments of logic that admit tractable model counting. 
 		</P>
 		<P> <b>Consistent Probabilistic Inference in Relational Domains</b><BR> 
-			Recently, I have been interested in consistency of probabilistic inference. The <a href="https://arxiv.org/abs/1111.3054" >problem</a> originates from the works of Shalizi and Rinaldo in Exponential Random Graphs Models (ERGMs). And was generalized to probabilistic logic setting by <a href = https://arxiv.org/abs/1807.00564> Jaeger and Schulte</a>. I with Luciano Serafini, have produced some <a href = "https://arxiv.org/abs/2204.04009">results</a> on this problem in Markov Logic Networks. 
+			Recently, I have been interested in consistency of probabilistic inference. The <a href="https://arxiv.org/abs/1111.3054" >problem</a> originates from the works of Shalizi and Rinaldo in Exponential Random Graph Models (ERGMs). And was generalized to probabilistic logic setting by <a href = https://arxiv.org/abs/1807.00564> Jaeger and Schulte</a>. I with Luciano Serafini, have produced some <a href = "https://arxiv.org/abs/2204.04009">results</a> on this problem in Markov Logic Networks. 
+		</P>
+		<P>	
+		I am currently working on creating realizable projective models as characterized  by <a href = "https://arxiv.org/abs/2004.10984">Jaeger and Schulte</a>. In their work, they completely characterize the set of projective models over relational vocabularies in terms of AHK models. But as they address in the paper, their description can not be easily mapped to a probabilistic logic framework. 
 		</P>
 		
 		<P>
@@ -48,20 +55,14 @@ https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 		<h2 style="font-weight: normal;"> Conference Publications</h2>
 		<P><b>Sagar Malhotra</b> and Luciano Serafini. Weighted Model Counting in FO$^2$ with Cardinality Constraints and Counting Quantifiers: A Closed Form Formula.<BR>
 			<i>Accepted for <b>Oral</b> presentation at the $36^{th}$ AAAI Conference on Artificial Intelligence, 2022. <BR>
-			<a href= "https://countinglogic.github.io/files/wmc_aaai_2022.pdf">Slides</a> presented at the conference (too much in details in retrospect )<BR>
-			<a href= "https://countinglogic.github.io/files/wmc_aaai2022_fbk.pdf">Slides</a> presented at AAAI@FBK 2022(accessible overview with a <a href = "https://www.youtube.com/watch?v=2TRXEdq-NZg">video</a> @ 1:02:35)<BR>
-			<a href= "https://countinglogic.github.io/files/poster.pdf">Poster</a> presented at AAAI 2022<BR>
-
-			
-			Arxiv <a href = "https://arxiv.org/abs/2110.05992">Link </a>  to the full paper with appendix<BR>
-			Conference <a href = "https://aaai-2022.virtualchair.net/poster_aaai2663">page</a> with a short video and paper<BR>
+			<a href= "https://countinglogic.github.io/files/wm.pdf">Slides</a> <a href= "https://countinglogic.github.io/files/poster.pdf">Poster</a> <a href = "https://arxiv.org/abs/2110.05992">Arxiv </a>  <a href = "https://aaai-2022.virtualchair.net/poster_aaai2663"> Conference page</a><BR>
 			Proceedings are yet to appear.</i>
 		</P>
 		
 		<P><b>Sagar Malhotra</b> and Luciano Serafini. A Combinatorial Approach to Weighted Model Counting in the Two Variable Fragment with Cardinality Constraints.<BR>
 		<i>Proceedings of the $20^{th}$ International Conference of the Italian Association for Artificial Intelligence, 2021<BR>
 		<a href = "https://underline.io/lecture/42130-a-combinatorial-approach-to-weighted-model-counting-in-the-two-variable-fragment-with-cardinality-constraints">Full Presentation Video</a> <BR>
-		Proceedings are yet to appear.	
+		Proceedings are yet to appear. For better slides and a video see <a href="/research/research.html#Talks">Talks</a>.
 		</i>	
 		</P>
 
@@ -75,6 +76,17 @@ https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 		<b>Sagar Malhotra</b> and Luciano Serafini. On Projectivity in Markov Logic Networks<BR>
 		<i>Under Review. </i><a href = "https://arxiv.org/abs/2204.04009">Preprint</a> <BR>
 		<a href= "https://countinglogic.github.io/files/projectivity_2022.pdf">Slides</a> presented at an internal FBK seminar.
+
+		<h2 style="font-weight: normal;">Talks</h2>
+		<li> Weighted Model Counting in the Two Variable Fragment. FBK @ AAAI 2022 <BR> 
+			<a href = "https://countinglogic.github.io/files/wmc_aaai2022_fbk.pdf">Slides</a> accessible overview with a <a href = "https://www.youtube.com/watch?v=2TRXEdq-NZg">video</a> @ 1:02:35
+		<li> On Projectivity in Markov Logic Networks. FBK 2022 <BR> 
+			<a href = "https://countinglogic.github.io/files/projectivity_2022.pdf">Slides</a> 
+			
+		<li> Weighted Model Counting in First Order Logic. <a href="https://docinprogressunitn.wordpress.com">Doc In Progress</a>.<BR> 
+			Dept. of Mathematics. University of Trento. 2022 <BR> 
+				<a href = "https://countinglogic.github.io/files/DocInProgress.pdf">Slides</a> a much better version of the AAAI slides. 
 		</div>
+		
 </body>
 </html>
