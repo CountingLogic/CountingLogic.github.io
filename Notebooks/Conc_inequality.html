@@ -21,9 +21,31 @@ https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 
 <div class="text">
 	<div class="left">
-		<h1 style="font-weight: normal;">Concentration Inequalities </h1>
-Concentration inequalities dominate a lot of the literature in approximate counting. Since it is one of the topics I would like to dive into,
-here I try to take note of some of them.
+		<h1 style="font-weight: normal;">Concentration Bounds </h1>
+<p>Concentration Bounds dominate a lot of the literature in approximate counting. Since it is one of the topics I would like to dive into,
+here I try to take note of some of them.</p>
+I will be following <a href = "https://www.stat.berkeley.edu/~mjwain/stat210b/Chap2_TailBounds_Jan22_2015.pdf">these notes</a>. But before I go there I need to understand Moment generating functions.
+<h3 style="font-weight: normal;">Moment Generating Function</h3>
+Source: <a href="https://www.youtube.com/watch?v=N8O6zd6vTZ8" target="_blank">Lecture 17: Moment Generating Functions by Joseph K. Blitzstein</a>
+<P><b>Definition:</b> A random variable $X$ has a Moment Generating Function 
+$$M(t) = E[\exp(tx)]$$
+as a function of $t$, if $M(t)$ is finite for some interval $(-a,a)$, for some $a > 0$.</P>
+<p>$M(t)$ is called moment generating because 
+	$$E[\exp(tx)] = E\big [\sum_{n=0}^{\infty}\frac{X^{n}t^{n}}{n!}\big] \underset{??}=  \sum_{n=0}^{\infty}\frac{E[X^{n}]t^{n}}{n!}$$
+
+	The second equality is not trivially true. We need  more than linearity of expectation due to the infinite sum. [I dont know how to prove this].
+
+<P>Properties of MGF:<BR>
+	<li> We can obtain the $n^{th}$ moment i.e. $E[X^{n}]$ by just taking the  $n^{th}$ derivative evaluated at $0$ i.e. $M^{(n)}(0) = \frac{d^{n}M(t)}{dt}\big|_{x=0}$.
+	<li> MGF determines the distribution i.e. if $X$ and $Y$ have the same MGF they have the same PDF. [Non-trivial to proove]
+	<li> If $X$ and $Y$ ,are independent and have the $MGF$ $M_x$ and $M_y$ respectively then $M_{x+y} = M_xM_y$, this is due to the fact that if two RV are independent then expectation of their products is just product of their expectation.
+
+
+</P>
+
+
+</p>
+
 <h3 style="font-weight: normal;">Markov Inequality</h3>	
 <b>Lemma 1.</b> 
 \begin{equation}
@@ -39,6 +61,17 @@ E[X] &\geq  a P(X\geq a)\\
 \frac{E[X]}{a} &\geq  P(X\geq a)
 
 \end{align*} 
+
+<P>Tightness of Markov Inequality: We cant do better than Markov inequality in general.</P>
+<P>
+	Let us try to find the case where markov inequality is met with equality i.e. :
+
+	\begin{align*}
+	P(X \geq a) = \frac{E[X]}{a} 
+	\end{align*}
+
+
+</P>
 
 
 <h3 style="font-weight: normal;">Chebyshev's Inequality</h3>	
@@ -68,15 +101,5 @@ Pr(|X-E[X]| \geq c) &\geq \frac{\sigma^{2}}{c^{2}}\\
 Pr(|X-E[X]| \geq a) \leq \frac{E[|X-E[X]|^{n}]}{a^{n}}
 \end{equation}
 
-<h3 style="font-weight: normal;"> Gaussian Tail Bound</h3>
-<b>Lemma 3.</b> If $X_1,\dots,X_n \overset{\text{iid}}{\sim} \mathcal{N(\mu,\sigma)}$, then :
-\begin{equation}
-Pr[|X-\mu| > a] \leq \frac{}
-\end{equation}
-<BR>
-<b>Proof.</b> Let $X$ be a random variable which has a density $\phi(x) = \frac{1}{\sqrt{2\pi}}e^{\frac{-(x-\mu)^2}{2\sigma^{2}}}$. The derivative of $\phi(x)$ is given as $-x\phi(x)$. Now:
-\begin{align*}
-
-\end{align*}
 		</div>
 		</div>
