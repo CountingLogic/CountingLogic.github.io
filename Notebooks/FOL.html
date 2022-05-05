@@ -86,8 +86,44 @@ https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 		<li> 4. (Notice, a left bracket has been removed) Parse the expression from left till the number of right and left brackets is equal, remove the last left bracket.
 			Split and got to step 1, for each of the branches.
 <P>
-	Why is a construction Tree a proof of WFF? A CS can be constructed  by ordering the Construction tree from bottom up with respect to the levels.
+	Why is a construction Tree a proof of WFF? A Construction Sequence can be constructed  by ordering the Construction tree from bottom up with respect to the levels.
 </P>
+<h3>Lecture 7</h3>
+<p>
+	Review concepts:
+	<li> $\Sigma$ is SAT if $\exists. v$ such that $v(\alpha) = \top$, $\forall \alpha \in \Sigma$ 
+	<li> $\Sigma \models \alpha$ if $\forall v : \text{If} \Sigma \text{is SAT then}$ $v(\alpha)$ is SAT.
+	<li> $\Sigma$ is complete
+	<li> $\Sigma$ is maximally SAT $\Sigma \not\models \alpha \rightarrow \Sigma \cup \{\alpha\}$ is UNSAT
+	<li> $\Sigma$ is SAT and complete iff $\Sigma$ is MAXSAT
+	<li> $\Sigma \models \alpha$ iff $\Sigma \cup \{\neg \alpha\}$ is UNSAT.
+	<li> $\Sigma \not \models \alpha$ iff $\Sigma \cup \{\neg \alpha\}$ is SAT. 
+</p>
+<p>
+<b>Theorem [Finite Models]: </b> For any $\Sigma$ such that $\Sigma \models \alpha$. Then $\exists$ $\Sigma_{\alpha}\subseteq \Sigma$ such that $\Sigma_{\alpha}$ is finite and 
+	$\Sigma_{\alpha} \models \alpha$. <BR>
+	<a style="color:red"> Is $\alpha$ finite ?: He said $\alpha$ is finite, what if it is not finite ?</a><BR>
+	<P>
+		NAIVE IDEA. Restrict $\Sigma$ to the set of variables in $\alpha$<BR>
+		Problem in the idea : $\Sigma := \{(p_0 \lor p_i)\}_{i=1}^{\infty}$<BR>
+	</P>
+	<b>Proof.</b> 
+	<BR>
+		IDEA: $\alpha$ is finite restrict to propositional variables in $\alpha$ and create it's truth tables (say TT). We only need to worry about models in TT which are false.
+		<i>Because we only need to make sure that when they are FALSE then $\Sigma$ is FALSE as well</i>. There are at most $2^{n}$ such models (n being propositional variables in $\alpha$).
+		Consider one such assignment $v_i$, now because $\Sigma \models \alpha$, we know that $\Sigma$ can not be TRUE under $v_i$ i.e. there exists some $\alpha_i \in \Sigma$ $v_i(\alpha_i)$ is false.
+		We can add the $\alpha_i$ to $\Sigma_{\alpha}$. We do this for all $\alpha_i$ for a given $v_i$ and then forall $v_i$. The obtained $\Sigma_{\alpha}$ is clearly finite because we only have finitely many models of $\alpha$. We need to show that 
+		it $\Sigma_{\alpha} \models \alpha$. Assume by contradiction that  $\Sigma_{\alpha} \cup \neg \alpha$ is SAT. But this can not be the case because every $v$ such that $v(\neg \alpha)$ is TRUE i.e. $v(\alpha)$ is FALSE necessarily makes all formulas in $\Sigma_{\alpha}$ FALSE by construction. Hence,
+		$\Sigma_{\alpha} \cup \neg \alpha$ is UNSAT. Hence,$\Sigma_{\alpha} \models \alpha$.  
+</p>
+<p>
+	<b>Defintion </b>[Finite Satisfiability (FS)] $\Sigma$ is finitely $SAT$ iff $\forall \Sigma_0 \subseteq 
+	\Sigma$ then $\Sigma_0$ is SAT.
+</p>
+<p>
+	<b>Theorem</b> [Compactness] $\Sigma$ is SAT iff $\Sigma$ is FS (proved by Kurt Godel)<BR>
+		<b>Proof.</b> $$\text{Finite Models} \leftrightarrow \text{Compactness} $$
 
+		<u>Compactness $\rightarrow$ Finite Models</u>. Assuming the contrapositive i.e. $\neg$Finite Models i.e. $\forall \Sigma_{\alpha}$ such that $\Sigma_{\alpha}$ is finite then $\Sigma_{\alpha} \not \models \alpha$. Since, $\Sigma_{\alpha} \not \models \alpha$ then there exists $v$ such that $\Sigma_{\alpha}$ is SAT and $\alpha$ is UNSAT i.e. $v(\neg \alpha)$ is TRUE. Therefore $v(\Sigma_{\alpha} \cup \neg \alpha)$ is TRUE. Therefore  $\Sigma_{\alpha} \cup \{\neg \alpha\}$ is SAT. But this is true for all $\Sigma_{\alpha} \subseteq \Sigma$. Hence, $\forall \Sigma_{\alpha} \subseteq \Sigma. \{ \Sigma_{\alpha}$ is SAT $\}$.Hence, due to compactness we have that $\Sigma$ is SAT. 
 		</div>
 		</div>
