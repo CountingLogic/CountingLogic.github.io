@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+	<head>
+		<link href="../letter_style.css" rel="stylesheet" type="text/css">
+
+		
+	
+		
+<!-- Access to MathJax through their server !-->
+
+<script type="text/javascript" charset="utf-8" 
+src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,
+https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
+
+	</head>
+
+
+<body>
+<cite><a href="../index.html">Sagar</a></cite>
+
+<div class="text">
+	<div class="left">
+		<h1 style="font-weight: normal;">Measure Theoretic Probability </h1>
+$(\Omega, \mathcal{A}, \mathbb{P})$ is a <i>probability space</i> if $(\Omega, \mathcal{A})$ is a <i>measurable space</i> and $\mathbb{P}$ is a <i>measure</i> on $\mathcal{A}$ such that $\mathbb{P}(\Omega) =1$.
+<p>
+Our goal is to understand what a  <i>probability space</i> is, which in turn consists of a <i>measurable space</i>  a <i>measure</i>. So in the following we will define them.
+</p>
+<p>
+We will first define what an algebra on a set $\Omega$ is and then we will define what a $\sigma-$algebra is, $\Omega$ and a  $\sigma-$algebra on $\Omega$ define a measurable space. A measure is a function from a $\sigma-$algebra to the reals.
+</p> 
+<p>
+<b>Algebra:</b> A collection of subsets of a set $\Omega$ is  called an <i>algebra</i>  $A$ if :
+<li> $\Omega \in A$
+<li> $C,B \in A \rightarrow C\cup B, C \cap B \in A$
+<li> $B \in A \rightarrow \Omega \backslash B \in A$ 
+<p>
+<p>
+$\sigma-$<b>Algebra:</b> A collection of subsets of a set $\Omega$ is  called  <i>sigma algebra</i>  $A$ if :
+<li> $\Omega \in A$
+<li> $C,B \in A \rightarrow C\cup B, C \cap B \in A$
+<li> $B \in A \rightarrow \Omega \backslash B \in A$ 
+<li> If $C_i \in A$ $\rightarrow$ $\cup_{i \geq 1} C_i \in A$ 
+</p> 
+<p>
+    <b>Measurable Space:</b> The pair of a set $\Omega$ and a $\sigma-$ algebra on it.
+</p>
+<p>
+<i>An example of an algebra that is not a $\sigma$-algebra: The set of all  finite subsets of $\mathbb{N}$</i>
+</p>
+<b>Measure</b> $\mu$ is a function defined on a measurable space  $(\Omega, A)$ from it's $\sigma-$ algebra to reals. Such that:
+<li> <i>Non-negativity:</i> For all $E \in A$, we have that $\mu(E) \geq 0$
+<li> <i>Null empty set:</i> $\mu(\emptyset) = 0$
+<li> <i>Countable additivity or sigma additivity:</i> For all countable collections $\{E_k\}^{\infty}_{k=1}$ of pair-wise disjoint sets in $A$,
+    $$\mu(\cup_{k=1}^{\infty} E_k) = \sum_{k=1}^{\infty} \mu(E_k)$$
+<P>
+    <b>Measure Space</b> is a triplet $(\Omega,A,\mu )$
+</P>
+<P>
+<b> Probability Measure </b> $\mathbb{P}$ is a measure such that $\mu(\Omega) = 1$ 
+</P>
+
+<P>
+    <b> Probability Space </b> is a measure space  $(\Omega,A,\mathbb{P} )$ 
+</P>
+
+		</div>
+		</div>
