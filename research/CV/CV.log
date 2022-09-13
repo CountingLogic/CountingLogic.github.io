@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.11)  22 AUG 2022 17:42
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.11)  13 SEP 2022 14:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -672,6 +672,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 163--166
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 167--170
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--170
+
+ []
+
+
 AED: lastpage setting LastPage
 [3] (/Users/sagar/website/research/CV/CV.aux)
 
@@ -689,4 +699,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  83i,9n,96p,395b,318s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/sagar/website/research/CV/CV.xdv (3 pages, 47600 bytes).
+Output written on /Users/sagar/website/research/CV/CV.xdv (3 pages, 48524 bytes).
