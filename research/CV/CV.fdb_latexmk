@@ -1,18 +1,12 @@
 # Fdb version 3
-["xdvipdfmx"] 1666875420 "/Users/sagar/website/research/CV/CV.xdv" "/Users/sagar/website/research/CV/CV.pdf" "/Users/sagar/website/research/CV/CV" 1666875420
-  "/Users/sagar/website/research/CV/CV.xdv" 1666875420 60320 4913d18f0f052f749a5e71a5a0cc2694 "xelatex"
+["xdvipdfmx"] 1685094515 "CV.xdv" "CV.pdf" "CV" 1685094682
+  "CV.xdv" 1685094515 56684 a5fe6f0554125d24a0c0b910424a7dc7 "xelatex"
   (generated)
-  "/Users/sagar/website/research/CV/CV.pdf"
-["xelatex"] 1666875419 "CV.tex" "/Users/sagar/website/research/CV/CV.xdv" "CV" 1666875420
-  "/Users/sagar/website/research/CV/CV.aux" 1666875420 1651 c7a895321a15844f12dcd219cd7e01b0 ""
+  "CV.pdf"
+["xelatex"] 1685094514 "/Users/sagar/website/research/CV/CV.tex" "CV.xdv" "CV" 1685094682
+  "/Users/sagar/website/research/CV/CV.tex" 1685094681 12099 734d2a0bc67cd1e39bd978d0a4e3095c ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
-  "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
-  "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1136768653 1520 eccf95517727cb11801f4f1aee3a21b4 ""
-  "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr6.tfm" 1136768653 1300 b62933e007d01cfd073f79b963c01526 ""
-  "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1136768653 1292 21c1c5bfeaebccffdb478fd231a0997d ""
-  "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
-  "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm" 1136768653 520 4889cce2180234b97cad636b6039c722 ""
   "/usr/local/texlive/2021/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "/usr/local/texlive/2021/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty" 1576625341 40635 c40361e206be584d448876bba8a64a3b ""
@@ -85,13 +79,11 @@
   "/usr/local/texlive/2021/texmf-dist/web2c/texmf.cnf" 1616443989 39972 3d6bb4d9d719e93193fa020b58adf5d4 ""
   "/usr/local/texlive/2021/texmf-var/web2c/xetex/xelatex.fmt" 1633899427 5093948 4ac59ae2c5f86982fd22715f02b4360e ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "CV.aux" 1666875420 1651 c7a895321a15844f12dcd219cd7e01b0 "xelatex"
-  "CV.out" 1666875420 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "CV.tex" 1666875411 10644 fc122ff00b96eff7ff3229f73f33f336 ""
+  "CV.aux" 1685094515 1526 e56a047f7ad3d2bbcf627659e237ebd2 "xelatex"
+  "CV.out" 1685094515 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "CV.tex" 1685094681 12099 734d2a0bc67cd1e39bd978d0a4e3095c ""
   (generated)
+  "CV.log"
+  "CV.out"
   "CV.xdv"
   "CV.aux"
-  "/Users/sagar/website/research/CV/CV.xdv"
-  "/Users/sagar/website/research/CV/CV.log"
-  "CV.out"
-  "CV.log"

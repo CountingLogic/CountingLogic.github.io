@@ -1,0 +1,1477 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]>
+<html class="ie ie6"> <![endif]-->
+<!--[if IE 7 ]>
+<html class="ie ie7"> <![endif]-->
+<!--[if IE 8 ]>
+<html class="ie ie8"> <![endif]-->
+<!--[if IE 9 ]>
+<html class="ie ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><!--<![endif]-->
+<head>
+
+	<!--
+	If translation user is logged in, prepare application for translation:
+ 		-> Set app-language to pseudo-language ('aa')
+ 		-> Load JS scripts from Crowdin to enable In-Context editing
+ -->
+
+
+
+            <script>
+            window.dataLayer = window.dataLayer || [];
+            window.dataLayer.push({
+                'user_industry_id': '19',
+                'user_created_at': '1667225278',
+                'user_language': 'en'
+            });
+        </script>
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-TNVMQJV');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Fix GA Event Tracking  -->
+    <script>
+        window['GoogleAnalyticsObject'] = 'ga';
+        window['ga'] = window['ga'] || function() {
+            (window['ga'].q = window['ga'].q || []).push(arguments)
+        };
+    </script>
+    <!-- End Fix GA Event Tracking  -->
+
+    <script  type="text/javascript" >
+var LABELS = {};
+LABELS.customizerAdvanced='Advanced';
+LABELS.customizerHide='Hide';
+LABELS.colorpickerApply='Apply';
+LABELS.shortcodeSave='Save';
+LABELS.shortcodeEdit='Edit';
+LABELS.errorDialogTitle='Note';
+LABELS.genericTitleNotice='Note';
+LABELS.accountDialogTitle='Account Access';
+LABELS.accountDialogNotNowButton='Thank you, not now.';
+LABELS.accountDialogUpgradeButton='Show plans';
+LABELS.featureRestricted='Your account type does not permit the use of this feature.';
+LABELS.validationDialogTitle='Please correct';
+LABELS.accountNoTrackingMessage='Tracking information is not available for your account type.';
+LABELS.moveToArchiveMessage='You are moving an item to the archive. You can view it by clicking on the ARCHIVE tab.';
+LABELS.dialogTitleConfirmation='Confirmation';
+LABELS.noQrcodesSelected='Please select codes.';
+LABELS.archiveDialogMessage='You are moving an item to the archive. You can view it by clicking on the ARCHIVE tab.';
+LABELS.restoreDialogMessage='You are restoring an item. You can view it by clicking on the MANAGE tab.';
+LABELS.deleteDialogMessage='You are deleting an item. All data related to this item will be erased and can not be restored.';
+LABELS.massDeleteDialogMessage='You are deleting items. All data related to those items will be erased and can not be restored.';
+LABELS.deleteOriginalImgFile='This file will be deleted permanently!';
+LABELS.downloadCSV='Do you want to download the CSV file?';
+LABELS.resetScans='Do you want to reset all scans?';
+LABELS.removeLogo='Do you want to remove the logo?';
+LABELS.unlinkDomain='Do you want to unlink this domain?';
+LABELS.updateOriginalImgFile='File changes cannot be undone!';
+LABELS.upgradeAccountUrl='/upgrade';
+var webroot = 'https://app.qr-code-generator.com';</script>
+	<script type="text/javascript">
+        var GLOBAL_CSRF_TOKEN = '0d216e83686205963683b1f3cd31762375c75fc3';
+        var GLOBAL_API_TOKEN = 'NGFjo99mhHzTrS-JfHS1VuQbhtUHHIsbqlhpPPRWSOOg7CQ59dIV7mmBcmkBVthg';
+        var GLOBAL_API_ENDPOINT = '//api.qr-code-generator.com';
+        var GLOBAL_APIV2_ENDPOINT = 'https://apiv2.qr-code-generator.com';
+        var GLOBAL_FEATURE_ENABLE_DUPLICATE_CODE = 'true';
+        var GLOBAL_FEATURE_ENABLE_ZENDESK_INTEGRATION = 'true';
+        var GLOBAL_FEATURE_ENABLE_TRIAL_EXPIRED_MODAL = 'true';
+        var GLOBAL_FEATURE_ENABLE_TRIAL_COUNTDOWN_TIMER = 'true';
+        var GLOBAL_USER_CREATED_AT ='2022-10-31 14:07:58';
+        var CDN_URL = '//cdn.qr-code-generator.com';
+        //Formly Form Production settings
+        window.onProd = true;
+        window.CDN_URL = CDN_URL;
+	</script>
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/js/polyfills/ie8.js"></script>
+	<![endif]-->
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="google-site-verification" content="OOYsMjeqY2kq4Dr-jNSseyx0zi5zhdTGqBYow0CCvQ0"/>
+	<meta name="language" content="en"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!--	<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <meta name="msapplication-config" content="none"/>
+	<link rel="shortcut icon" href="/img/favicon/favicon.ico" type="image/x-icon"/>
+	<link rel="icon" type="image/vnd.microsoft.icon" href="/img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="/touch-icon-iphone.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/touch-icon-ipad.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/touch-icon-iphone-retina.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/touch-icon-ipad-retina.png">
+	<!--
+	<link href="/public/lib/materialize/bin/materialize-custom.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	-->
+	<link rel="stylesheet" type="text/css" href="//cdn.qr-code-generator.com/css/build/libs.min.css?v=493e861c256a9d95c1078f18654af597973f330c" />
+<link rel="stylesheet" type="text/css" href="//cdn.qr-code-generator.com/css/build/app.min.css?v=493e861c256a9d95c1078f18654af597973f330c" />
+<link rel="stylesheet" type="text/css" href="/css/build/smartphone-preview.css?v=493e861c256a9d95c1078f18654af597973f330c" />
+<script type="text/javascript" src="//cdn.qr-code-generator.com/assets/77c209ac/jquery.min.js"></script>
+<script type="text/javascript" src="//cdn.qr-code-generator.com/assets/77c209ac/jquery.yiiactiveform.js"></script>
+<script type="text/javascript" src="/js/plugins/modernizr.js?v=493e861c256a9d95c1078f18654af597973f330c"></script>
+<script type="text/javascript" src="//cdn.qr-code-generator.com/js/build/libs.min.js?v=493e861c256a9d95c1078f18654af597973f330c"></script>
+<script type="text/javascript" src="//cdn.qr-code-generator.com/js/build/app.min.js?v=493e861c256a9d95c1078f18654af597973f330c"></script>
+<script type="text/javascript" src="//cdn.qr-code-generator.com/js/build/angular.inapp.min.js?v=493e861c256a9d95c1078f18654af597973f330c"></script>
+<title>QR Code Generator - New Create</title>
+
+	<!--  Mixpanel:start -->
+	<script type="text/javascript">
+        !function (e, t) {
+            if (!t.__SV) {
+                var n, p, i, r;
+                window.mixpanel = t, n = e.createElement("script"), n.type = "text/javascript", n.async = !0, n.src = ("https:" === e.location.protocol ? "https:" : "http:") + "//cdn.mxpnl.com/libs/mixpanel-2.2.min.js", p = e.getElementsByTagName("script")[0], p.parentNode.insertBefore(n, p), t._i = [], t.init = function (e, n, p) {
+                    function o(e, t) {
+                        var n = t.split(".");
+                        2 == n.length && (e = e[n[0]], t = n[1]), e[t] = function () {
+                            e.push([t].concat(Array.prototype.slice.call(arguments, 0)))
+                        }
+                    }
+
+                    var a = t;
+                    for ("undefined" != typeof p ? a = t[p] = [] : p = "mixpanel", a.people = a.people || [], a.toString = function (e) {
+                        var t = "mixpanel";
+                        return "mixpanel" !== p && (t += "." + p), e || (t += " (stub)"), t
+                    }, a.people.toString = function () {
+                        return a.toString(1) + ".people (stub)"
+                    }, i = "disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" "), r = 0; r < i.length; r++)o(a, i[r]);
+                    t._i.push([e, n, p])
+                }, t.__SV = 1.2
+            }
+        }(document, window.mixpanel || []);
+        mixpanel.init("c419019ef7bb5c151a51c96f3f509001");
+        window.LANG = "en";
+	</script>
+	<!-- Mixpanel:end  -->
+
+	<!-- Intercom:start -->
+	<script>
+
+        window.intercomSettings = {
+            user_id: "22249075",
+            user_hash: "afa6e26205c6091660dea8fe094f6dc527ce967cd0db663856da11c265898f0e",
+            created_at: "2022-10-31 14:07:58",
+            language_override: "en",
+            hide_default_launcher: true,
+
+                        account_type: "trial",
+			
+			            app_id: "u4ys98rc"
+			        };
+
+		
+        //Libaray
+        !function () {
+            function t() {
+                var t = a.createElement("script");
+                t.type = "text/javascript", t.async = !0, t.src = "https://widget.intercom.io/widget/u4ys98rc";
+                var e = a.getElementsByTagName("script")[0];
+                e.parentNode.insertBefore(t, e)
+            }
+
+            var e = window, n = e.Intercom;
+            if ("function" == typeof n) n("reattach_activator"), n("update", intercomSettings); else {
+                var a = document, c = function () {
+                    c.c(arguments)
+                };
+                c.q = [], c.c = function (t) {
+                    c.q.push(t)
+                }, e.Intercom = c, e.attachEvent ? e.attachEvent("onload", t) : e.addEventListener("load", t, !1)
+            }
+        }();
+
+        //Init
+        Intercom('boot', window.intercomSettings);
+	</script>
+	<!-- Intercom:end -->
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.6.0/polyfill.min.js"></script>
+
+	<!--[if lt IE 9]>
+	<script type="text/javascript"
+	        src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script type="text/javascript"
+	        src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+	<!--[if lte IE 9]>
+	<script type="text/javascript"
+	        src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.js"></script>
+	<![endif]-->
+
+	<!--[if IE]>
+	<link href="/css/build/ie.css" rel="stylesheet" type="text/css"/>
+	<![endif]-->
+</head>
+
+
+<body class="_noheaderbutton no-default ab__industry-search" data-spy="scroll" data-offset="100" ng-app="app" ng-cloak>
+
+<!--Start:Required for google tagmanager -->
+<div class="google-tagmanager-trial-account hidden"></div>
+<div class="google-tagmanager-customerid hidden">22249075</div>
+<!--End:Required for google tagmanager -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TNVMQJV"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="wrapper" ng-class="states.viewType" ng:controller="MobilePreviewController">
+	<div class="device-xs visible-xs"></div>
+	<div class="device-sm visible-sm"></div>
+	<div class="device-md visible-md"></div>
+	<div class="device-lg visible-lg"></div>
+	
+                    
+  <div class="qr-navbar qr-navbar_accountActivated"></div>
+
+    <!-- Define Style for onboarding here -->
+<script>
+    app.controller('qrNavbarCtrl', ['$scope', '$element', '$window', 'account', 'gettextCatalog', 'api', function ($scope, $element, $window, account, gettextCatalog, api) {
+        var route = 'create/new';
+
+        $scope.hideSalesforceSupportForm = true;
+
+        $scope.dropdownOpen = false;
+        $scope.menuOpen = false;
+        $scope.supportModalOpen = false;
+
+        $scope.isMobile = ($window.innerWidth < 1025);
+        $scope.bellMobileMode = ($window.innerWidth <= 768);
+
+        // Check if we should display the support-modal
+        setTimeout(function () {
+            $scope.displaySupportModal();
+        }, 500);
+
+        $scope.displaySupportModal = function () {
+            // ToDo: Remove ab-test validation after A/B test has concluded
+            setTimeout(function() {
+                if($("body").hasClass("ab-test-support-form")) {
+                    $scope.hideSalesforceSupportForm = false;
+
+                    // Directly open support-form if user accesses via URL
+                    $scope.supportModalOpen = window.location.search.includes('modal=support');
+                }
+            }, 500);
+        };
+
+
+        //function gtag() {dataLayer.push(arguments)}
+        //
+        ///**
+        // * Saves the A/B test data via API endpoint
+        // */
+        //function saveAbTestDataToDb(testVariant, testName) {
+        //    var abtestData = {user_id: //, experiment_id: testName, variant_number: testVariant};
+        //
+        //    // First we check if the user is already registered for the A/B test and variant number
+        //    api.getAbTestData(
+        //        abtestData,
+        //        function (response) {
+        //            // If there is no entry yet for the user being in the specific A/B test and variant number
+        //            if (response.data.length === 0) {
+        //                // Save the user and his A/B test and variant via API
+        //                api.updateAbTestData(
+        //                    abtestData
+        //                );
+        //            }
+        //        }
+        //    );
+        //}
+        //
+        //gtag('event', 'optimize.callback', {
+        //    callback: saveAbTestDataToDb
+        //});
+
+        $scope.toggleDropdown = function () {
+            $scope.dropdownOpen = !$scope.dropdownOpen;
+            setTimeout(function () {
+                $('.qr-navbar__scrollable-container').perfectScrollbar('update');
+            }, 0);
+        };
+
+        $scope.toggleMenu = function () {
+            if (!$(".qr-account-locked").is(":visible")) {
+                if ($(".qr-manage-panel").hasClass("qr-manage-panel--close")) {
+                    $(".qr-manage-panel").removeClass("qr-manage-panel--close");
+                    $(".qr-manage-content").removeClass("qr-manage-content--panel-close");
+                    $(".qr-manage-content").addClass("qr-manage-content--panel-open");
+                } else {
+                    $(".qr-manage-content").removeClass("qr-manage-content--panel-open");
+                    $(".qr-manage-panel").addClass("qr-manage-panel--close");
+                    $(".qr-manage-content").addClass("qr-manage-content--panel-close");
+                }
+            }
+        };
+
+        $scope.getLayerClasses = function () {
+            $scope.menuOpen = $(".qr-manage-panel").hasClass("qr-manage-panel--close");
+            if (!$(".qr-manage-panel").length) {
+                $scope.menuOpen = true;
+            }
+            if ($scope.dropdownOpen || (!$scope.menuOpen && $scope.isMobile)) {
+                return "qr-popup__layer--open"
+            }
+            if ($(".redesign").hasClass("full-preview")) {
+                return "qr-popup__layer--open"
+            }
+        };
+
+        $scope.onLayerClick = function () {
+            $scope.menuOpen = $(".qr-manage-panel").hasClass("qr-manage-panel--close");
+            $scope.dropdownOpen = false;
+
+            if ($scope.isMobile && !$scope.menuOpen) {
+                $scope.toggleMenu();
+            }
+
+            if ($(".redesign").hasClass("full-preview")) {
+                $(".redesign").removeClass("full-preview");
+            }
+        };
+
+        $scope.getNavbarStyle = function () {
+
+            //Remove bar
+            if (route === "create/index" || route === "create/new") {
+                return {
+                    background: 'none',
+                    position: 'relative'
+                }
+            }
+            if (route === 'create/editbarcode' || route.substr(0, 6) === 'admin/') {
+                return {
+                    position: 'relative'
+                }
+            }
+            if ($(".qr-account-locked").is(":visible")) {
+                return {
+                    zIndex: 20002
+                }
+            }
+        };
+
+        /**
+         * @returns {boolean}
+         */
+        $scope.isTrialMessageVisible = function () {
+            return account.getAccountStatus() === 'trial';
+        };
+
+        /**
+         * Get the trial date
+         * @returns {string}
+         */
+        $scope.getTrialDate = function () {
+            return account.getAccount().trial_date;
+        };
+
+        /**
+         * Get the limit current plan from user account. Check if there is only 10% left from the all qr codes.
+         * @returns {string}
+         */
+        $scope.getLimitCurrentPlan = function () {
+
+            var current = (account.getAccount().qrcodes || {}).current;
+            var allowed = (account.getAccount().qrcodes || {}).allowed;
+
+            var percenttoget = (allowed * 10) / 100;
+            if ((allowed - percenttoget) <= (current)) {
+                return 1;
+            }
+
+
+        };
+
+        /**
+         * Make real back action for pages edit, design and statistics.
+         * Otherwise work like a normal link.
+         * @param $event
+         */
+        $scope.goBack = function ($event) {
+
+            // Check for codeId in deeplink
+            var url_string = window.location.href;
+            var url = new URL(url_string);
+            var codeId = url.searchParams.get("codeId");
+
+            // If user was deeplinked to a specific QR Code type, the click on the back button will redirect to manage-view
+            if(codeId) {
+                $event.preventDefault();
+                window.location.href = '/manage/';
+            } else if (route === 'shortener/chart' || route === 'create/editbarcode' || route === 'create/index') {
+                $event.preventDefault();
+                window.history.back();
+            }
+        };
+
+        if (!$scope.isMobile) {
+            $(".qr-manage-panel").removeClass("qr-manage-panel--close");
+            $(".qr-manage-content").removeClass("qr-manage-content--panel-close");
+        }
+
+        angular.element(document).ready(function () {
+            $('.qr-navbar__scrollable-container').perfectScrollbar({includePadding: true, swipePropagation: false})
+        });
+
+        // To initialize the tooltip, we need a page load timeout
+        setTimeout(function () {
+            $element.find('[data-toggle="tooltip"]').tooltip({animation: false});
+        });
+
+        $scope.openSupportModal = function () {
+            // Close menu dropdown
+            $scope.dropdownOpen = false;
+
+            // Open support modal
+            $scope.supportModalOpen = true;
+
+            window.dataLayer.push({
+                event: 'open_support_modal_from_nav'
+            });
+        };
+
+        $scope.getUserCountry = function () {
+            return "Germany";
+        };
+
+    }]);
+</script>
+
+        
+		<div id="page">
+		<!-- section wrapper -->
+		
+		
+
+
+		
+<div class="container-fluid generator-pre-content hidden hidden-xs mt20 ">
+    <div class="container">
+        <!-- Content goes here -->
+    </div>
+</div>
+		<div id="content">
+			
+
+
+
+		</div>
+
+                    <div class="container">
+                </div>
+
+<!-- Based on the fact that we needed to change the structure of the grid to implement the newest functions, it was -->
+<!-- decided to close the previous container in order to make implementation easier and faster. -->
+
+<!--TODO: add class 'download-new-design' to have left/right save & download button-->
+<!--TODO: add class 'codeCampaignActive' to have code vs campaign page on initial state of the creation-->
+<div class="section-content section-content_generator-add newgenerator row state-generator-codetype addMode  generator_preview">
+    <div class="backdrop-overlay" data-backdrop-overlay></div>
+    <div class="grid">
+        <div class="col">
+            <div class="row-generator-body ">
+                <div class="section-generator ">
+
+                    <div class="carousel slide">
+                        <div class="carousel-inner ">
+                            <div class="codetype-view item active white-form">
+                                <div class="redesign" ng-controller="IndustriesController"
+     data-new-status=""
+     data-user-industry="19">
+    <div class="row row-generator-codetype-chooser white-form codetype-menu v1">
+        <!-- start: Remove after AB testing -->
+        <div class="col-lg-12 content-group mb-40 heading__section">
+            <h3>Select your QR Code Type                <button class="btn-help visible-lg-inline-block" title=""></button>
+            </h3>
+            <div class="content-wrapper text-center">
+                <span class="title "><span class="text">Dynamic Codes</span></span>
+                <span class="tools" ng-click="showDynamic= !showDynamic" ng-init="showDynamic=true"><i
+                            class="icon-minus"
+                            ng-class="{'icon-minus-1':showDynamic,'icon-plus-1':!showDynamic}"></i></span>
+            </div>
+        </div>
+        <!-- end: Remove after AB testing -->
+        <div class="col-lg-12 content-group mb-40 pl-0 pr-0 industry__search">
+            <div class="create__header create__header--position">
+                <h3 class="create__heading">Select your QR Code type</h3>
+                <div class="create-header__search-box">
+                    <div class="create-header__search-container" id="industry-search-container">
+
+                        <!-- start: Search field for industries. -->
+                        <div ng-hide="selectedIndustry && !showInputField">
+                            <input type="search" placeholder="Or select your industry for recommendations" maxlength="400"
+                                   class="input__control input_theme_create-search" tabindex="1" data-industry-search ng-model="industrySearchKeyword"
+                                   ng-model-options="{ debounce: 500 }" ng-change="startSearching(industrySearchKeyword)" ng-focus="searchFieldFocus();" ng-blur="searchFieldFocusLost($event)" data-test="industry-recommendation-input">
+                            <button type="button" class="button button_theme_reset button_industry" autocomplete="off" aria-pressed="false" tabindex="0" aria-disabled="false">
+                            <span class="button__text">
+                                <svg class="search__icon-view" xmlns="http://www.w3.org/2000/svg" width="17.811" height="17.811">
+                                    <g transform="translate(-1.25 -1.25)" fill="none" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1.5">
+                                        <path d="M18 18l-4.942-4.942"/>
+                                        <circle cx="6.232" cy="6.232" r="6.232" transform="translate(2 2)"/>
+                                    </g>
+                                </svg>
+                            </span>
+                            </button>
+                            <div class="search__icon-box">
+                                <button type="button" class="button button_theme_reset button_left-drop-down" autocomplete="off" aria-pressed="false" tabindex="2" aria-disabled="false" ng-click="displaySearchSuggestions()" data-test="industry-recommendation-dropdown-arrow">
+                                    <svg class="search__icon-arrow-down" xmlns="http://www.w3.org/2000/svg" width="8.828" height="14.828">
+                                        <path data-name="Path 16849" d="M1.414 13.414l6-6-6-6" fill="none" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"/>
+                                    </svg>
+                                </button>
+                                <span class="badge badge_new-search" ng-if="searchBox.newLabelValue <= 0">New</span>
+                            </div>
+                        </div>
+                        <!-- end: Search field for industries -->
+
+                        <!-- start: Selected Industry preview -->
+                        <div ng-show="selectedIndustry && !showInputField">
+                            <div class="create-header__search-container" ng-click="searchFieldFocus(); resetSearchField();">
+                                <div class="input__control input_theme_create-search input_theme_create-search--show-selected">
+                                    {{selectedIndustry}}
+                                </div>
+                                <span class="search__suggest-icon search__suggest-icon--{{selectedIndustryIcon}}">
+                                    <i class="icon icon-industry-{{selectedIndustryIcon}}"></i>
+                                </span>
+                                <div class="search__icon-box">
+                                    <div class="button button_theme_reset button_left-drop-down" ng-click="displaySearchSuggestions()">
+                                        <svg class="search__icon-arrow-down" xmlns="http://www.w3.org/2000/svg" width="8.828" height="14.828">
+                                            <path data-name="Path 16849" d="M1.414 13.414l6-6-6-6" fill="none" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end: Selected Industry preview -->
+                        <div class="search__suggest-container">
+                            <div class="search__suggest">
+                                <div class="search__suggest placeholder-animation" ng-if="states.loading">
+                                    <div class="search__suggest-item search__suggest-item_loading" ng-repeat="placeholder in [1, 2, 3, 4, 5]">
+                                <span class="search__suggest-icon-container">
+                                    <span class="search__suggest-icon"></span>
+                                </span>
+                                        <span class="search__suggest-name"></span>
+                                    </div>
+                                </div>
+                                <div ng-hide="states.loading" ng-repeat="industry in industries | industrySearch:industrySearchKeyword" title="{{industry.name}}" aria-selected="false" aria-disabled="false" class="search__suggest-item" ng-click="selectIndustry(industry, $event)" data-industry-id="{{ industry.id }}">
+                                    <span class="search__suggest-icon-container">
+                                        <span class="search__suggest-icon search__suggest-icon--{{industry.slug}}">
+                                            <i class="icon icon-industry-{{industry.slug}}"></i>
+                                        </span>
+                                    </span>
+                                    <span class="search__suggest-name">{{industry.name}}</span>
+                                </div>
+                                <div ng-show="states.noSearchResults" class="search__suggest-item search__suggest-item--no-search-results">
+                                    <span class="search__suggest-icon-container">
+                                        <span class="search__suggest-icon">
+                                            <i class="icon icon-zoom-search"></i>
+                                        </span>
+                                    </span>
+                                    <span class="search__suggest-name">No search results. Try "<span data-search-suggestion></span>"</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="popular-demos popular-demos_loading" ng-if="states.demosLoading">
+                <div class="popular-demos__title placeholder-animation"></div>
+                <div class="row popular-demos__cards-container">
+                    <div class="col-xs-12">
+                        <div class="card">
+                            <div class="card-img-top placeholder-animation"></div>
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <div class="loading__line placeholder-animation" style="width: 90%;"></div>
+                                </div>
+                                <div class="card-text">
+                                    <div class="loading__line placeholder-animation" style="width: 60%;"></div>
+                                    <div class="loading__line placeholder-animation" style="width: 95%;"></div>
+                                    <div class="loading__line placeholder-animation" style="width: 75%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="card">
+                            <div class="card-img-top placeholder-animation"></div>
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <div class="loading__line placeholder-animation" style="width: 90%;"></div>
+                                </div>
+                                <div class="card-text">
+                                    <div class="loading__line placeholder-animation" style="width: 60%;"></div>
+                                    <div class="loading__line placeholder-animation" style="width: 95%;"></div>
+                                    <div class="loading__line placeholder-animation" style="width: 75%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="popular-demos" ng-if="industryDemos.length > 0 && !states.demosLoading">
+                <h4 class="popular-demos__title">Most popular QR Codes for <span class="">{{selectedIndustry}}</span></h4>
+
+                <div class="row popular-demos__cards-container popular-demos__cards-container--flex">
+                    <div class="col-xs-12" ng-repeat="demo in industryDemos">
+                        <span class="badge badge-light badge--action" ng-click="enlargeDemo(demo)">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="13.449" height="13.448" viewBox="0 0 13.449 13.448">
+                                      <g id="zoom-split-in" transform="translate(-1.4 -1.4)">
+                                        <line id="Line_32" data-name="Line 32" x1="2.426" y1="2.426" transform="translate(11.574 11.574)" fill="none" stroke="#616568" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1.2"/>
+                                        <circle id="Ellipse_27" data-name="Ellipse 27" cx="4.853" cy="4.853" r="4.853" transform="translate(2 2)" fill="none" stroke="#616568" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1.2"/>
+                                        <line id="Line_33" data-name="Line 33" y2="3.64" transform="translate(6.8 4.986)" fill="none" stroke="#616568" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1.2"/>
+                                        <line id="Line_34" data-name="Line 34" x1="3.64" transform="translate(4.986 6.8)" fill="none" stroke="#616568" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1.2"/>
+                                      </g>
+                                    </svg>
+                        </span>
+                        <div class="card" ng-click="selectDemo($event, demo)" data-demo-card data-type-id="{{ demo.type_id }}" data-demo-id="{{ demo.id }}">
+                            <div class="card-media">
+                                <span class="badge badge-light">
+                                    <span class="icon" ng-class="getTypeIcon(demo.type_id)"></span>
+                                    {{demo.type_name}}
+                                </span>
+                                <img ng-src="{{demo.image_url}}" data-retina-image="{{demo.retina_image_url}}" preload-image="background" data-error-msg="No image available">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">{{demo.title}}</h5>
+                                <p class="card-text">{{demo.description}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="enlarge" ng-if="states.showEnlargeDemo" role="dialog" aria-labelledby="demoTitle">
+                    <div class="card card--enlarge">
+                        <div class="card-media">
+                                <span class="badge badge-light">
+                                    <span class="icon" ng-class="getTypeIcon(enlargeDemoItem.type_id)"></span>
+                                    {{enlargeDemoItem.type_name}}
+                                </span>
+                            <span class="badge badge-light badge--action badge--action-close" ng-click="closeEnlargeDemo()">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="7.372" height="7.354" viewBox="0 0 7.372 7.354">
+                                      <g id="zoom-split-in" transform="translate(3.686 -9.022) rotate(45)">
+                                        <line id="Line_33" data-name="Line 33" y2="8" transform="translate(8.973 4.986)" fill="none" stroke="#616568" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1.2"/>
+                                        <line id="Line_34" data-name="Line 34" x1="8" transform="translate(4.986 8.973)" fill="none" stroke="#616568" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1.2"/>
+                                      </g>
+                                    </svg>
+                                </span>
+                            <img ng-src="{{enlargeDemoItem.large_image_url}}" data-retina-image="{{enlargeDemoItem.retina_large_image_url}}" preload-image="background" data-error-msg="No image available">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">{{enlargeDemoItem.title}}</div>
+                            <div class="card-text">{{enlargeDemoItem.description}}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-wrapper text-center" ng-if="industryDemos.length <= 0">
+                <span class="title ">
+                    <span class="text">Dynamic Codes</span>
+                </span>
+            </div>
+            <div class="section__title section__title--divider_top" ng-if="industryDemos.length > 0">
+                <h4 class="section__title__heading">More QR Code types</h4>
+            </div>
+        </div>
+        <div class="col-lg-12 dynamiccodes" ng-class="{hidden:!showDynamic}">
+
+            <!--Left card-->
+            <div class="code-type-card col-lg-6 col-sm-12">
+                <a data-type="url" class="btn-codetype active"
+                   id="codeFormId_1"
+                   loadURL="https://app.qr-code-generator.com/create/getform/add/url"
+                   data-test="qrcode-typelist-dynamic-url"
+                >
+                    <i class="icon icon-creation-code-url pull-left"></i>
+                    <h4>Website</h4>
+                    <small class="text-ellipsis" title="Link to any page on the web">
+                        Link to any page on the web                    </small>
+                </a>
+            </div>
+            <!--Right card-->
+            <div class="code-type-card col-lg-6">
+                <a data-type="dsocial" class=" btn-codetype"
+                   loadURL="https://app.qr-code-generator.com/create/getform/add/dsocial"
+                   id="codeFormId_14"
+                   has-video="false"
+                   data-new="true" ng-click="selectTypeDemo($event, 14)" data-demo-card
+                   data-test="qrcode-typelist-dynamic-social"
+                >
+                    <i class="icon icon-creation-code-social pull-left"></i>
+                    <h4>Social Media</h4>
+                    <span class="badge new responsive"> New: <span class="label--text--capitalize">WhatsApp</span></span>
+                    <small class="text-ellipsis" title="Link to your social media channels">
+                        Link to your social media channels                    </small>
+                </a>
+            </div>
+
+            <div class="code-type-card col-lg-6">
+                <a data-type="coupon" class="btn-codetype"
+                   loadURL="https://app.qr-code-generator.com/create/getform/add/coupon"
+                   id="codeFormId_18"
+                   has-video="false"
+                   data-new="true" ng-click="selectTypeDemo($event, 18)" data-demo-card
+                   data-test="qrcode-typelist-dynamic-coupon"
+                >
+                    <i class="icon icon-coupon pull-left"></i>
+                    <h4>Coupons</h4>
+
+                    <small class="text-ellipsis" title="Share coupons and discounts">
+                        Share coupons and discounts                    </small>
+                </a>
+            </div>
+
+            <div class="code-type-card col-lg-6 col-sm-12">
+                <a data-type="angular" class=" btn-codetype"
+                   id="codeFormId_12"
+                   has-video="false"
+                   loadURL="https://app.qr-code-generator.com/create/getform/add/angular"
+                   data-new="true" ng-click="selectTypeDemo($event, 12)" data-demo-card
+                   data-test="qrcode-typelist-dynamic-vcard-plus"
+                >
+                    <i class="icon icon-creation-code-vcard pull-left"></i>
+                    <h4>vCard Plus</h4>
+
+                    <small class="text-ellipsis" title="Share personalized contact details">
+                        Share personalized contact details                    </small>
+
+                </a>
+            </div>
+
+            <div class="code-type-card col-lg-6">
+                <a data-type="dbusiness_page" class="btn-codetype"
+                   loadURL="https://app.qr-code-generator.com/create/getform/add/dbusiness_page"
+                   id="codeFormId_15"
+                   has-video="false"
+                   data-new="true" ng-click="selectTypeDemo($event, 15)" data-demo-card
+                   data-test="qrcode-typelist-dynamic-business"
+                >
+                    <i class="icon icon-manage-code-business-page pull-left"></i>
+                    <h4>Business Page</h4>
+                    <small class="text-ellipsis" title="Provide your company information">
+                        Provide your company information                    </small>
+                </a>
+            </div>
+
+            <div class="code-type-card col-lg-6">
+                <a data-type="feedback" class="btn-codetype"
+                   loadURL="https://app.qr-code-generator.com/create/getform/add/feedback"
+                   id="codeFormId_17"
+                   has-video="false"
+                   data-new="true" ng-click="selectTypeDemo($event, 17)" data-demo-card
+                   data-test="qrcode-typelist-dynamic-feedback"
+                >
+                    <i class="icon icon-creation-code-feedback pull-left"></i>
+                    <h4>Feedback</h4>
+                    <small class="text-ellipsis" title="Collect feedback and get rated">
+                        Collect feedback and get rated                    </small>
+                </a>
+            </div>
+            <div class="code-type-card col-lg-6">
+                <a data-type="drating" class="btn-codetype"
+                   loadURL="https://app.qr-code-generator.com/create/getform/add/drating"
+                   id="codeFormId_19"
+                   data-new="true" ng-click="selectTypeDemo($event, 19)" data-demo-card
+                   data-test="qrcode-typelist-dynamic-rating"
+                >
+                    <i class="icon icon-creation-code-rating pull-left"></i>
+                    <h4>Rating</h4>
+                    <small class="text-ellipsis" title="Ask a question and get rated">
+                        Ask a question and get rated                    </small>
+                </a>
+            </div>
+            <div class="code-type-card col-lg-6" >
+                <a data-type="dvideo" class=" btn-codetype"
+                   loadURL="https://app.qr-code-generator.com/create/getform/add/dvideo"
+                   id="codeFormId_16"
+                   has-video="false"
+                   data-new="true" ng-click="selectTypeDemo($event, 16)" data-demo-card
+                   data-test="qrcode-typelist-dynamic-video"
+                >
+                    <i class="icon icon-creation-add-video pull-left"></i>
+                    <h4>Video</h4>
+                    <small class="text-ellipsis" title="Show the video page">
+                        Share one or more videos                    </small>
+                </a>
+            </div>
+
+            <div class="code-type-card col-lg-6">
+                <a data-type="devent" class=" btn-codetype"
+                   loadURL="https://app.qr-code-generator.com/create/getform/add/devent"
+                   id="codeFormId_13"
+                   has-video="false"
+                   data-new="true" ng-click="selectTypeDemo($event, 13)" data-demo-card
+                   data-test="qrcode-typelist-dynamic-event"
+                >
+                    <i class="icon icon-creation-code-event pull-left"></i>
+                    <h4>Event</h4>
+                    <small class="text-ellipsis" title="Promote your event">
+                        Promote your event                    </small>
+                </a>
+            </div>
+
+            <!--Left card-->
+            <div class="code-type-card col-lg-6">
+                <a data-type="dpdf" class="btn-codetype"
+                   loadURL="https://app.qr-code-generator.com/create/getform/add/dpdf"
+                   id="codeFormId_20"
+                   data-new="true" ng-click="selectTypeDemo($event, 20)" data-demo-card
+                   data-test="qrcode-typelist-dynamic-pdf"
+                >
+                    <i class="icon icon-creation-code-pdf pull-left"></i>
+                    <h4>PDF</h4>
+                    <small class="text-ellipsis" title="Link to a mobile-optimized PDF">
+                        Link to a mobile-optimized PDF                    </small>
+                </a>
+            </div>
+
+            <!--Right card-->
+            <div class="code-type-card col-lg-6">
+                <a data-type="facebook" class=" btn-codetype"
+                   loadURL="https://app.qr-code-generator.com/create/getform/add/facebook"
+                   id="codeFormId_4"
+                   data-new="true" ng-click="selectTypeDemo($event, 4)" data-demo-card
+                   data-test="qrcode-typelist-dynamic-facebook"
+                >
+                    <i class="icon icon-creation-code-facebook pull-left"></i>
+                    <h4>Facebook</h4>
+
+                    <small class="text-ellipsis" title="Get more Likes for your page">
+                        Get more Likes for your page                    </small>
+                </a>
+            </div>
+
+
+            <!--Left card-->
+            <div class="code-type-card col-lg-6">
+                <a data-type="dapp" class="btn-codetype"
+                   id="codeFormId_21"
+                   loadURL="https://app.qr-code-generator.com/create/getform/add/dapp"
+                   data-new="true" ng-click="selectTypeDemo($event, 21)" data-demo-card
+                   data-test="qrcode-typelist-dynamic-app"
+                >
+                    <i class="icon icon-creation-code-app pull-left"></i>
+                    <h4>App</h4>
+
+                    <small class="text-ellipsis" title="View your app on various App Stores">
+                        View your app on various App Stores                    </small>
+                </a>
+            </div>
+
+            <!--Right card-->
+            <div class="code-type-card col-lg-6">
+                <a data-type="dmp3" class=" btn-codetype"
+                   loadURL="https://app.qr-code-generator.com/create/getform/add/dmp3"
+                   id="codeFormId_22"
+                   data-new="true" ng-click="selectTypeDemo($event, 22)" data-demo-card
+                   data-test="qrcode-typelist-dynamic-mp3"
+                >
+                    <i class="icon icon-creation-code-dmp3 pull-left"></i>
+                    <h4>MP3</h4>
+
+                    <small class="text-ellipsis" title="Play an audio file">
+                        Play an audio file                    </small>
+                </a>
+            </div>
+
+
+            <!--Left card-->
+            <div class="code-type-card col-lg-6">
+                <a data-type="dgallery" class="btn-codetype"
+                   loadURL="https://app.qr-code-generator.com/create/getform/add/dgallery"
+                   id="codeFormId_23"
+                   data-new="true" ng-click="selectTypeDemo($event, 23)" data-demo-card
+                   data-test="qrcode-typelist-dynamic-images"
+                >
+                    <i class="icon icon-creation-code-gallery pull-left"></i>
+                        <h4>Images</h4>
+                    <small class="text-ellipsis" title="Show a series of photos">
+                        Show a series of photos                    </small>
+                </a>
+
+            </div>
+            
+
+        </div>
+    </div>
+    <div class="row row-generator-codetype-chooser white-form codetype-menu mb20 mt-0">
+
+        <div class="col-lg-12 content-group mb-40 mt_10">
+
+            <div class="content-wrapper text-center">
+                <span class="title "><span class="text">Static Codes</span></span>
+                <span class="tools" ng-click="showStatic= !showStatic" ng-init="showStatic=false" data-test="qrcode-typelist-show-static">
+                    <i class="icon-minus" ng-class="{'icon-minus-1':showStatic,'icon-plus-1':!showStatic}"></i>
+                </span>
+            </div>
+        </div>
+
+        <div class="col-lg-12 staticcodes hidden" ng-class="{hidden:!showStatic}">
+            <div class="code-type-card col-lg-6 ">
+                <a data-type="url_static" class=" btn-codetype"
+                   loadURL="https://app.qr-code-generator.com/create/getform/add/url?action=static"
+                   id="codeFormId_1"
+                   data-test="qrcode-typelist-static-url">
+                    <i class="icon icon-creation-code-url pull-left"></i>
+                    <h4>Website</h4>
+
+                    <small class="text-ellipsis" title="Link to any page on the web">
+                        Link to any page on the web                    </small>
+
+                </a>
+            </div>
+            <div class="code-type-card col-lg-6">
+                <a data-type="vcard" class=" btn-codetype"
+                   loadURL="https://app.qr-code-generator.com/create/getform/add/vcard"
+                   id="codeFormId_2"
+                   data-test="qrcode-typelist-static-vcard">
+                    <i class="icon icon-creation-code-vcard pull-left"></i>
+                    <h4>vCard</h4>
+
+                    <small class="text-ellipsis" title="Share contact details">
+                        Share contact details                    </small>
+                </a>
+            </div>
+
+
+            <div class="code-type-card col-lg-6 hidden" ng-class="{hidden:!showStatic}">
+                <a data-type="email" class=" btn-codetype"
+                   loadURL="https://app.qr-code-generator.com/create/getform/add/email"
+                   id="codeFormId_8"
+                   data-test="qrcode-typelist-static-email">
+                    <i class="icon icon-creation-code-email pull-left"></i>
+                    <h4>Email</h4>
+
+                    <small class="text-ellipsis" title="Get email messages">
+                        Get email messages                    </small>
+                </a>
+            </div>
+            <div class="code-type-card col-lg-6">
+                <a data-type="sms" class=" btn-codetype"
+                   loadURL="https://app.qr-code-generator.com/create/getform/add/sms"
+                   id="codeFormId_9"
+                   data-test="qrcode-typelist-static-sms">
+                    <i class="icon icon-creation-code-sms pull-left"></i>
+                    <h4>SMS</h4>
+
+                    <small class="text-ellipsis" title=" Get text messages">
+                        Get text messages                    </small>
+                </a>
+            </div>
+
+            <div class="code-type-card col-lg-6">
+                <a data-type="text" class=" btn-codetype"
+                   loadURL="https://app.qr-code-generator.com/create/getform/add/text"
+                   id="codeFormId_10"
+                   data-test="qrcode-typelist-static-text">
+                    <i class="icon icon-creation-code-text pull-left"></i>
+                    <h4>Text</h4>
+
+                    <small class="text-ellipsis" title="Display a short message">
+                        Display a short message                    </small>
+
+                </a>
+            </div>
+
+            <div class="code-type-card col-lg-6">
+                <a data-type="wifi" class=" btn-codetype"
+                   loadURL="https://app.qr-code-generator.com/create/getform/add/wifi"
+                   id="codeFormId_24"
+                   data-test="qrcode-typelist-static-wifi">
+                    <i class="icon icon-creation-code-wifi pull-left"></i>
+                    <h4>WiFi</h4>
+
+                    <small class="text-ellipsis" title=" Connect to a WiFi network">
+                        Connect to a WiFi network                    </small>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<script>
+    /**
+     * Show HTML5 video after it is loaded.
+     * This function is called from function placeVideoInHolder, oncanplaythrough in qr.generator.preview
+     *
+     * loading progress bar is hide
+     * video is show
+     * video is played
+     *
+     * */
+    function showVideoAfterLoad() {
+        setTimeout(function () {
+            $('.preview-smartphone-wrapper .loading-video').hide();
+            var e = document.getElementById('previewVideo');
+            if (e) {
+                e.style.opacity = 1;
+                e.play();
+            }
+        }, 1000)
+    }
+
+    /**
+     * Currently used in ab-test:
+     * If the cookie with the id of the user-industry, which the user selected when singning in is there,
+     * we read the value (which is the industry-id) and search in the html for the industry in the industry dropdown
+     * and click it, if we can find it.
+     */
+    $( document ).ready(function() {
+        var selectedIndustry = null;
+
+        if(selectedIndustry !== null) {
+            var industryItem = $(".search__suggest").find("[data-industry-id='" + selectedIndustry + "']");
+
+            if(industryItem.length) {
+                industryItem.click();
+            }
+        }
+    });
+</script>
+                            </div>
+                            <div id="formHere" class="item redesign"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sk-three-bounce">
+                <div class="sk-child sk-bounce1"></div>
+                <div class="sk-child sk-bounce2"></div>
+                <div class="sk-child sk-bounce3"></div>
+            </div>
+            <!-- TODO: Add class:
+                 TODO: - 'apply-fixedBottom-footerGenerator' if you want that the generator to be fixed to the bottom of the screen
+                 TODO: - 'apply-normal-footerGenerator' if you want that the generator to be placed under the solution form
+            -->
+            <div class="apply-fixedBottom-footerGenerator">
+                <div class="footer-generator-actions content-footer redesign generator-float-bottom">
+    <div class="table-cell-middle">
+        <div class="container" style="width: 100%;">
+            <div class="col-lg-12 col-xs-12">
+                <div class="row firststep">
+                    <div class="section-content section-content_generator-footer">
+                        <div class="grid">
+                            <div class="col">
+                                <div class="col-lg-12">
+                                    <button class="btn green lc big btn-generator-next pull-right col-lg-6 btn_create_next" data-test="creation-button-next">Next</button>
+                                </div>
+                            </div>
+                            <div class="col col-fixed col-preview" style="width:466px;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row secondstep">
+                    <div class="section-content section-content_generator-footer">
+                        <div class="grid">
+                            <div class="col footer__left">
+                                <button class="btn lc btn-generator-prev pull-left"><i class="icon icon-chevron-left-medium pull-left"></i>Back</button>
+                                <div class="footer__view-mobile" data-generate-mobile-bar>
+                                    <ul>
+                                        <li class="btn-generator-prev">
+                                            <i class="icon icon-arrow-24px"></i>
+                                        </li>
+                                        <li ng-repeat="item in items" ng-class="{'active': item.id == states.activeItem}" ng-click="states.activeItem = item.id; states.viewType = item.class; codeValidation(); disableScrolling(); toggleView();">
+                                            <i ng-class="'icon icon-' + item.icon"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button type="button" class="btn green lc big block btn-generator-save-directly pull-right col-lg-6 ladda-button" data-style="expand-left">Next</button>
+                            </div>
+                            <div class="col col-fixed footer__bar" style="width:466px;">
+                                <div class="footer__button">
+<!--                                    <button type="button" class="btn green lc big block btn-generator-save-directly ladda-button" data-style="expand-left">--><!--</button>-->
+                                    <!--<button class="btn green lc big block btn-generator-done simple-save-btn">Done</button>
+                                    <button class="download-save-btn-left hidden btn green lc big block btn-generator-done">Done</button>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>            </div>
+        </div>
+        <div class="col col-fixed col-preview" style="width:466px;">
+            <!--  begin: overflow base -->
+<div class="overflow_base"></div>
+<!--  end: overflow base -->
+<div class="redesign data__mockup">
+    
+    <div class="preview active clearfix mockup__preview " data-spy="affix" data-offset-top="26">
+                    <button class="btn-slide-toggler btn-slide-toggler_label active" style="display: none">
+            <span class="btn-slide-toggler__phone">
+                Preview            </span>
+                <span class="btn-slide-toggler__code">
+                QR Code            </span>
+            </button>
+                <div class="preview-qrcode mockup__qrcode qrcode_create" style="display: none;">
+            <div class="code" id="barcodeHere">
+                <div class="qr-preview-overlay"></div>
+                <img id="barcodeImage" src="" alt="">
+                <div class="mockup__qrcode-error">
+                    <div class="mockup__qrcode-error-content">
+                        <i class="icon icon-info-icon"></i>
+                        <h4>Fill in the required fields in the form to preview your QR Code</h4>
+                    </div>
+                </div>
+            </div>
+                                <h3>Scan this QR Code to preview</h3>
+                    <p>You can customize the design of your <br> QR Code in the next step.</p>
+                            </div>
+            <div class="preview-smartphone clearfix active mockup__smartphone" style="">
+                <div class="preview-smartphone-wrapper noVideo mockup__smartphone-wrapper" ng-controller="previewController">
+                    <div class="progress" id="progress-bar-top">
+                        <div class="loading-bar indeterminate"></div>
+                    </div>
+                    <div id="smartphonePlaceholder" class="placeholder ratchet"></div>
+                    <div class="previewNoVideoText">
+                        <span class="static-code-text" style="display: none">No live preview</span>
+                        <div class="code-white-card">
+                            <img id="code-image" src="//s3.eu-central-1.amazonaws.com/qrcgappcdn/preview-code/preview-url-code.jpg">
+                            <div class="code-text">
+                                <i id="code-icon" class="icon-creation-code-url"></i>
+                                <span>
+                                Scan to see a live preview                            </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="loading-video" style="display: none">
+                        <div>Loading video</div>
+                        <div class="progress">
+                            <div class="loading-bar indeterminate"></div>
+                        </div>
+                    </div>
+
+                    <div id="imgPlaceholder" class=" placeholder ratchet previewNoVideo">
+                        <img src="//cdn.qr-code-generator.com/img/generator/preview-type-url-en.jpg" style="width:320px;"/>
+                    </div>
+                </div>
+            </div>
+            <div class="landscapeOrientation">
+                <i class="icon icon-rotate-phone-48px-v1"></i>
+                <h5>Rotate device to display preview mode</h5>
+            </div>
+        </div>
+        <div class="creation-no-default">
+            <img src="//cdn.qr-code-generator.com/img/generator/cody/CodyE_PointingLeft.svg">
+            <div>Please choose one to view a page preview</div>
+        </div>
+    </div>
+
+    <script>
+        // This script checks if we have changes in the form of the design, then we change the preview
+        app.controller('previewController', ['$scope', '$rootScope', function ($scope, $rootScope) {
+            $rootScope.$on('preview:update', function () {
+                if ( $('.newgenerator').hasClass( "state-generator-data" ) ) {
+                    $(".preview-smartphone").addClass('animation_none');
+                    $(".preview-smartphone").show();
+                    $(".preview-qrcode").hide();
+                }
+            });
+        }]);
+    </script>        </div>
+    </div>
+</div>
+<div class="container">
+<script type="text/javascript">
+    $(document).ready(function () {
+        var steps_codetype = [
+            {
+                element: '.dynamiccodes',
+                intro: 'Select the QR Code type you want to create.',
+
+                position: 'top'
+            }
+
+        ];
+
+        var steps_data = [
+            {
+                element: '.section-generator',
+                intro: 'Type in text or upload files for your QR Code.',
+                helperClass: "white-background",
+                position: 'right'
+            },
+            {
+                element: '#smartphonePlaceholder',
+                intro: 'View any changes made to your QR Code instantly.',
+                helperClass: "white-background",
+                position: 'left'
+
+            },
+            {
+                element: '.advancedOptionsHelpTour',
+                intro: 'Here you can find some optional settings.',
+                helperClass: "white-background",
+                position: 'right'
+            }
+
+
+        ];
+
+        // initialize tour
+        window.qr.tour.init(function () {
+            if ($(".newgenerator").hasClass("state-generator-codetype")) {
+                return steps_codetype;
+            } else if ($(".newgenerator").hasClass("state-generator-data")) {
+                return steps_data;
+            } else {
+                return {};
+            }
+        }, "tour_add");
+
+
+        window.qr.utils.events.register("generatorSlide", function (e) {
+            window.qr.tour.stop();
+        });
+
+    });
+</script>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+
+        var bodyTag = $('body');
+
+        
+        var titleCookie = $.cookie("labelTitle");
+
+        if (titleCookie) {
+            $('[data-backdrop-overlay]').remove();
+        }
+
+        //iniitalize generator in ADD scenario
+        window.qr.generator.init('add');
+
+        $('.code-vs-campaign__close').on('click', function () {
+            $('.code-vs-campaign__container').remove();
+            $('.codeCampaignActive').removeClass('codeCampaignActive');
+        });
+
+        $("#imgPlaceholder").click(function () {
+            _gaq.push(['_trackEvent', 'Preview', 'Info', 'Click on smartphone']);
+        });
+
+    })
+    ;
+
+
+    //Create the translation object
+    extend(window, "qr.texts.designer");
+
+    //add translations
+
+    window.qr.texts.designer.BUTTON_NEXT = "Next";
+    window.qr.texts.designer.BUTTON_FINISH = "Done";
+
+
+</script>
+
+
+<div id="limitedDownload" style="display:none;">
+	<div style="padding:10px;" class="feature_restriction_info" title="Download of vCards">
+	<h5>The download of __CODETYPE__ is limited to 5 during trailtime.</h5>
+	<p>If you like to download more of your __CODETYPE__ it's time to choose one of our plans.</p>
+	</div>
+</div>
+
+<div id="fileformatNotAllowed" style="display:none;">
+	<div style="padding:10px;" class="feature_restriction_info" title="High-resolution file format __FORMAT__ ">
+	<h5>High-resolution file format __FORMAT__ is not supported</h5>
+	<p>The download of high-resolution vector files is only available on our paid plans.</p>
+	</div>
+</div>
+
+<div id="exceedQuotaLimitDynamicQrCodes" style="display:none;">
+	<div style="padding:10px;" class="feature_restriction_info" title="Quota exceed">
+	<h5>You have reached the quota for dynamic codes.</h5>
+	<p>You may create up to <span style='font-size:140%'>__LIMITEDNUMBER__</span> dynamic codes using your account. If you require more dynamic codes please upgrade.</p>
+	</div>
+</div>
+
+<div id="exceedQuotaLimitOverallQrCodes" style="display:none;">
+	<div style="padding:10px;" class="feature_restriction_info" title="Quota exceed">
+	<h5>You have reached the management quota.</h5>
+	<p>You may manage up to <span style='font-size:140%'>__LIMITEDNUMBER__</span> codes using your account. If you require to handle more codes please upgrade.</p>
+	</div>
+</div>
+
+<div id="exceedQuotaLimitTrialperiodStaticQrCodes" style="display:none;">
+	<div style="padding:10px;" class="feature_restriction_info" title="Quota exceed">
+	<h5>You have reached the trial period quota.</h5>
+	<p>Thanks for testing our software, if you like to create more static codes you should consider to upgrade. With an upgrade you will be able to create unlimited static qr codes.</p>
+	</div>
+</div>
+
+
+<div id="restoreNotSupportedCodeType" style="display:none;">
+	<div style="padding:10px;" class="feature_restriction_info" title="Code Type is not supported">
+	<h5>This code type is not supported on your current plan.</h5>
+	<p>If you like to restore and use this kind of Code Type please consider to upgrade.</p>
+	</div>
+</div>
+
+<div id="notSupportedCodeType" style="display:none;">
+	<div style="padding:10px;" class="feature_restriction_info" title="Code Type is not supported">
+	<h5>This code type is not supported on your current plan.</h5>
+	<p>If you like to use this kind of Code Type please consider to upgrade.</p>
+	</div>
+</div>
+
+<div id="editingOfQRCodesIsNotAllowed" style="display:none;">
+	<div style="padding:10px;" class="feature_restriction_info" title="Editing QR Codes is not supported on your Plan">
+	<h5>This function is a premium feature</h5>
+	<p>This feature will be available after an account upgrade.</p>
+	</div>
+</div>
+
+
+
+<!-- Modal -->
+<div id="codeNotScanable" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">Make your design QR Code work</h3>
+  </div>
+  <div class="modal-body"><p><h3>Possible problems with ...</h3>
+ 	<b>.. using colors</b><br>
+ 	Do not invert the colors of your code.<br>
+    Use high contrast colors for back- and foreground.<br><br>
+
+    <b>.. using colors on eyes</b><br>
+    Try to use dark colors for the eyes of your Code.<br><br>
+
+    <b>.. using logos</b><br>
+    If you upload a logo, try to move your logo up or down.<br>
+    Try to lower the error correction rate to make your code work.<br><br>
+
+	<b>.. using too much information</b><br>
+ 	If you create vCards or Codes with long URLs your Code may have too many pixels, so try to reduce the information or use our Dynamic Codes.    <br><br>
+    </p>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+  </div>
+</div>            </div>
+        
+	</div>
+
+		<script>
+        var downloadTimeout;
+
+        $(document).ready(function () {
+            window.downloadhint = {
+                codedownload: [
+                    {
+                        element: '.highlightOnDownload',
+                        intro: !$("body").hasClass("no-tour")?'<h2>Scan me now!<\/h2><br>Always test your codes before printing.':'<h2>Your download has been started</h2>Your QR Code will be ready in a few seconds.',
+                        overlayClass: 'hidden',
+                        position: 'bottom',
+
+
+                        //onShow: function () {
+                        //    downloadTimeout = window.setTimeout(function () {
+                        //        window.qr.tour.stop();
+                        //    }, 5000);
+                        //},
+                        onHide: function () {
+                            $(".highlightOnDownload").removeClass("highlightOnDownload");
+                            clearTimeout(downloadTimeout);
+                        }
+                    }
+                ]
+            };
+
+
+        });
+
+
+	</script>
+
+
+
+	<div id='scanner_div' class="hidden">
+
+		<span class="top_text">Click to scan</span>
+		<span class="view wait "></span>
+
+		<span class="view click_no_code hidden"><span class="top_text">No QR Code found</span></span>
+		<span class="view decode_wait hidden"><span class="top_text">Decode QR Code...</span></span>
+		<span class="view decode_success "><span class="top_text">Readable</span>
+            <i class='icon icon-check'></i>
+        </span>
+		<span class="view decode_failed hidden"><span class="top_text">Not readable</span><i
+					class='icon icon-modal-close' style="color:red"></i></span>
+		<span class="bottom_text">Rightclick to close</span>
+	</div>
+	<!--SCANNER DIVs:end-->
+
+	<script type="text/javascript">
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+	</script>
+	<script type="text/javascript">
+        window.TOURSETTINGS = {
+            showBullets: false,
+            skipLabel: "close",
+            doneLabel: "",
+            doneLabel: "close",
+            prevLabel: "<i class='icon-chevron-left'></i> back ",
+            nextLabel: "next <i class='icon-chevron-right'></i>",
+            showButtons: true,
+            keyboardNavigation: false,
+            exitOnOverlayClick: true
+        };
+	</script>
+
+
+	<script type="text/javascript">
+        //add translations
+        //Close colorpicker
+        extend(window, "qr.texts.general");
+
+        window.qr.texts.general.CLOSE = "Close";
+        //Remove logo
+        window.qr.texts.general.UPGRADE_YES = "See Plans and Pricing";
+        window.qr.texts.general.UPGRADE_NO_THANKS = "No thanks";
+        window.qr.texts.general.TOUR = "Explain this View";
+        $(document).ready(function () {
+            //Create the translation object
+            extend(window, "qr.texts.general");
+
+            //Track the login of the user
+			
+			        });
+	</script>
+</div>
+
+    <div id="footer">
+    <div class="">
+        <p>
+            Powered by www.qr-code-generator.com            - Copyright &copy; 2011-2022            - All Rights Reserved            - QR Code is a registered trademark of Denso Wave Corp.            - <a
+                href="http://www.qr-code-generator.com/company/legal-notice/">Imprint</a>
+            </p>
+
+    </div>
+    <!-- footer -->
+</div>
+
+</body>
+</html>
