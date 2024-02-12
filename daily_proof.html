@@ -31,14 +31,28 @@ https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
     <b>11 January 2023</b> 
 </p>
 
-<b>Theorem</b> [$\epsilon$-net simple example] Let us have $m$ IID samples $S$ from an unknown distribution
-over the reals, if the probability of an interval $[a,b]$ is at least $\epsilon$, thenL:
+<p>
+<b>Theorem</b> 
+
+</p>
+
+<b>Theorem</b>  Let us have $m$ IID samples $S$ from an unknown distribution
+over the reals, if the probability of an interval $[a,b]$ is at least $\epsilon$, then:
 \begin{equation}
 m \geq \frac{1}{\epsilon} \ln \frac{1}{\delta} \rightarrow Pr\big[\exists. x \in S \cap [a,b] \big] \geq 1-\delta
 \end{equation}
 
 <b>Proof.</b> The probability of $x \not \in [a,b]$ is $1 - \epsilon$. The probability of sampling $m$ samples such that none of them are in $[a,b]$ is 
-$(1-\epsilon)^{m}$. Probability that we have an example in $[a,b]$ is $1-(1-\epsilon)^{m}$. We want to lower bound $1-(1-\epsilon)^{m}$  
+$(1-\epsilon)^{m}$. Probability that we have an example in $[a,b]$ is $1-(1-\epsilon)^{m}$. We want to lower bound $1-(1-\epsilon)^{m}$. Hence, 
+\begin{align}
+&1-(1-\epsilon)^{m} \geq 1 - \delta\\
+&-(1-\epsilon)^{m} \geq  - \delta\\
+&(1-\epsilon)^{m} \leq \delta\\
+& m \log (1-\epsilon) \leq  \log \delta\\
+& m  \geq  \frac{\log \delta}{\log (1-\epsilon)} & \log(1-\epsilon) \text{ is negative}\\
+& m \geq \frac{\log \delta}{\log (1-\epsilon)} \geq \frac{1}{-\epsilon} log \delta & \log(1+x) \leq x, \text{ for } x >  -1 \\
+& m \geq \frac{1}{\epsilon} {log \frac{1}{\delta}}
+\end{align}
 
 
 
