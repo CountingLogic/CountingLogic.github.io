@@ -1,0 +1,201 @@
+%------------------------------------
+% Dario Taraborelli
+% Typesetting your academic CV in LaTeX
+%
+% URL: http://nitens.org/taraborelli/cvtex
+% DISCLAIMER: This template is provided for free and without any guarantee 
+% that it will correctly compile on your system if you have a non-standard  
+% configuration.
+% Some rights reserved: http://creativecommons.org/licenses/by-sa/3.0/
+%------------------------------------
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[10pt, a4paper]{article}
+\usepackage{fontspec} 
+\usepackage[none]{hyphenat}
+\usepackage{lastpage}
+
+
+% DOCUMENT LAYOUT
+\usepackage{geometry} 
+\geometry{a4paper, textwidth=5.5in, textheight=8.5in, marginparsep=7pt, marginparwidth=.6in}
+\setlength\parindent{0in}
+
+% FONTS
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\defaultfontfeatures{Mapping=tex-text} % converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
+\setromanfont [Ligatures={Common}, BoldFont={Fontin Bold}, ItalicFont={Fontin Italic}]{Fontin}
+\setsansfont [Ligatures={Common}, BoldFont={Fontin Sans Bold}, ItalicFont={Fontin Sans Italic}]{Fontin Sans}
+\setmonofont[Scale=0.8]{Monaco} 
+% ---- CUSTOM AMPERSAND
+\newcommand{\amper}{{\fontspec[Scale=.95]{Fontin}\selectfont\itshape\&}}
+% ---- MARGIN YEARS
+\usepackage{marginnote}
+\newcommand{\years}[1]{\marginnote{\scriptsize #1}}
+\renewcommand*{\raggedleftmarginnote}{}
+\setlength{\marginparsep}{7pt}
+\reversemarginpar
+
+% HEADINGS
+\usepackage{sectsty} 
+\usepackage[normalem]{ulem} 
+\sectionfont{\rmfamily\mdseries\upshape\Large}
+\subsectionfont{\rmfamily\bfseries\upshape\normalsize} 
+\subsubsectionfont{\rmfamily\mdseries\upshape\normalsize} 
+
+% PDF SETUP
+% ---- FILL IN HERE THE DOC TITLE AND AUTHOR
+\usepackage[xetex, bookmarks, colorlinks, breaklinks, pdftitle={Albert Einstein - vita},pdfauthor={My name}]{hyperref}  
+\hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=blue} 
+
+% DOCUMENT
+\begin{document}
+% \begin{center}
+% \underline{DOCTORAL PROGRAM IN
+% INFORMATION AND COMMUNICATION TECHNOLOGY}
+%  \end{center}
+% \textbf{Doctoral Candidate:} Sagar Malhotra \\ \\
+% \textbf{Thesis Title:} On Tractability and Consistency of Probabilistic Inference in Relational Domains\\ \\
+% \textbf{Advisor:} Luciano Serafini\\ \\
+% \textbf{PhD Cycle:} 35$^{th}$
+%\textbf{ PhD Cycle}
+%  Fondazione Bruno Kessler\\
+%  Via Sommarive, 18\\
+% Trento, Trentino \texttt{38123}
+% Italy\\
+% Phone: \texttt{+39 320 841 2396}\\
+% email: \href{mailto:smalhotra@fbk.eu}{smalhotra@fbk.eu}\\
+% \textsc{url}: \href{https://countinglogic.github.io}{countinglogic.github.io}\\
+% Born:  May 6, 1994\\
+% Nationality:  Indian
+% \section*{Personal Statement}
+% I am a graduate researcher in Artificial Intelligence, working on probabilistic inference and learning in relational domains (e.g., graphs, databases, logic, etc.). My work has focused on developing efficient, expressive, and statistically consistent probabilistic relational models. Previously, I pursued a masters in physics with an exciting mix of quantitative biology and machine learning. I am passionate about solving and formulating rigorous foundational problems with a multi-disciplinary flavor. 
+% I believe my background in logic, probability, physics, and machine learning can allow me to contribute significantly to research in foundational problems of emergence.
+
+%%\hrul
+
+\section*{Refereed Publications}
+
+\noindent
+\years{2024}Florian Chen, Felix Weitkämper, and \textbf{Sagar Malhotra}.\\
+Understanding Domain-Size Generalization in Markov Logic Networks\\
+\emph{To appear in Proceedings of Machine Learning and Knowledge Discovery in Databases. Research Track - European Conference, ECML PKDD 2024} \\
+\href{https://arxiv.org/abs/2403.15933}{Arxiv Preprint}
+
+
+\years{2023} Alessandro Daniele, Tommaso Campari, \textbf{Sagar Malhotra} and Luciano Serafini. \\ Deep Symbolic Learning: Discovering Symbols and Rules from Perception \\ \emph{To appear in proceedings of International Joint Conference of Artificial Intelligence (IJCAI) 2023.} \href{https://arxiv.org/abs/2208.11561}{IJCAI 2023}
+
+\years{2022}\textbf{Sagar Malhotra} and Luciano Serafini. On Projectivity in Markov Logic Networks \\ \emph{Proceedings of Machine Learning and Knowledge Discovery in Databases. Research Track - European Conference, ECML PKDD 2022} \\  
+%\textbf{Largest European conference on machine learning with $\sim$1000 submissions and an \\ acceptance rate of $\sim$25\%} 
+\href{https://link.springer.com/chapter/10.1007/978-3-031-26419-1_14}{ECML PKDD 2022}.\\
+\years{2022}\textbf{Sagar Malhotra} and Luciano Serafini. Weighted Model Counting in FO$^2$ with Cardinality Constraints and Counting Quantifiers: A Closed Form Formula \\ \emph{(\textbf{Oral} presentation) Proceedings of the $36^{th}$ AAAI Conference on Artificial Intelligence.}\\
+%\textbf{Flagship AI conference  with $\sim$10000 submissions and an  acceptance rate of  $\sim$ 10\% for oral presentations}
+\href{https://ojs.aaai.org/index.php/AAAI/article/view/20525}{AAAI 2022}  
+
+\years{2021}\textbf{Sagar Malhotra} and Luciano Serafini. A Combinatorial Approach to Weighted Model Counting in the Two Variable Fragment with Cardinality Constraints\\ \emph{ Proceedings of the $20^{th}$ International Conference of the Italian Association for Artificial Intelligence}
+\href{https://link.springer.com/chapter/10.1007/978-3-031-08421-8_10}{AIxIA 2021} 
+
+
+%\section*{Other Publications}
+\section*{Workshop Publications}
+\noindent
+\years{2022}\textbf{Sagar Malhotra} and Luciano Serafini. On Projectivity in Markov Logic Networks\\ 
+\emph{$9^{th}$ International Workshop on Probabilistic Logic Programming 2022, FLoC 2022.}\\
+\href{https://easychair.org/publications/preprint/2lTk}{ PLP 2022}
+
+\years{2022}\textbf{Sagar Malhotra} and Luciano Serafini. On Projectivity in Markov Logic Networks\\ 
+\emph{R.i.C.e.R.c.A: RCRA Incontri E Confronti, AIxIA 2022.}\\
+\href{https://ricerca2022.wordpress.com}{ R.i.C.e.R.c.A 2022}
+
+\years{2021}\textbf{Sagar Malhotra} and Luciano Serafini. Weighted Model Counting in FO$^2$ with Cardinality Constraints and Counting Quantifiers: A Closed Form Formula\\ \emph{$10^{th}$ International Workshop on Statistical Relational AI, IJCLR 2021. }\\
+\href{https://starai.cs.kuleuven.be/2021/}{ StarAI 2021} 
+
+\years{{2020}}\textbf{Sagar Malhotra} and Luciano Serafini. Weighted Model Counting in C$^2$ (Abstract)\\
+\emph{$9^{th}$ International Workshop on Machine Learning and Data Mining, AIxIA 2020}. \\
+\href{https://sites.google.com/view/mldm2020-workshop/program?authuser=0}{MLDM 2020} 
+
+
+\newpage
+\section*{Under Review}
+\years{2023}\textbf{Sagar Malhotra} and Luciano Serafini\\
+Weighted First Order Model Counting with Connectivity Axioms\\
+\emph{Under Review.}
+
+
+\years{2023}\textbf{Sagar Malhotra} and Luciano Serafini.\\
+Weighted First Order Model Counting with Directed Acyclic Graph Axiom\\
+\emph{Under Review.} \href{https://arxiv.org/abs/2302.09830}{arXiv:2302.09830}\\ 
+
+% \section*{Talks and Tutorials}
+% \noindent
+% \years{2022}On Consistency of Learning and Inference in Statistical Relational Learning \\
+% \emph{Invited Talk at MLDM Workshop at the AIxIA Conference 2022, Udine, Italy }\href{https://sites.google.com/view/mldm2022/program?authuser=0}{ (Abstract)}\\ \\
+% \years{2022}On Probabilistic Inference in Logical Domains\\
+% \emph{Invited Speaker at the Institute of Informatics, Ludwig Maximilian University of Munich, Germany}\\  \\
+% \years{2022}A Tutorial on Probabilistic Inference in Logical Domains\\ \emph{Guest Lecture at the Knowledge representation and Learning course, University of Padova, Italy}\\ \\
+% \years{2022}Weighted First-Order Model Counting \\
+% \emph{DocInProgress Colloquium, Department of Mathematics, University of Trento, Italy} \\ \\ 
+% \years{2022}Weighted First-Order Model Counting\\
+% \emph{AAAI 2022@FBK Workshop, Trento, Italy  }\href{https://www.youtube.com/watch?v=2TRXEdq-NZg&t=3937s}{(Video)}
+
+\section*{Talks and Tutorials}
+\noindent
+\years{2022}On Consistency of Learning and Inference in Statistical Relational Learning \\
+\emph{Invited Talk at MLDM Workshop at the AIxIA Conference 2022, Udine, Italy }\href{https://sites.google.com/view/mldm2022/program?authuser=0}{ (Abstract)}\\ \\
+\years{2022}On Probabilistic Inference in Logical Domains\\
+\emph{Invited Speaker at the Institute of Informatics, Ludwig Maximilian University of Munich, Germany}\\  \\
+\years{2022}A Tutorial on Probabilistic Inference in Logical Domains\\ \emph{Guest Lecture at the Knowledge representation and Learning course, University of Padova, Italy}\\ \\
+\years{2022}Weighted First-Order Model Counting \\
+\emph{DocInProgress Colloquium, Department of Mathematics, University of Trento, Italy} \\ \\ 
+\years{2022}Weighted First-Order Model Counting\\
+\emph{AAAI 2022@FBK Workshop, Trento, Italy  }\href{https://www.youtube.com/watch?v=2TRXEdq-NZg&t=3937s}{(Video)}
+
+
+
+\section*{Reviewing and Program Committee Experience}
+\begin{itemize}
+    \item Reviewer for  Data Mining and Knowledge Discovery (Q1 Journal)
+    \item PC Member at Probabilistic Logic Programming workshop, 2023
+    \item PC Member at the  20th International Conference on Principles of Knowledge Representation and Reasoning, 2023 
+    \item PC Member at the Thirty-Seventh AAAI Conference on Artificial Intelligence, 2023 
+    \item Reviewer at the 25th International Conference on Artificial Intelligence and Statistics, 2023
+    \item Sub-reviewer at the 18th International Conference on Principles of Knowledge Representation and Reasoning, 2021  
+\end{itemize}
+%PC Member PLP workshop 2023, PC Member at KR 2023, PC Member at AAAI 2023, Reviewer at AISTATS 2023, Sub-Reviewer at KR 2021, Reviewer for  Data Mining and Knowledge Discovery (Q1 Journal)
+
+
+%\section*{Ongoing Projects}
+%\noindent
+
+%An Information Theoretic Framework for \\
+%Collaborators: Felix Weitkämper (LMU Munich, Germany), Luciano Serafini (FBK, Italy)\\ 
+
+% Graphon Estimation and Inference for Relational Structures\\
+% Collaborators: Manfred Jaeger (Aalborg University, Denmark), Luciano Serafini (FBK, Italy) 
+
+
+% My research revolves around formal analysis of probability distributions over relational structures. I am especially interested in:
+
+% $\cdot$ Random graph models and their extension to more complex relational domains\\
+% $\cdot$ Exact and approximate probabilistic inference  \\
+% $\cdot$ Combinatorics over relational structures\\ 
+% $\cdot$ Consistency of probabilistic inference\\
+% $\cdot$ Estimating asymptotic properties from sub-sampled relational structures\\
+
+
+
+
+%\vspace{1cm}
+\vfill{}
+%\hrulefill
+
+% \begin{center}
+% {\scriptsize  Last updated: \today\- •\- 
+%---- FILL IN THE FULL URL TO YOUR CV HERE
+% \href{https://countinglogic.github.io/research/CV/CV.pdf}{For latest version click here. }}
+% \end{center}
+
+\end{document}

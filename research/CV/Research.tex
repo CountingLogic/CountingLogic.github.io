@@ -1,0 +1,83 @@
+%------------------------------------
+% Dario Taraborelli
+% Typesetting your academic CV in LaTeX
+%
+% URL: http://nitens.org/taraborelli/cvtex
+% DISCLAIMER: This template is provided for free and without any guarantee 
+% that it will correctly compile on your system if you have a non-standard  
+% configuration.
+% Some rights reserved: http://creativecommons.org/licenses/by-sa/3.0/
+%------------------------------------
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[10pt, a4paper]{article}
+\usepackage{fontspec} 
+\usepackage[none]{hyphenat}
+\usepackage{lastpage}
+\renewcommand*{\thefootnote}{\fnsymbol{footnote}}
+\usepackage[symbol]{footmisc}
+% DOCUMENT LAYOUT
+\usepackage{geometry} 
+\geometry{a4paper, textwidth=5.5in, textheight=8.5in, marginparsep=7pt, marginparwidth=.6in}
+\setlength\parindent{0in}
+
+% FONTS
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\defaultfontfeatures{Mapping=tex-text} % converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
+\setromanfont [Ligatures={Common}, BoldFont={Fontin Bold}, ItalicFont={Fontin Italic}]{Fontin}
+\setsansfont [Ligatures={Common}, BoldFont={Fontin Sans Bold}, ItalicFont={Fontin Sans Italic}]{Fontin Sans}
+\setmonofont[Scale=0.8]{Monaco} 
+% ---- CUSTOM AMPERSAND
+\newcommand{\amper}{{\fontspec[Scale=.95]{Fontin}\selectfont\itshape\&}}
+% ---- MARGIN YEARS
+\usepackage{marginnote}
+\newcommand{\years}[1]{\marginnote{\scriptsize #1}}
+\renewcommand*{\raggedleftmarginnote}{}
+\setlength{\marginparsep}{7pt}
+\reversemarginpar
+
+% HEADINGS
+\usepackage{sectsty} 
+\usepackage[normalem]{ulem} 
+\sectionfont{\rmfamily\mdseries\upshape\Large}
+\subsectionfont{\rmfamily\bfseries\upshape\normalsize} 
+\subsubsectionfont{\rmfamily\mdseries\upshape\normalsize} 
+
+% PDF SETUP
+% ---- FILL IN HERE THE DOC TITLE AND AUTHOR
+\usepackage[xetex, bookmarks, colorlinks, breaklinks, pdftitle={Albert Einstein - vita},pdfauthor={My name}]{hyperref}  
+\hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=blue} 
+
+% DOCUMENT
+\begin{document}
+{\LARGE Sagar Malhotra }\\[0.2cm]
+Machine Learning Research Unit,\\
+% Information Systems Engineering Institute\\
+% Faculty of Informatics\\
+TU Wien, Austria\\ 
+
+% Phone: \texttt{+39 320 841 2396}\\
+Email: \href{mailto:sagar.malhotra@tuwien.ac.at}{sagar.malhotra@tuwien.ac.at}\\
+\textsc{Personal website}: \href{https://countinglogic.github.io}{countinglogic.github.io}
+% \textsc{DBLP}: \href{https://dblp.org/pid/38/7865.html}{38/7865}\\
+% \textsc{Google Scholar}: \href{https://scholar.google.com/citations?user=EvJ5xlAAAAAJ&hl=en}{EvJ5xlAAAAAJ}\\
+% \textsc{Orcid}: \href{https://orcid.org/0000-0001-6700-4311}{0000-0001-6700-4311}
+
+%Born:  May 6, 1994\\
+%Nationality:  Indian
+% \section*{Personal Statement}
+% I am a graduate researcher in Artificial Intelligence, working on probabilistic inference and learning in relational domains (e.g., graphs, databases, logic, etc.). My work has focused on developing efficient, expressive, and statistically consistent probabilistic relational models. Previously, I pursued a masters in physics with an exciting mix of quantitative biology and machine learning. I am passionate about solving and formulating rigorous foundational problems with a multi-disciplinary flavor. 
+% I believe my background in logic, probability, physics, and machine learning can allow me to contribute significantly to research in foundational problems of emergence.
+\section*{Research Statement}
+\noindent
+I study automated learning and reasoning algorithms, working at the intersection of logic, probability and Machine Learning. I am especially interested in methods that are provably efficient, sound and explainable by construction. Recently, I am also interested in developing formal verification methods for black-box machine learning models.\\
+
+\subsection*{Doctoral Research}
+My Ph.D. work focused on Statistical Relational Learning (SRL)  models that describe a parametric probability distribution on a set of possible relational structures defined in a First Order Logic (FOL) Language. Inference and learning in these models reduces to Weighted Model Counting (WMC), a $\#\mathrm{P}$-complete problem in general. I developed novel combinatorial approaches for efficient WMC in multiple interesting fragments and extensions of FOL. 
+
+
+
+\end{document}

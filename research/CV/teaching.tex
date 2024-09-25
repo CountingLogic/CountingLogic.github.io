@@ -1,0 +1,109 @@
+%------------------------------------
+% Dario Taraborelli
+% Typesetting your academic CV in LaTeX
+%
+% URL: http://nitens.org/taraborelli/cvtex
+% DISCLAIMER: This template is provided for free and without any guarantee 
+% that it will correctly compile on your system if you have a non-standard  
+% configuration.
+% Some rights reserved: http://creativecommons.org/licenses/by-sa/3.0/
+%------------------------------------
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[10pt, a4paper]{article}
+\usepackage{fontspec} 
+\usepackage[none]{hyphenat}
+\usepackage{lastpage}
+
+
+% DOCUMENT LAYOUT
+\usepackage{geometry} 
+\geometry{a4paper, textwidth=5.5in, textheight=8.5in, marginparsep=7pt, marginparwidth=.6in}
+\setlength\parindent{0in}
+
+% FONTS
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\defaultfontfeatures{Mapping=tex-text} % converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
+\setromanfont [Ligatures={Common}, BoldFont={Fontin Bold}, ItalicFont={Fontin Italic}]{Fontin}
+\setsansfont [Ligatures={Common}, BoldFont={Fontin Sans Bold}, ItalicFont={Fontin Sans Italic}]{Fontin Sans}
+\setmonofont[Scale=0.8]{Monaco} 
+% ---- CUSTOM AMPERSAND
+\newcommand{\amper}{{\fontspec[Scale=.95]{Fontin}\selectfont\itshape\&}}
+% ---- MARGIN YEARS
+\usepackage{marginnote}
+\newcommand{\years}[1]{\marginnote{\scriptsize #1}}
+\renewcommand*{\raggedleftmarginnote}{}
+\setlength{\marginparsep}{7pt}
+\reversemarginpar
+
+% HEADINGS
+\usepackage{sectsty} 
+\usepackage[normalem]{ulem} 
+\sectionfont{\rmfamily\mdseries\upshape\Large}
+\subsectionfont{\rmfamily\bfseries\upshape\normalsize} 
+\subsubsectionfont{\rmfamily\mdseries\upshape\normalsize} 
+
+% PDF SETUP
+% ---- FILL IN HERE THE DOC TITLE AND AUTHOR
+\usepackage[xetex, bookmarks, colorlinks, breaklinks, pdftitle={Albert Einstein - vita},pdfauthor={My name}]{hyperref}  
+\hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=blue} 
+
+% DOCUMENT
+\begin{document}
+
+
+
+\section*{Teaching Experience}
+
+\years{2024\\ (Winter Semester)} \textbf{Modern Applications of Logic in Machine Learning}\\ (Elective graduate course in Computer Science, dean's approval awaited)\\ 
+\textbf{Experience:} I have developed a new syllabus for graduates students interested in logic and machine learning. The course will consist of four inter-dependent sections: 
+\begin{itemize}
+    \item \textbf{Statistical relational learning}: models that integrate logic, probability and learning e.g., Markov logic, Problog etc. 
+    \item \textbf{Algorithms}: ML relevant algorithmic problems in logic such as weighted model counting and MaxSAT 
+    \item \textbf{Neuro-symbolic integration:} models that integrate reasoning and learning in neural networks
+    \item \textbf{Theoretical Foundations:} role of logic in learning theory and expressivity analysis of ML models like graph neural networks and transformers
+\end{itemize}
+I have developed multiple exercises to familiarize students with state-of-the art research at the interface of logic and machine learning. As part of the course students will also present small parts of assigned research papers, involving algorithms and formal proofs to important results.\\
+
+
+\years{2023 - Now} \textbf{Introduction to Machine Learning} (Bachelor's in Computer Science)\\
+\textbf{Experience:} I am part of the team that developed the first edition of this course in 2023. My key role was developing the module and exercises on Probabilistic Machine Learning. I also teach the lectures for Probabilistic Machine Learning and am responsible for the office hours for various modules of the course. I developed automatically graded python based exercises that gave students hands-on experience. I also designed a large question bank for the theoretical exam. \\
+
+\years{2023 - Now} \textbf{Bachelor's Seminar in Machine Learning} (Bachelor's in Computer Science)\\
+\textbf{Experience:} This course is part of a compulsory scientific writing course in the computer science department of TU Wien. In the second part of the course students are supervised in small groups by different research units. With the goal of writing a seminar paper on state-of-the-art research. I supervise this course for the machine learning research unit. To this end, I set up an EasyChair based mock-conference. PhD students and PostDocs offer different topics for students. Students are then required to write a research paper under the supervision of an advisor and go through a peer-review experience acting as both authors and reviewers.   \\
+
+\years{2023 - Now} \textbf{Machine Learning Algorithms and Applications}
+ (Master's in Computer Science)\\
+ \textbf{Experience:} This is a project based course organized by the Machine Learning Research Unit. I have consistently offered new projects in this course. One of the offered course led to a publication with a student, Alexander Pluska, at the \emph{International Conference on Principles of Knowledge Representation and Reasoning 2024}. \\ \\ 
+ 
+ \years{2023 - Now} \textbf{Theoretical Foundations and Research Topics in Machine Learning}\\
+ (Master's in Computer Science)\\
+ \textbf{Experience:} This course introduces students to theoretical foundations of Machine Learning. Mainly, focusing on PAC learning, Kernel methods, Deep Learning and Graph Neural Networks.
+ I conduct many of the exercises and course-work sessions on PAC learning and graph neural networks.
+
+
+ \section*{Master's Student Supervision}
+ \textbf{Thesis title (tentative)}: Practical PAC-Verification with Signal Temporal Logic \\ 
+ \years{2024-now} \textbf{Student:} Peter Blohm,  TU Wien, Austria\\
+ \textbf{Experience:} Our goal is to develop learning theory inspired quantitative verification approaches. To this end, I assigned peter initial readings on many learning theoretic concepts such as PAC-learning and $\epsilon$-nets. We also interacted with another PhD student in the group and brought together a collaboration of nine leading researchers at TU Wien in the areas of machine learning and verification. We wrote a joint paper (with Peter as a joint first author with the PhD student and myself as the last author) using the methods developed during the thesis research.
+ The paper was accepted at the \emph{Next Generation of AI Safety} workshop at the flagship International Conference on Machine Learning, \emph{ICML}. Peter is currently investigating how to quantify the complexity of propositional formulas in classical and signal temporal logic to provide tight probabilistic bounds specific to the property that needs to be tested, instead of the conventional Chernoff bounds. 
+ My key contribution in guiding Peter has been instilling rigorous analysis and writing ethics.\\ \\
+
+
+ \years{2023}\textbf{Thesis Title}:  Lifted Inference beyond First Order Logic\\
+ \textbf{Student Name}: Davide Bizzaro, FBK, Italy and University of Padova, Italy\\
+ \textbf{Experience:} I co-supervised Davide with my PhD supervisor Luciano Serafini. Given Davide's mathematical background, I introduced him to the more theoretical and algorithmic aspects of Weighted Model Counting (WMC) in First Order Logic. He joined us when we had already developed ideas for extending WMC with acyclicity and connectivity axioms.  Given these developments, I had a hunch that forest axiom should also be obtainable. I initiated Davide in this direction with some initial pointers, and he was able to produce interesting results that became part of our \emph{Artificial Intelligence Journal} submission. I then indicated Davide towards the (much more challenging) problem of counting Markov Equivalence classes with arbitrary C$^2$ constraints. He developed a tractable novel method for computing the number of Markov Equivalence classes of size 1 on a DAG of size $n$. His work led to another preprint, currently being prepared for publication.
+Davide finished his Masters with a 110 cum laude, the highest grade awardable to a Masters student in an Italian University.
+ 
+ \section*{Other important Student Supervision Roles}
+ 
+ \begin{itemize}
+     \item Florian Chen, TU Wien, Austria\\
+     Bachelor's Intern at the machine learning research unit, leading to a conference publication at ECML PKDD 2024
+     \item Alexander Pluska,  TU Wien, Austria\\ Supervised in a graduate course, where Alexander worked on a project under my supervision. Our work led to a conference publication at KR 2024
+ \end{itemize}
+
+\end{document}

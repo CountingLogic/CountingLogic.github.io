@@ -1,9 +1,8 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.11)  25 SEP 2024 20:08
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.11)  24 AUG 2024 23:14
 entering extended mode
- \write18 enabled.
- file:line:error style messages enabled.
+ restricted \write18 enabled.
  %&-line parsing enabled.
-**/Users/sagar/website/research/CV/CV.tex
+**CV.tex
 (/Users/sagar/website/research/CV/CV.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
@@ -375,7 +374,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
 \Hy@SectionHShift=\skip50
-) (./CV.aux)
+) (/Users/sagar/website/research/CV/CV.aux)
 \openout1 = `CV.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
@@ -523,7 +522,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 55.
 LaTeX Info: Redefining \pageref on input line 55.
 LaTeX Info: Redefining \nameref on input line 55.
- (./CV.out) (./CV.out)
+ (/Users/sagar/website/research/CV/CV.out) (/Users/sagar/website/research/CV/CV.out)
 \@outlinefile=\write3
 \openout3 = `CV.out'.
 
@@ -756,46 +755,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 282--284
 Package marginnote Info: Margin note 4.2 is on absolute page 4 on input line 285.
 Package marginnote Info: right page because not two side mode on input line 285.
 Package marginnote Info: xpos seems to be 100.01144pt on input line 285.
-Package marginnote Info: Margin note 4.3 is on absolute page 4 on input line 298.
-Package marginnote Info: right page because not two side mode on input line 298.
-
-Underfull \hbox (badness 10000) in paragraph at lines 298--298
-\TU/Fontin(0)/m/n/7 (Winter
- []
-
-Package marginnote Info: xpos seems to be 100.01144pt on input line 298.
-
-Underfull \hbox (badness 10000) in paragraph at lines 298--306
-
- []
-
-Package marginnote Info: Margin note 4.4 is on absolute page 4 on input line 310.
-Package marginnote Info: right page because not two side mode on input line 310.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 310.
-
-Underfull \hbox (badness 10000) in paragraph at lines 310--312
-
- []
-
-Package marginnote Info: Margin note 4.5 is on absolute page 4 on input line 313.
-Package marginnote Info: right page because not two side mode on input line 313.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 313.
-
-Underfull \hbox (badness 10000) in paragraph at lines 313--316
-
- []
-
-Package marginnote Info: Margin note 4.6 is on absolute page 4 on input line 317.
-Package marginnote Info: right page because not two side mode on input line 317.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 317.
-
-Underfull \hbox (badness 10000) in paragraph at lines 317--320
-
- []
-
 
 AED: lastpage setting LastPage
-[4] (./CV.aux)
+[4] (/Users/sagar/website/research/CV/CV.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -803,12 +765,12 @@ Package rerunfilecheck Info: File `CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 14229 strings out of 476919
- 263616 string characters out of 5821839
- 612846 words of memory out of 5000000
- 34020 multiletter control sequences out of 15000+600000
- 406904 words of font info for 72 fonts, out of 8000000 for 9000
+ 14223 strings out of 476919
+ 263827 string characters out of 5821839
+ 612739 words of memory out of 5000000
+ 34015 multiletter control sequences out of 15000+600000
+ 406896 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 83i,9n,96p,603b,318s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 83i,9n,96p,516b,318s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on CV.xdv (4 pages, 79812 bytes).
+Output written on /Users/sagar/website/research/CV/CV.xdv (4 pages, 68720 bytes).
