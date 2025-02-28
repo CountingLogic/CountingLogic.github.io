@@ -1,10 +1,10 @@
 # Fdb version 3
-["xdvipdfmx"] 1731421405 "/Users/sagar/website/research/CV/CV.xdv" "/Users/sagar/website/research/CV/CV.pdf" "/Users/sagar/website/research/CV/CV" 1731421405
-  "/Users/sagar/website/research/CV/CV.xdv" 1731421405 78584 fba28b3cd8fc347f2090200c56620a59 "xelatex"
+["xdvipdfmx"] 1740708482 "CV.xdv" "CV.pdf" "CV" 1740708482
+  "CV.xdv" 1740708482 80576 9bf28564c67c041f2dbbbdb7b3bd5348 "xelatex"
   (generated)
-  "/Users/sagar/website/research/CV/CV.pdf"
-["xelatex"] 1731421404 "CV.tex" "/Users/sagar/website/research/CV/CV.xdv" "CV" 1731421405
-  "/Users/sagar/website/research/CV/CV.aux" 1731421405 2102 de74a9e7d313aa64178abb3396a690b1 ""
+  "CV.pdf"
+["xelatex"] 1740708481 "/Users/sagar/website/research/CV/CV.tex" "CV.xdv" "CV" 1740708482
+  "/Users/sagar/website/research/CV/CV.tex" 1740708479 20428 7ffd6c517a6b72983cc28da8c0934e84 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -89,13 +89,11 @@
   "/usr/local/texlive/2021/texmf-dist/web2c/texmf.cnf" 1616443989 39972 3d6bb4d9d719e93193fa020b58adf5d4 ""
   "/usr/local/texlive/2021/texmf-var/web2c/xetex/xelatex.fmt" 1633899427 5093948 4ac59ae2c5f86982fd22715f02b4360e ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "CV.aux" 1731421405 2102 de74a9e7d313aa64178abb3396a690b1 "xelatex"
-  "CV.out" 1731421405 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "CV.tex" 1731421404 20107 aea575c77fe51c83ce9790ee4e25c0e9 ""
+  "CV.aux" 1740708482 2186 65564576faf0d20838680531974d7f07 "xelatex"
+  "CV.out" 1740708482 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "CV.tex" 1740708479 20428 7ffd6c517a6b72983cc28da8c0934e84 ""
   (generated)
-  "/Users/sagar/website/research/CV/CV.xdv"
-  "CV.log"
-  "CV.aux"
   "CV.xdv"
+  "CV.log"
   "CV.out"
-  "/Users/sagar/website/research/CV/CV.log"
+  "CV.aux"
