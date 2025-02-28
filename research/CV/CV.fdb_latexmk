@@ -1,10 +1,10 @@
 # Fdb version 3
-["xdvipdfmx"] 1740709105 "CV.xdv" "CV.pdf" "CV" 1740709106
-  "CV.xdv" 1740709105 80428 05da702ac0d088accc78f959c4275833 "xelatex"
+["xdvipdfmx"] 1740709515 "CV.xdv" "CV.pdf" "CV" 1740709515
+  "CV.xdv" 1740709515 80428 ddca6f8828cd8f949b121def04711557 "xelatex"
   (generated)
   "CV.pdf"
-["xelatex"] 1740709104 "/Users/sagar/website/research/CV/CV.tex" "CV.xdv" "CV" 1740709106
-  "/Users/sagar/website/research/CV/CV.tex" 1740709089 20433 90c921aef304bf5b19094a22eb58a696 ""
+["xelatex"] 1740709513 "/Users/sagar/website/research/CV/CV.tex" "CV.xdv" "CV" 1740709515
+  "/Users/sagar/website/research/CV/CV.tex" 1740709510 20434 e21baede41930f0ab14e33c927544a57 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -89,11 +89,11 @@
   "/usr/local/texlive/2021/texmf-dist/web2c/texmf.cnf" 1616443989 39972 3d6bb4d9d719e93193fa020b58adf5d4 ""
   "/usr/local/texlive/2021/texmf-var/web2c/xetex/xelatex.fmt" 1633899427 5093948 4ac59ae2c5f86982fd22715f02b4360e ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "CV.aux" 1740709105 2186 65564576faf0d20838680531974d7f07 "xelatex"
-  "CV.out" 1740709105 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "CV.tex" 1740709089 20433 90c921aef304bf5b19094a22eb58a696 ""
+  "CV.aux" 1740709515 2186 65564576faf0d20838680531974d7f07 "xelatex"
+  "CV.out" 1740709515 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "CV.tex" 1740709510 20434 e21baede41930f0ab14e33c927544a57 ""
   (generated)
   "CV.out"
-  "CV.xdv"
   "CV.aux"
+  "CV.xdv"
   "CV.log"
