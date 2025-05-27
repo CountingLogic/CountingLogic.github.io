@@ -1,9 +1,9 @@
 # Fdb version 3
-["xdvipdfmx"] 1748341179 "Pub_Sagar.xdv" "Pub_Sagar.pdf" "Pub_Sagar" 1748341179
+["xdvipdfmx"] 1748341728 "Pub_Sagar.xdv" "Pub_Sagar.pdf" "Pub_Sagar" 1748341729
   "Pub_Sagar.xdv" 1748341179 47848 29183d54f1f32041922f64e6bc604ee7 "xelatex"
   (generated)
   "Pub_Sagar.pdf"
-["xelatex"] 1748341178 "/Users/sagar/website/research/CV/Pub_Sagar.tex" "Pub_Sagar.xdv" "Pub_Sagar" 1748341179
+["xelatex"] 1748341178 "/Users/sagar/website/research/CV/Pub_Sagar.tex" "Pub_Sagar.xdv" "Pub_Sagar" 1748341729
   "/Users/sagar/website/research/CV/Pub_Sagar.tex" 1748341178 11943 e8f040aaa81ade50ca3cca4072163e18 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -92,7 +92,7 @@
   "Pub_Sagar.out" 1748341179 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
   "Pub_Sagar.tex" 1748341178 11943 e8f040aaa81ade50ca3cca4072163e18 ""
   (generated)
-  "Pub_Sagar.xdv"
   "Pub_Sagar.out"
-  "Pub_Sagar.aux"
   "Pub_Sagar.log"
+  "Pub_Sagar.aux"
+  "Pub_Sagar.xdv"
