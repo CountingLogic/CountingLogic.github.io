@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.11)  26 MAY 2025 12:43
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.11)  27 MAY 2025 12:19
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -613,8 +613,8 @@ Package marginnote Info: right page because not two side mode on input line 113.
 Package marginnote Info: xpos seems to be 100.01144pt on input line 113.
 [1
 
-] [2]
-Package marginnote Info: Margin note 3.1 is on absolute page 3 on input line 123.
+]
+Package marginnote Info: Margin note 2.1 is on absolute page 2 on input line 123.
 Package marginnote Info: right page because not two side mode on input line 123.
 Package marginnote Info: xpos seems to be 100.01144pt on input line 123.
 
@@ -622,7 +622,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 123--127
 
  []
 
-Package marginnote Info: Margin note 3.2 is on absolute page 3 on input line 128.
+Package marginnote Info: Margin note 2.2 is on absolute page 2 on input line 128.
 Package marginnote Info: right page because not two side mode on input line 128.
 Package marginnote Info: xpos seems to be 100.01144pt on input line 128.
 
@@ -630,21 +630,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 128--132
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--132
-
- []
-
-Package marginnote Info: Margin note 3.3 is on absolute page 3 on input line 133.
+Package marginnote Info: Margin note 2.3 is on absolute page 2 on input line 133.
 Package marginnote Info: right page because not two side mode on input line 133.
 Package marginnote Info: xpos seems to be 100.01144pt on input line 133.
-Package marginnote Info: Margin note 3.4 is on absolute page 3 on input line 136.
+Package marginnote Info: Margin note 2.4 is on absolute page 2 on input line 136.
 Package marginnote Info: right page because not two side mode on input line 136.
 Package marginnote Info: xpos seems to be 100.01144pt on input line 136.
-Package marginnote Info: Margin note 3.5 is on absolute page 3 on input line 142.
+Package marginnote Info: Margin note 2.5 is on absolute page 2 on input line 142.
 Package marginnote Info: right page because not two side mode on input line 142.
 Package marginnote Info: xpos seems to be 100.01144pt on input line 142.
-Package marginnote Info: Margin note 3.6 is on absolute page 3 on input line 144.
+Package marginnote Info: Margin note 2.6 is on absolute page 2 on input line 144.
 Package marginnote Info: right page because not two side mode on input line 144.
 Package marginnote Info: xpos seems to be 100.01144pt on input line 144.
 
@@ -662,43 +657,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--147
 
  []
 
-Package marginnote Info: Margin note 3.7 is on absolute page 3 on input line 154.
-Package marginnote Info: right page because not two side mode on input line 154.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 154.
-Package marginnote Info: Margin note 3.8 is on absolute page 3 on input line 157.
-Package marginnote Info: right page because not two side mode on input line 157.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 157.
+Package marginnote Info: Margin note 2.7 is on absolute page 2 on input line 155.
+Package marginnote Info: right page because not two side mode on input line 155.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 155.
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--160
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 154--160
-
- []
-
-Package marginnote Info: Margin note 3.9 is on absolute page 3 on input line 161.
-Package marginnote Info: right page because not two side mode on input line 161.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 161.
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--165
+Underfull \hbox (badness 10000) in paragraph at lines 155--159
 
  []
 
 
 AED: lastpage setting LastPage
-[3] (./Pub_Sagar.aux)
+[2] (./Pub_Sagar.aux)
 Package rerunfilecheck Info: File `Pub_Sagar.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 14101 strings out of 476919
- 261611 string characters out of 5821839
- 609955 words of memory out of 5000000
- 33898 multiletter control sequences out of 15000+600000
+ 14099 strings out of 476919
+ 261589 string characters out of 5821839
+ 610923 words of memory out of 5000000
+ 33896 multiletter control sequences out of 15000+600000
  406888 words of font info for 70 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  83i,9n,96p,1330b,318s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Pub_Sagar.xdv (3 pages, 51436 bytes).
+Output written on Pub_Sagar.xdv (2 pages, 47848 bytes).
