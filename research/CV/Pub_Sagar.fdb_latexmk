@@ -1,10 +1,10 @@
 # Fdb version 3
-["xdvipdfmx"] 1747226625 "CV.xdv" "CV.pdf" "CV" 1748256104
-  "CV.xdv" 1747226625 110760 e220fd4756a8bd70f3e065bbec33395d "xelatex"
+["xdvipdfmx"] 1748256229 "Pub_Sagar.xdv" "Pub_Sagar.pdf" "Pub_Sagar" 1748256283
+  "Pub_Sagar.xdv" 1748256229 51436 924fcbe88db389c7f7153961967fd307 "xelatex"
   (generated)
-  "CV.pdf"
-["xelatex"] 1747226625 "/Users/sagar/website/research/CV/CV.tex" "CV.xdv" "CV" 1748256104
-  "/Users/sagar/website/research/CV/CV.tex" 1748256100 23334 7652b163b6251ec0dc1b733fc57c8fdc ""
+  "Pub_Sagar.pdf"
+["xelatex"] 1748256228 "/Users/sagar/website/research/CV/Pub_Sagar.tex" "Pub_Sagar.xdv" "Pub_Sagar" 1748256283
+  "/Users/sagar/website/research/CV/Pub_Sagar.tex" 1748256228 12407 23ccb62a6ecda47c066580f20df8f6fa ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -42,15 +42,12 @@
   "/usr/local/texlive/2021/texmf-dist/tex/latex/base/atbegshi-ltx.sty" 1609451599 2973 00085839f5881178c538db5970d3c38e ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/base/atveryend-ltx.sty" 1610149055 2596 b3a02e33035865e9f0457e064d436fb8 ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty" 1601675358 4947 8cb7717f0cc771eca0fda15160c7fee9 ""
-  "/usr/local/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty" 1580683321 5159 892429808d9e0e2b3548aaefd9a06ed0 ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/base/size10.clo" 1601675358 8449 a72d5d4e612221b46000c3d71724e0ef ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd" 1580683321 2431 b6cead9f069ed55f4fba0c637aa047b6 ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/base/tuenc.def" 1601675358 28385 db6a45d5d942ba0cae516544203fdb0b ""
-  "/usr/local/texlive/2021/texmf-dist/tex/latex/dirtytalk/dirtytalk.sty" 1290383540 1915 75d8498f106e3f673b6267693e944869 ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty" 1582325645 163300 4d3d778e38973f06a2524732dbbc580f ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec.cfg" 1532898934 549 c4adac819276241fea8eb79c5ab7b99e ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec.sty" 1582325645 1655 a1ec6f2670a260de25415d37e9c60e97 ""
-  "/usr/local/texlive/2021/texmf-dist/tex/latex/footmisc/footmisc.sty" 1312311212 25776 d28bd6d82f168f8cb2268584b67a2a98 ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty" 1578002852 41601 9cf6c5257b1bc7af01a58859749dd37a ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1459978653 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1465944070 1224 978390e9c2234eab29404bc21b268d1e ""
@@ -91,11 +88,11 @@
   "/usr/local/texlive/2021/texmf-dist/web2c/texmf.cnf" 1616443989 39972 3d6bb4d9d719e93193fa020b58adf5d4 ""
   "/usr/local/texlive/2021/texmf-var/web2c/xetex/xelatex.fmt" 1633899427 5093948 4ac59ae2c5f86982fd22715f02b4360e ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "CV.aux" 1747226625 2309 21ea298f271d21b9b0d083cc98c502ac "xelatex"
-  "CV.out" 1747226625 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "CV.tex" 1748256100 23334 7652b163b6251ec0dc1b733fc57c8fdc ""
+  "Pub_Sagar.aux" 1748256229 1527 4c3200a5d89ef5dee8fd6ef3ff974230 "xelatex"
+  "Pub_Sagar.out" 1748256229 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "Pub_Sagar.tex" 1748256228 12407 23ccb62a6ecda47c066580f20df8f6fa ""
   (generated)
-  "CV.out"
-  "CV.log"
-  "CV.xdv"
-  "CV.aux"
+  "Pub_Sagar.aux"
+  "Pub_Sagar.out"
+  "Pub_Sagar.log"
+  "Pub_Sagar.xdv"
