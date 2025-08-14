@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.11)  26 MAY 2025 12:41
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.11)  7 AUG 2025 20:57
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -467,14 +467,14 @@ Package lastpage Info: Please have a look at the pageslts package at
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(100.01144pt, 397.48499pt, 100.01144pt)
-* v-part:(T,H,B)=(92.30072pt, 614.295pt, 138.45113pt)
+* v-part:(T,H,B)=(63.39273pt, 686.56499pt, 95.08913pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=397.48499pt
-* \textheight=614.295pt
+* \textheight=686.56499pt
 * \oddsidemargin=27.74146pt
 * \evensidemargin=27.74146pt
-* \topmargin=-16.96927pt
+* \topmargin=-45.87726pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -516,116 +516,219 @@ LaTeX Info: Redefining \nameref on input line 55.
 \@outlinefile=\write3
 \openout3 = `Publications.out'.
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+
+ []
+
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 57.
+(Font)              <7> on input line 65.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 57.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 57.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 57.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 57.
-Package marginnote Info: Margin note 1.1 is on absolute page 1 on input line 61.
-Package marginnote Info: right page because not two side mode on input line 61.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 61.
-Package marginnote Info: Margin note 1.2 is on absolute page 1 on input line 65.
-Package marginnote Info: right page because not two side mode on input line 65.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 65.
+(Font)              <5> on input line 65.
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--68
-
+Overfull \hbox (20.59634pt too wide) in paragraph at lines 63--67
+\TU/Fontin(0)/m/n/10 conference publications and (peer-reviewed) workshop contributions. I indicate the conference
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--68
-
- []
-
-Package marginnote Info: Margin note 1.3 is on absolute page 1 on input line 70.
-Package marginnote Info: right page because not two side mode on input line 70.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 70.
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--74
-
- []
-
-Package marginnote Info: Margin note 1.4 is on absolute page 1 on input line 75.
-Package marginnote Info: right page because not two side mode on input line 75.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 75.
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--79
-
- []
-
-Package marginnote Info: Margin note 1.5 is on absolute page 1 on input line 81.
-Package marginnote Info: right page because not two side mode on input line 81.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 81.
-
-Overfull \hbox (3.35507pt too wide) in paragraph at lines 81--85
-\TU/Fontin(0)/m/it/10 Machine Learning and Knowledge Discovery in Databases. Research Track - European Conference,
+Overfull \hbox (12.14937pt too wide) in paragraph at lines 63--67
+\TU/Fontin(0)/m/n/10 conference (top $\OMS/cmsy/m/n/10 ^^X$\TU/Fontin(0)/m/n/10 8% of all computer science conferences), while \TU/Fontin(0)/b/n/10 A \TU/Fontin(0)/m/n/10 signifies an internationally
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--85
+Underfull \hbox (badness 10000) in paragraph at lines 63--67
 
  []
 
-Package marginnote Info: Margin note 1.6 is on absolute page 1 on input line 86.
-Package marginnote Info: right page because not two side mode on input line 86.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 86.
+Package marginnote Info: Margin note 1.1 is on absolute page 1 on input line 91.
+Package marginnote Info: right page because not two side mode on input line 91.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 91.
+Package marginnote Info: Margin note 1.2 is on absolute page 1 on input line 98.
+Package marginnote Info: right page because not two side mode on input line 98.
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--89
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+\TU/Fontin(0)/b/n/7 Monitoring
+ []
+
+Package marginnote Info: xpos seems to be 100.01144pt on input line 98.
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--102
 
  []
 
-Package marginnote Info: Margin note 1.7 is on absolute page 1 on input line 90.
-Package marginnote Info: right page because not two side mode on input line 90.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 90.
+Package marginnote Info: Margin note 1.3 is on absolute page 1 on input line 103.
+Package marginnote Info: right page because not two side mode on input line 103.
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--94
+Underfull \hbox (badness 10000) in paragraph at lines 103--103
+\TU/Fontin(0)/b/n/7 Explainable
+ []
+
+Package marginnote Info: xpos seems to be 100.01144pt on input line 103.
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--107
 
  []
 
-Package marginnote Info: Margin note 1.8 is on absolute page 1 on input line 97.
-Package marginnote Info: right page because not two side mode on input line 97.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 97.
+Package marginnote Info: Margin note 1.4 is on absolute page 1 on input line 111.
+Package marginnote Info: right page because not two side mode on input line 111.
 
-Overfull \hbox (3.35507pt too wide) in paragraph at lines 97--101
-\TU/Fontin(0)/m/it/10 Machine Learning and Knowledge Discovery in Databases. Research Track - European Conference,
+Underfull \hbox (badness 10000) in paragraph at lines 111--111
+\TU/Fontin(0)/b/n/7 Explainable
  []
 
+Package marginnote Info: xpos seems to be 100.01144pt on input line 111.
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--101
-
- []
-
-Package marginnote Info: Margin note 1.9 is on absolute page 1 on input line 102.
-Package marginnote Info: right page because not two side mode on input line 102.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 102.
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--106
+Underfull \hbox (badness 10000) in paragraph at lines 111--115
 
  []
 
-Package marginnote Info: Margin note 1.10 is on absolute page 2 on input line 107.
-Package marginnote Info: right page because not two side mode on input line 107.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 107.
+Package marginnote Info: Margin note 1.5 is on absolute page 1 on input line 116.
+Package marginnote Info: right page because not two side mode on input line 116.
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
+\TU/Fontin(0)/b/n/7 Supervised
+ []
+
+Package marginnote Info: xpos seems to be 100.01144pt on input line 116.
+
+Overfull \hbox (1.26508pt too wide) in paragraph at lines 116--120
+\TU/Fontin(0)/m/it/10 Machine Learning and Knowledge Discovery in Databases. Research Track - European Conference 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--120
+
+ []
+
+Package marginnote Info: Margin note 1.6 is on absolute page 1 on input line 121.
+Package marginnote Info: right page because not two side mode on input line 121.
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+\TU/Fontin(0)/b/n/7 Neuro-
+ []
+
+Package marginnote Info: xpos seems to be 100.01144pt on input line 121.
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--125
+
+ []
+
+Package marginnote Info: Margin note 1.7 is on absolute page 1 on input line 126.
+Package marginnote Info: right page because not two side mode on input line 126.
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+\TU/Fontin(0)/b/n/7 Neuro-
+ []
+
+Package marginnote Info: xpos seems to be 100.01144pt on input line 126.
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--129
+
+ []
+
 [1
 
-] 
+]
+Package marginnote Info: Margin note 2.1 is on absolute page 2 on input line 132.
+Package marginnote Info: right page because not two side mode on input line 132.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 132.
+
+Overfull \hbox (1.26508pt too wide) in paragraph at lines 132--136
+\TU/Fontin(0)/m/it/10 Machine Learning and Knowledge Discovery in Databases. Research Track - European Conference 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--136
+
+ []
+
+Package marginnote Info: Margin note 2.2 is on absolute page 2 on input line 139.
+Package marginnote Info: right page because not two side mode on input line 139.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 139.
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--143
+
+ []
+
+Package marginnote Info: Margin note 2.3 is on absolute page 2 on input line 144.
+Package marginnote Info: right page because not two side mode on input line 144.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 144.
+Package marginnote Info: Margin note 2.4 is on absolute page 2 on input line 151.
+Package marginnote Info: right page because not two side mode on input line 151.
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
+\TU/Fontin(0)/b/n/7 Explainable
+ []
+
+Package marginnote Info: xpos seems to be 100.01144pt on input line 151.
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--155
+
+ []
+
+Package marginnote Info: Margin note 2.5 is on absolute page 2 on input line 156.
+Package marginnote Info: right page because not two side mode on input line 156.
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
+\TU/Fontin(0)/b/n/7 Monitoring
+ []
+
+Package marginnote Info: xpos seems to be 100.01144pt on input line 156.
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--160
+
+ []
+
+Package marginnote Info: Margin note 2.6 is on absolute page 2 on input line 161.
+Package marginnote Info: right page because not two side mode on input line 161.
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+\TU/Fontin(0)/b/n/7 Explainable
+ []
+
+Package marginnote Info: xpos seems to be 100.01144pt on input line 161.
+Package marginnote Info: Margin note 2.7 is on absolute page 2 on input line 166.
+Package marginnote Info: right page because not two side mode on input line 166.
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\TU/Fontin(0)/b/n/7 Neuro-
+ []
+
+Package marginnote Info: xpos seems to be 100.01144pt on input line 166.
+Package marginnote Info: Margin note 2.8 is on absolute page 2 on input line 169.
+Package marginnote Info: right page because not two side mode on input line 169.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 169.
+Package marginnote Info: Margin note 2.9 is on absolute page 2 on input line 175.
+Package marginnote Info: right page because not two side mode on input line 175.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 175.
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--193
+
+ []
+
+
 AED: lastpage setting LastPage
 [2] (./Publications.aux)
 Package rerunfilecheck Info: File `Publications.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 14092 strings out of 476919
- 261557 string characters out of 5821839
- 610826 words of memory out of 5000000
- 33889 multiletter control sequences out of 15000+600000
- 406888 words of font info for 70 fonts, out of 8000000 for 9000
+ 14081 strings out of 476919
+ 261479 string characters out of 5821839
+ 611931 words of memory out of 5000000
+ 33885 multiletter control sequences out of 15000+600000
+ 404160 words of font info for 62 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 83i,9n,96p,559b,321s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 83i,9n,96p,479b,316s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Publications.xdv (2 pages, 32100 bytes).
+Output written on Publications.xdv (2 pages, 56024 bytes).

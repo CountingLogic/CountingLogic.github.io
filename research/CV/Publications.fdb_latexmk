@@ -1,21 +1,12 @@
 # Fdb version 3
-["xdvipdfmx"] 1748256094 "Publications.xdv" "Publications.pdf" "Publications" 1748256094
-  "Publications.xdv" 1748256094 32100 c5acf93f0f0ee10b1e55a24629c7da17 "xelatex"
+["xdvipdfmx"] 1754593067 "Publications.xdv" "Publications.pdf" "Publications" 1754598448
+  "Publications.xdv" 1754593067 56024 c4cec5b011f40db75e6ff1ab3fd8c36d "xelatex"
   (generated)
   "Publications.pdf"
-["xelatex"] 1748256093 "/Users/sagar/website/research/CV/Publications.tex" "Publications.xdv" "Publications" 1748256094
-  "/Users/sagar/website/research/CV/Publications.tex" 1748256093 7628 5376f0fd302c3101e7b3e69e0940a3f0 ""
+["xelatex"] 1754593066 "/Users/sagar/website/research/CV/Publications.tex" "Publications.xdv" "Publications" 1754598448
+  "/Users/sagar/website/research/CV/Publications.tex" 1754598446 14209 3a8b0dcd5c1cc6928c6a49072cb7a4e4 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
-  "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
-  "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
-  "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1136768653 1520 eccf95517727cb11801f4f1aee3a21b4 ""
-  "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
-  "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr6.tfm" 1136768653 1300 b62933e007d01cfd073f79b963c01526 ""
-  "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1136768653 1292 21c1c5bfeaebccffdb478fd231a0997d ""
-  "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1136768653 1124 6c73e740cf17375f03eec0ee63599741 ""
-  "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
-  "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm" 1136768653 520 4889cce2180234b97cad636b6039c722 ""
   "/usr/local/texlive/2021/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "/usr/local/texlive/2021/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty" 1576625341 40635 c40361e206be584d448876bba8a64a3b ""
@@ -88,11 +79,11 @@
   "/usr/local/texlive/2021/texmf-dist/web2c/texmf.cnf" 1616443989 39972 3d6bb4d9d719e93193fa020b58adf5d4 ""
   "/usr/local/texlive/2021/texmf-var/web2c/xetex/xelatex.fmt" 1633899427 5093948 4ac59ae2c5f86982fd22715f02b4360e ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "Publications.aux" 1748256094 1158 2050784fb634cdbfeaf82dfebee4273b "xelatex"
-  "Publications.out" 1748256094 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "Publications.tex" 1748256093 7628 5376f0fd302c3101e7b3e69e0940a3f0 ""
+  "Publications.aux" 1754593067 1403 8e6fa88ce751d83bae365b20fa8524d0 "xelatex"
+  "Publications.out" 1754593067 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "Publications.tex" 1754598446 14209 3a8b0dcd5c1cc6928c6a49072cb7a4e4 ""
   (generated)
-  "Publications.aux"
-  "Publications.xdv"
   "Publications.log"
+  "Publications.xdv"
+  "Publications.aux"
   "Publications.out"

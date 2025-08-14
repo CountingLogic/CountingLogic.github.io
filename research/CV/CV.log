@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.11)  14 MAY 2025 14:43
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.11)  7 AUG 2025 22:22
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -384,96 +384,96 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 ) (./CV.aux)
 \openout1 = `CV.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 56.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 58.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 56.
-LaTeX Font Info:    Trying to load font information for T3+cmr on input line 56.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 58.
+LaTeX Font Info:    Trying to load font information for T3+cmr on input line 58.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 56.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 56.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 56.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 56.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 56.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 56.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 56.
-LaTeX Font Info:    Redeclaring math accent \check on input line 56.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 56.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 56.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 56.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 56.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 56.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 56.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 56.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 56.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 56.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 56.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 56.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 56.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 56.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 56.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 56.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 56.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 56.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 58.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 58.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 58.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 58.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 58.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 58.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 58.
+LaTeX Font Info:    Redeclaring math accent \check on input line 58.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 58.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 58.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 58.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 58.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 56.
+(Font)              `operators' in the math version `normal' on input line 58.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/Fontin(0)/m/n on input line 56.
+(Font)                  OT1/cmr/m/n --> TU/Fontin(0)/m/n on input line 58.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 56.
+(Font)              `operators' in the math version `bold' on input line 58.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/Fontin(0)/m/n on input line 56.
+(Font)                  OT1/cmr/bx/n --> TU/Fontin(0)/m/n on input line 58.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/Fontin(0)/m/n --> TU/Fontin(0)/m/n on input line 56.
+(Font)                  TU/Fontin(0)/m/n --> TU/Fontin(0)/m/n on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/Fontin(0)/m/it on input line 56.
+(Font)                  OT1/cmr/m/it --> TU/Fontin(0)/m/it on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/Fontin(0)/b/n on input line 56.
+(Font)                  OT1/cmr/bx/n --> TU/Fontin(0)/b/n on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/FontinSans(0)/m/n on input line 56.
+(Font)                  OT1/cmss/m/n --> TU/FontinSans(0)/m/n on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/Monaco(0)/m/n on input line 56.
+(Font)                  OT1/cmtt/m/n --> TU/Monaco(0)/m/n on input line 58.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/Fontin(0)/m/n --> TU/Fontin(0)/b/n on input line 56.
+(Font)                  TU/Fontin(0)/m/n --> TU/Fontin(0)/b/n on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/Fontin(0)/b/it on input line 56.
+(Font)                  OT1/cmr/bx/it --> TU/Fontin(0)/b/it on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/FontinSans(0)/b/n on input line 56.
+(Font)                  OT1/cmss/bx/n --> TU/FontinSans(0)/b/n on input line 58.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/Monaco(0)/b/n on input line 56.
+(Font)                  OT1/cmtt/m/n --> TU/Monaco(0)/b/n on input line 58.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 56.
+(lastpage)             ! on input line 58.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -484,20 +484,20 @@ Package lastpage Info: Please have a look at the pageslts package at
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(100.01144pt, 397.48499pt, 100.01144pt)
-* v-part:(T,H,B)=(92.30072pt, 614.295pt, 138.45113pt)
+* v-part:(T,H,B)=(63.39273pt, 686.56499pt, 95.08913pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=397.48499pt
-* \textheight=614.295pt
+* \textheight=686.56499pt
 * \oddsidemargin=27.74146pt
 * \evensidemargin=27.74146pt
-* \topmargin=-16.96927pt
+* \topmargin=-45.87726pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
 * \footskip=30.0pt
 * \marginparwidth=43.36243pt
-* \marginparsep=7.0pt
+* \marginparsep=1.0pt
 * \columnsep=10.0pt
 * \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
@@ -516,7 +516,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: xetex.def on input line 147.
 )
-Package hyperref Info: Link coloring ON on input line 56.
+Package hyperref Info: Link coloring ON on input line 58.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/local/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
@@ -526,325 +526,373 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count287
 )
-LaTeX Info: Redefining \ref on input line 56.
-LaTeX Info: Redefining \pageref on input line 56.
-LaTeX Info: Redefining \nameref on input line 56.
+LaTeX Info: Redefining \ref on input line 58.
+LaTeX Info: Redefining \pageref on input line 58.
+LaTeX Info: Redefining \nameref on input line 58.
  (./CV.out) (./CV.out)
 \@outlinefile=\write3
 \openout3 = `CV.out'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--61
+Underfull \hbox (badness 10000) in paragraph at lines 59--63
 
  []
 
 
 LaTeX Font Warning: Font shape `TU/Fontin(0)/m/sc' undefined
-(Font)              using `TU/Fontin(0)/m/n' instead on input line 65.
+(Font)              using `TU/Fontin(0)/m/n' instead on input line 67.
 
-Package marginnote Info: Margin note 1.1 is on absolute page 1 on input line 77.
-Package marginnote Info: right page because not two side mode on input line 77.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 77.
+Package marginnote Info: Margin note 1.1 is on absolute page 1 on input line 79.
+Package marginnote Info: right page because not two side mode on input line 79.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 79.
 
 LaTeX Font Warning: Font shape `TU/Fontin(0)/b/sc' undefined
-(Font)              using `TU/Fontin(0)/b/n' instead on input line 77.
+(Font)              using `TU/Fontin(0)/b/n' instead on input line 79.
 
-Package marginnote Info: Margin note 1.2 is on absolute page 1 on input line 90.
-Package marginnote Info: right page because not two side mode on input line 90.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 90.
+Package marginnote Info: Margin note 1.2 is on absolute page 1 on input line 92.
+Package marginnote Info: right page because not two side mode on input line 92.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 92.
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--97
-
- []
-
-Package marginnote Info: Margin note 1.3 is on absolute page 1 on input line 108.
-Package marginnote Info: right page because not two side mode on input line 108.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 108.
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--113
+Underfull \hbox (badness 10000) in paragraph at lines 92--99
 
  []
 
-Package marginnote Info: Margin note 1.4 is on absolute page 1 on input line 114.
-Package marginnote Info: right page because not two side mode on input line 114.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 114.
+Package marginnote Info: Margin note 1.3 is on absolute page 1 on input line 110.
+Package marginnote Info: right page because not two side mode on input line 110.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 110.
 
-Overfull \hbox (1.8096pt too wide) in paragraph at lines 118--121
-\TU/Fontin(0)/m/sc/10 based explainability methods; and quantitative verification of machine learning algorithms. 
+Underfull \hbox (badness 10000) in paragraph at lines 110--115
+
+ []
+
+Package marginnote Info: Margin note 1.4 is on absolute page 1 on input line 116.
+Package marginnote Info: right page because not two side mode on input line 116.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 116.
+
+Overfull \hbox (8.72212pt too wide) in paragraph at lines 126--127
+[]\TU/Fontin(0)/b/sc/10 Honorable Mention Award \TU/Fontin(0)/m/sc/10 at the International Conference on Principles of Knowledge
  []
 
 
-Overfull \hbox (6.4708pt too wide) in paragraph at lines 127--128
-[]\TU/Fontin(0)/m/sc/10 ANR-FWF joint project Nanostructure evolution in oxide materials at high temperature
+Overfull \hbox (23.77184pt too wide) in paragraph at lines 128--130
+[]\TU/Fontin(0)/m/sc/10 Project “Logical Distillation of Machine Learning Models” among 21/84 funding applications
  []
 
 
-Overfull \hbox (1.05182pt too wide) in paragraph at lines 127--128
-\TU/Fontin(0)/m/sc/10 investigated with advanced X-ray scattering and machine learning based data analysis
+Overfull \hbox (10.4408pt too wide) in paragraph at lines 130--131
+[]\TU/Fontin(0)/m/sc/10 ANR-FWF joint project “Nanostructure evolution in oxide materials at high temperature
  []
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 144.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 144.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 144.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 144.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 144.
-Package marginnote Info: Margin note 1.5 is on absolute page 2 on input line 149.
-Package marginnote Info: right page because not two side mode on input line 149.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 149.
+
+Overfull \hbox (5.02182pt too wide) in paragraph at lines 130--131
+\TU/Fontin(0)/m/sc/10 investigated with advanced X-ray scattering and machine learning based data analysis” 
+ []
+
 [1
 
 ]
-Package marginnote Info: Margin note 2.1 is on absolute page 2 on input line 153.
-Package marginnote Info: right page because not two side mode on input line 153.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 153.
+Package marginnote Info: Margin note 2.1 is on absolute page 2 on input line 156.
+Package marginnote Info: right page because not two side mode on input line 156.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 156.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 156.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 156.
+Package marginnote Info: Margin note 2.2 is on absolute page 2 on input line 163.
+Package marginnote Info: right page because not two side mode on input line 163.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 163.
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--156
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--156
-
- []
-
-Package marginnote Info: Margin note 2.2 is on absolute page 2 on input line 158.
-Package marginnote Info: right page because not two side mode on input line 158.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 158.
-
-Underfull \hbox (badness 10000) in paragraph at lines 158--161
+Underfull \hbox (badness 10000) in paragraph at lines 163--167
 
  []
 
-Package marginnote Info: Margin note 2.3 is on absolute page 2 on input line 164.
-Package marginnote Info: right page because not two side mode on input line 164.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 164.
+Package marginnote Info: Margin note 2.3 is on absolute page 2 on input line 168.
+Package marginnote Info: right page because not two side mode on input line 168.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 168.
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--168
-
- []
-
-Package marginnote Info: Margin note 2.4 is on absolute page 2 on input line 169.
-Package marginnote Info: right page because not two side mode on input line 169.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 169.
-
-Overfull \hbox (3.35507pt too wide) in paragraph at lines 169--173
-\TU/Fontin(0)/m/it/10 Machine Learning and Knowledge Discovery in Databases. Research Track - European Conference,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 169--173
+Underfull \hbox (badness 10000) in paragraph at lines 168--172
 
  []
 
-Package marginnote Info: Margin note 2.5 is on absolute page 2 on input line 174.
-Package marginnote Info: right page because not two side mode on input line 174.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 174.
+Package marginnote Info: Margin note 2.4 is on absolute page 2 on input line 176.
+Package marginnote Info: right page because not two side mode on input line 176.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 176.
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--178
-
- []
-
-Package marginnote Info: Margin note 2.6 is on absolute page 2 on input line 179.
-Package marginnote Info: right page because not two side mode on input line 179.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 179.
-
-Underfull \hbox (badness 10000) in paragraph at lines 179--182
+Underfull \hbox (badness 10000) in paragraph at lines 176--180
 
  []
 
-Package marginnote Info: Margin note 2.7 is on absolute page 2 on input line 184.
-Package marginnote Info: right page because not two side mode on input line 184.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 184.
+Package marginnote Info: Margin note 2.5 is on absolute page 2 on input line 181.
+Package marginnote Info: right page because not two side mode on input line 181.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 181.
 
-Overfull \hbox (3.35507pt too wide) in paragraph at lines 184--188
-\TU/Fontin(0)/m/it/10 Machine Learning and Knowledge Discovery in Databases. Research Track - European Conference,
+Overfull \hbox (1.26508pt too wide) in paragraph at lines 181--185
+\TU/Fontin(0)/m/it/10 Machine Learning and Knowledge Discovery in Databases. Research Track - European Conference 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--188
+Underfull \hbox (badness 10000) in paragraph at lines 181--185
 
  []
 
-Package marginnote Info: Margin note 2.8 is on absolute page 2 on input line 190.
-Package marginnote Info: right page because not two side mode on input line 190.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 190.
+Package marginnote Info: Margin note 2.6 is on absolute page 2 on input line 186.
+Package marginnote Info: right page because not two side mode on input line 186.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 186.
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--194
+Underfull \hbox (badness 10000) in paragraph at lines 186--190
 
  []
 
-Package marginnote Info: Margin note 2.9 is on absolute page 3 on input line 195.
-Package marginnote Info: right page because not two side mode on input line 195.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 195.
+Package marginnote Info: Margin note 2.7 is on absolute page 2 on input line 191.
+Package marginnote Info: right page because not two side mode on input line 191.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 191.
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--194
+
+ []
+
+Package marginnote Info: Margin note 2.8 is on absolute page 2 on input line 197.
+Package marginnote Info: right page because not two side mode on input line 197.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 197.
+
+Overfull \hbox (1.26508pt too wide) in paragraph at lines 197--201
+\TU/Fontin(0)/m/it/10 Machine Learning and Knowledge Discovery in Databases. Research Track - European Conference 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--201
+
+ []
+
+Package marginnote Info: Margin note 2.9 is on absolute page 2 on input line 204.
+Package marginnote Info: right page because not two side mode on input line 204.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 204.
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--208
+
+ []
+
+Package marginnote Info: Margin note 2.10 is on absolute page 2 on input line 209.
+Package marginnote Info: right page because not two side mode on input line 209.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 209.
+Package marginnote Info: Margin note 2.11 is on absolute page 3 on input line 216.
+Package marginnote Info: right page because not two side mode on input line 216.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 216.
 [2]
-Package marginnote Info: Margin note 3.1 is on absolute page 3 on input line 202.
-Package marginnote Info: right page because not two side mode on input line 202.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 202.
-
-Underfull \hbox (badness 10000) in paragraph at lines 202--206
+Underfull \hbox (badness 10000) in paragraph at lines 216--220
 
  []
 
-Package marginnote Info: Margin note 3.2 is on absolute page 3 on input line 207.
-Package marginnote Info: right page because not two side mode on input line 207.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 207.
-Package marginnote Info: Margin note 3.3 is on absolute page 3 on input line 212.
-Package marginnote Info: right page because not two side mode on input line 212.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 212.
-Package marginnote Info: Margin note 3.4 is on absolute page 3 on input line 215.
-Package marginnote Info: right page because not two side mode on input line 215.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 215.
-Package marginnote Info: Margin note 3.5 is on absolute page 3 on input line 221.
+Package marginnote Info: Margin note 3.1 is on absolute page 3 on input line 221.
 Package marginnote Info: right page because not two side mode on input line 221.
 Package marginnote Info: xpos seems to be 100.01144pt on input line 221.
-Package marginnote Info: Margin note 3.6 is on absolute page 3 on input line 223.
-Package marginnote Info: right page because not two side mode on input line 223.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 223.
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--231
+Underfull \hbox (badness 10000) in paragraph at lines 221--225
+
+ []
+
+Package marginnote Info: Margin note 3.2 is on absolute page 3 on input line 226.
+Package marginnote Info: right page because not two side mode on input line 226.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 226.
+Package marginnote Info: Margin note 3.3 is on absolute page 3 on input line 231.
+Package marginnote Info: right page because not two side mode on input line 231.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 231.
+Package marginnote Info: Margin note 3.4 is on absolute page 3 on input line 234.
+Package marginnote Info: right page because not two side mode on input line 234.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 234.
+Package marginnote Info: Margin note 3.5 is on absolute page 3 on input line 240.
+Package marginnote Info: right page because not two side mode on input line 240.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 240.
+
+Underfull \hbox (badness 10000) in paragraph at lines 226--258
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--231
+Underfull \hbox (badness 10000) in paragraph at lines 226--258
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--231
+Underfull \hbox (badness 10000) in paragraph at lines 226--258
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 207--231
-
- []
-
-Package marginnote Info: Margin note 3.7 is on absolute page 3 on input line 239.
-Package marginnote Info: right page because not two side mode on input line 239.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 239.
-[3]
-Package marginnote Info: Margin note 4.1 is on absolute page 4 on input line 277.
-Package marginnote Info: right page because not two side mode on input line 277.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 277.
-Package marginnote Info: Margin note 4.2 is on absolute page 4 on input line 279.
-Package marginnote Info: right page because not two side mode on input line 279.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 279.
-Package marginnote Info: Margin note 4.3 is on absolute page 4 on input line 281.
-Package marginnote Info: right page because not two side mode on input line 281.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 281.
-Package marginnote Info: Margin note 4.4 is on absolute page 4 on input line 283.
-Package marginnote Info: right page because not two side mode on input line 283.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 283.
-Package marginnote Info: Margin note 4.5 is on absolute page 4 on input line 284.
-Package marginnote Info: right page because not two side mode on input line 284.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 284.
-Package marginnote Info: Margin note 4.6 is on absolute page 4 on input line 286.
-Package marginnote Info: right page because not two side mode on input line 286.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 286.
-
-Underfull \hbox (badness 10000) in paragraph at lines 277--288
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 277--288
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 277--288
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 277--288
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 277--288
-
- []
-
-Package marginnote Info: Margin note 4.7 is on absolute page 4 on input line 307.
+Package marginnote Info: Margin note 3.6 is on absolute page 3 on input line 297.
+Package marginnote Info: right page because not two side mode on input line 297.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 297.
+Package marginnote Info: Margin note 3.7 is on absolute page 3 on input line 300.
+Package marginnote Info: right page because not two side mode on input line 300.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 300.
+Package marginnote Info: Margin note 3.8 is on absolute page 3 on input line 303.
+Package marginnote Info: right page because not two side mode on input line 303.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 303.
+Package marginnote Info: Margin note 3.9 is on absolute page 3 on input line 307.
 Package marginnote Info: right page because not two side mode on input line 307.
 Package marginnote Info: xpos seems to be 100.01144pt on input line 307.
-Package marginnote Info: Margin note 4.8 is on absolute page 4 on input line 310.
+Package marginnote Info: Margin note 3.10 is on absolute page 3 on input line 310.
 Package marginnote Info: right page because not two side mode on input line 310.
 Package marginnote Info: xpos seems to be 100.01144pt on input line 310.
-
-Underfull \hbox (badness 10000) in paragraph at lines 307--312
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 307--312
-
- []
-
-Package marginnote Info: Margin note 4.9 is on absolute page 4 on input line 313.
+Package marginnote Info: Margin note 3.11 is on absolute page 3 on input line 312.
+Package marginnote Info: right page because not two side mode on input line 312.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 312.
+Package marginnote Info: Margin note 3.12 is on absolute page 4 on input line 313.
 Package marginnote Info: right page because not two side mode on input line 313.
 Package marginnote Info: xpos seems to be 100.01144pt on input line 313.
-Package marginnote Info: Margin note 4.10 is on absolute page 4 on input line 317.
-Package marginnote Info: right page because not two side mode on input line 317.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 317.
+Package marginnote Info: Margin note 3.13 is on absolute page 4 on input line 315.
+Package marginnote Info: right page because not two side mode on input line 315.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 315.
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--320
-
- []
-
-Package marginnote Info: Margin note 4.11 is on absolute page 4 on input line 321.
-Package marginnote Info: right page because not two side mode on input line 321.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 321.
-Package marginnote Info: Margin note 4.12 is on absolute page 4 on input line 323.
-Package marginnote Info: right page because not two side mode on input line 323.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 323.
-
-Underfull \hbox (badness 10000) in paragraph at lines 321--324
+Underfull \hbox (badness 10000) in paragraph at lines 297--317
 
  []
 
-Package marginnote Info: Margin note 4.13 is on absolute page 5 on input line 327.
-Package marginnote Info: right page because not two side mode on input line 327.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 327.
-[4]
-Overfull \hbox (30.91495pt too wide) in paragraph at lines 333--334
-[]\TU/Fontin(0)/b/sc/10 Explainability: \TU/Fontin(0)/m/sc/10 Logic based formal explainability methods like prime-implicant explanations. 
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--317
+
  []
 
-Package marginnote Info: Margin note 5.1 is on absolute page 5 on input line 337.
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--317
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--317
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--317
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--317
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--317
+
+ []
+
+[3]
+Package marginnote Info: Margin note 4.1 is on absolute page 4 on input line 337.
 Package marginnote Info: right page because not two side mode on input line 337.
 Package marginnote Info: xpos seems to be 100.01144pt on input line 337.
-Package marginnote Info: Margin note 5.2 is on absolute page 5 on input line 339.
-Package marginnote Info: right page because not two side mode on input line 339.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 339.
-Package marginnote Info: Margin note 5.3 is on absolute page 5 on input line 342.
+Package marginnote Info: Margin note 4.2 is on absolute page 4 on input line 342.
 Package marginnote Info: right page because not two side mode on input line 342.
 Package marginnote Info: xpos seems to be 100.01144pt on input line 342.
 
-Underfull \hbox (badness 10000) in paragraph at lines 337--344
+Underfull \hbox (badness 10000) in paragraph at lines 337--345
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 337--344
+Underfull \hbox (badness 10000) in paragraph at lines 337--345
+
+ []
+
+Package marginnote Info: Margin note 4.3 is on absolute page 4 on input line 346.
+Package marginnote Info: right page because not two side mode on input line 346.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 346.
+Package marginnote Info: Margin note 4.4 is on absolute page 4 on input line 353.
+Package marginnote Info: right page because not two side mode on input line 353.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 353.
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--356
+
+ []
+
+Package marginnote Info: Margin note 4.5 is on absolute page 4 on input line 357.
+Package marginnote Info: right page because not two side mode on input line 357.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 357.
+
+Underfull \hbox (badness 10000) in paragraph at lines 357--359
+
+ []
+
+Package marginnote Info: Margin note 4.6 is on absolute page 4 on input line 360.
+Package marginnote Info: right page because not two side mode on input line 360.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 360.
+Package marginnote Info: Margin note 4.7 is on absolute page 4 on input line 364.
+Package marginnote Info: right page because not two side mode on input line 364.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 364.
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--366
+
+ []
+
+Package marginnote Info: Margin note 4.8 is on absolute page 4 on input line 368.
+Package marginnote Info: right page because not two side mode on input line 368.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 368.
+
+Underfull \hbox (badness 10000) in paragraph at lines 368--378
+
+ []
+
+[4]
+Package marginnote Info: Margin note 5.1 is on absolute page 5 on input line 381.
+Package marginnote Info: right page because not two side mode on input line 381.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 381.
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--383
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 337--344
+Underfull \hbox (badness 10000) in paragraph at lines 381--383
 
  []
 
-Package marginnote Info: Margin note 5.4 is on absolute page 5 on input line 345.
-Package marginnote Info: right page because not two side mode on input line 345.
-Package marginnote Info: xpos seems to be 100.01144pt on input line 345.
+Package marginnote Info: Margin note 5.2 is on absolute page 5 on input line 384.
+Package marginnote Info: right page because not two side mode on input line 384.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 384.
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--386
+
+ []
+
+Package marginnote Info: Margin note 5.3 is on absolute page 5 on input line 387.
+Package marginnote Info: right page because not two side mode on input line 387.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 387.
+
+Underfull \hbox (badness 10000) in paragraph at lines 388--390
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 388--390
+
+ []
+
+Package marginnote Info: Margin note 5.4 is on absolute page 5 on input line 391.
+Package marginnote Info: right page because not two side mode on input line 391.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 391.
+
+Underfull \hbox (badness 10000) in paragraph at lines 391--394
+
+ []
+
+Package marginnote Info: Margin note 5.5 is on absolute page 5 on input line 395.
+Package marginnote Info: right page because not two side mode on input line 395.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 395.
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--417
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 418--423
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--428
+
+ []
+
 
 AED: lastpage setting LastPage
 [5] (./CV.aux)
@@ -855,12 +903,12 @@ Package rerunfilecheck Info: File `CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 14308 strings out of 476919
- 264772 string characters out of 5821839
- 613904 words of memory out of 5000000
- 34093 multiletter control sequences out of 15000+600000
- 406896 words of font info for 71 fonts, out of 8000000 for 9000
+ 14294 strings out of 476919
+ 264667 string characters out of 5821839
+ 614961 words of memory out of 5000000
+ 34086 multiletter control sequences out of 15000+600000
+ 404168 words of font info for 63 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 83i,9n,96p,549b,322s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 83i,9n,96p,549b,402s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on CV.xdv (5 pages, 110760 bytes).
+Output written on CV.xdv (5 pages, 124928 bytes).

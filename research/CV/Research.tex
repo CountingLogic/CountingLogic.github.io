@@ -27,9 +27,25 @@
 \usepackage{xunicode}
 \usepackage{xltxtra}
 \defaultfontfeatures{Mapping=tex-text} % converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
-\setromanfont [Ligatures={Common}, BoldFont={Fontin Bold}, ItalicFont={Fontin Italic}]{Fontin}
-\setsansfont [Ligatures={Common}, BoldFont={Fontin Sans Bold}, ItalicFont={Fontin Sans Italic}]{Fontin Sans}
-\setmonofont[Scale=0.8]{Monaco} 
+
+% \setromanfont [Ligatures={Common}, BoldFont={Fontin Bold}, ItalicFont={Fontin Italic}]{Fontin}
+% \setsansfont [Ligatures={Common}, BoldFont={Fontin Sans Bold}, ItalicFont={Fontin Sans Italic}]{Fontin Sans}
+% \setmonofont[Scale=0.8]{Monaco}
+
+% {\addfontfeatures{Ligatures=NoCommon} ff}
+
+\setmainfont[
+  Ligatures=TeX,
+  BoldFont={Libertinus Serif Bold},
+  ItalicFont={Libertinus Serif Italic}
+]{Libertinus Serif}
+
+\setsansfont[
+  Ligatures=TeX,
+  BoldFont={Libertinus Sans Bold},
+  ItalicFont={Libertinus Sans Italic}
+]{Libertinus Sans}
+
 % ---- CUSTOM AMPERSAND
 \newcommand{\amper}{{\fontspec[Scale=.95]{Fontin}\selectfont\itshape\&}}
 % ---- MARGIN YEARS
@@ -51,14 +67,15 @@
 \usepackage[xetex, bookmarks, colorlinks, breaklinks, pdftitle={Albert Einstein - vita},pdfauthor={My name}]{hyperref}  
 \hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=blue} 
 
+
 % DOCUMENT
 \begin{document}
-{\LARGE Sagar Malhotra }\\[0.2cm]
+{\LARGE Research Statement}\\[0.2cm]
+Sagar Malhotra\\
 Machine Learning Research Unit,\\
 % Information Systems Engineering Institute\\
 % Faculty of Informatics\\
 TU Wien, Austria\\ 
-
 % Phone: \texttt{+39 320 841 2396}\\
 Email: \href{mailto:sagar.malhotra@tuwien.ac.at}{sagar.malhotra@tuwien.ac.at}\\
 \textsc{Personal website}: \href{https://countinglogic.github.io}{countinglogic.github.io}
@@ -71,9 +88,9 @@ Email: \href{mailto:sagar.malhotra@tuwien.ac.at}{sagar.malhotra@tuwien.ac.at}\\
 % \section*{Personal Statement}
 % I am a graduate researcher in Artificial Intelligence, working on probabilistic inference and learning in relational domains (e.g., graphs, databases, logic, etc.). My work has focused on developing efficient, expressive, and statistically consistent probabilistic relational models. Previously, I pursued a masters in physics with an exciting mix of quantitative biology and machine learning. I am passionate about solving and formulating rigorous foundational problems with a multi-disciplinary flavor. 
 % I believe my background in logic, probability, physics, and machine learning can allow me to contribute significantly to research in foundational problems of emergence.
-\section*{Research Statement}
+\subsection*{Introduction}
 \noindent
-I study automated learning and reasoning algorithms, working at the intersection of logic, probability and Machine Learning. I am especially interested in methods that are provably efficient, sound and explainable by construction. Recently, I am also interested in developing formal verification methods for black-box machine learning models.\\
+I study automated learning and reasoning algorithms, working at the intersection of \textbf{logic, probability and Machine Learning}. I am especially interested in \textbf{AI/ML methods that are provably efficient, safe and explainable}.
 
 \subsection*{Doctoral Research}
 My Ph.D. work focused on Statistical Relational Learning (SRL)  models that describe a parametric probability distribution on a set of possible relational structures defined in a First Order Logic (FOL) Language. Inference and learning in these models reduces to Weighted Model Counting (WMC), a $\#\mathrm{P}$-complete problem in general. I developed novel combinatorial approaches for efficient WMC in multiple interesting fragments and extensions of FOL. 
