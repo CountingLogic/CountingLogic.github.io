@@ -21,11 +21,11 @@ https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 
 <div class="text">
 	<div class="left">
-		<h1 style="font-weight: normal;">Concentration Bounds </h1>
+		<h1>Concentration Bounds</h1>
 <p>Concentration Bounds dominate a lot of the literature in approximate counting. Since it is one of the topics I would like to dive into,
 here I try to take note of some of them.</p>
 I will be following <a href = "https://www.stat.berkeley.edu/~mjwain/stat210b/Chap2_TailBounds_Jan22_2015.pdf" target = "_blank">these notes</a>. But before I go there I need to understand Moment generating functions.
-<h3 style="font-weight: normal;">Moment Generating Function</h3>
+<h3>Moment Generating Function</h3>
 Source: <a href="https://www.youtube.com/watch?v=N8O6zd6vTZ8" target="_blank">Lecture 17: Moment Generating Functions by Joseph K. Blitzstein</a>
 <P><b>Definition:</b> A random variable $X$ has a Moment Generating Function 
 $$M(t) = E[\exp(tX)]$$
@@ -46,7 +46,7 @@ as a function of $t$, if $M(t)$ is finite for some interval of $t$ i.e. $M_t$ is
 
 </p>
 
-<h3 style="font-weight: normal;">Markov Inequality</h3>	
+<h3>Markov Inequality</h3>	
 <i>Although trivial to prove Markov Inequality forms the basis of many other inequalities. Once, you have markov inequality, then you can just use it on functions of the random variable itself (e.g. the moments of a random variable are it's functions too) to get newer bounds. </i><BR>
 <p>
 	<b>Lemma 1.</b> 
@@ -75,7 +75,7 @@ E[X] &\geq  a P(X\geq a)\\
 </P>
 
 
-<h3 style="font-weight: normal;">Chebyshev's Inequality</h3>	
+<h3>Chebyshev's Inequality</h3>	
 
 <b>Lemma 2.</b> Given a random variable $X$, such that $X$ has a finite expected value. The standard deviation of $X$ i.e. $\sigma = \sqrt{E[(X - E[X]^{2})]}$ is finite. Then for every constant $a > 0 $:
 \begin{equation}
@@ -103,7 +103,7 @@ Pr(|X-E[X]| \geq a) \leq \frac{E[|X-E[X]|^{n}]}{a^{n}}
 \end{equation}
 <p style="color: red;">Tightness of Markov and Chebyshev Inequality: We cant do better than them in general.</p>
 
-<h3 style="font-weight: normal;">Chernoff Bound</h3>
+<h3>Chernoff Bound</h3>
 
 
 		</div>

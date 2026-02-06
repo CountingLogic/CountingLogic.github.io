@@ -1,4 +1,18 @@
-.text {width: 34em; text-align: center; margin: 0 auto;}
-.left {text-align: left;}
-.listing {width: 40em; text-align: center; margin: 0 auto;}
-.footer {width: 34em; text-align: center; margin: 0 auto;}
+@import url("site.css");
+
+/* Back-compat: keep legacy class names working */
+.text {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.listing {
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+}
