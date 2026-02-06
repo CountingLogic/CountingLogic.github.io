@@ -21,6 +21,7 @@
 \usepackage[symbol]{footmisc}
 % DOCUMENT LAYOUT
 \usepackage{geometry} 
+\usepackage{multicol}
 \geometry{a4paper, textwidth=5.5in, textheight=9.5in, marginparsep=7pt, marginparwidth=.6in}
 \setlength\parindent{0in}
 
@@ -42,7 +43,7 @@
 
 % HEADINGS
 \usepackage{sectsty} 
-\usepackage[normalem]{ulem} 
+% \usepackage[normalem]{ulem} 
 \sectionfont{\rmfamily\mdseries\upshape\Large}
 \subsectionfont{\rmfamily\bfseries\upshape\normalsize} 
 \subsubsectionfont{\rmfamily\mdseries\upshape\normalsize} 
@@ -64,7 +65,7 @@ Machine Learning Research Unit, TU Wien, Austria\\
 
 % Phone: \texttt{+39 320 841 2396}\\
 Email: \href{mailto:sagar.malhotra@tuwien.ac.at}{sagar.malhotra@tuwien.ac.at}\\
-\textsc{Personal website}: \href{https://countinglogic.github.io}{countinglogic.github.io}
+\textsc{Personal website}: \href{https://countinglogic.github.io}{countinglogic.github.io}\\
 % \textsc{DBLP}: \href{https://dblp.org/pid/38/7865.html}{38/7865}\\
 % \textsc{Google Scholar}: \href{https://scholar.google.com/citations?user=EvJ5xlAAAAAJ&hl=en}{EvJ5xlAAAAAJ}\\
 % \textsc{Orcid}: \href{https://orcid.org/0000-0001-6700-4311}{0000-0001-6700-4311}
@@ -117,16 +118,19 @@ University of Trento, Italy\\
 University of Delhi, India
 
 \section*{Research Interests}
-I design algorithms for safe, efficient, and trustworthy machine learning (ML), focusing on formal verification and safety certification, failure-mode analysis, logic-based explainability, tractable learning and reasoning over relational data, and neurosymbolic AI. 
+I am interested in safe, explainable, and efficient machine learning. My work leverages and advances methods in logic and probability for applications in safety certification of ML models, logic-based explainability and interpretability, provably correct learning and reasoning on relational data, and novel models for neurosymbolic AI.
 %\newpage
 
 \section*{Awards and Funding}
 \begin{itemize}
-    \item \textbf{Honorable Mention Award} at the  International Conference on Principles of Knowledge Representation and Reasoning Conference 2024
-    \item \textbf{Best Paper Award} at the International Conference of Neurosymbolic Learning and Reasoning 2024 
+    \item \textbf{Honorable Mention Award} at the International Conference on Principles of Knowledge Representation and Reasoning 2024 
+    \item \textbf{Best Paper Award} at the International Conference on Neural-Symbolic Learning and Reasoning 2024 
     % \item Project \say{Logical Distillation of Machine Learning Models} among 21/84 funding applications invited to the long proposal phase for WWTF ICT 2025 funding\\ 
     % Role: Principal Investigator, Funding requested: 793,884.00 €, Final Decision awaited
-    \item ANR-FWF joint project \say{Nanostructure evolution in oxide materials at high temperature investigated with advanced X-ray scattering and machine learning based data analysis} \\Role: Part of the project team, majorly contributed towards writing the WP for machine learning. Total Funding: 1,008, 858 €. Funding for our group: 215,492 €
+    % \item \textbf{Half-day Tutorial} at KR 2024 as a \textbf{solo-presenter}
+    % \item Co-supervisor to the runner-up for best Master’s thesis at TU Wien in 2025
+    \item ANR-FWF joint project \say{Nanostructure evolution in oxide materials at high temperature investigated with advanced X-ray scattering and machine learning based data analysis} 
+    \textbf{Role:} Part of the project team, contributed significantly to writing the machine learning work packages. Total Funding: 1,008,858€. Funding for our group: 215,492€
 \end{itemize}
 
 
@@ -153,19 +157,25 @@ Publications\\[-.4em]%
 
 
 \subsection*{Conference Publications}
-\years{2025}\underline{Alexander Pluska} and \textbf{Sagar Malhotra}\\ 
+\years{2026} Steve Azzolin, Stefano Teso, Bruno Lepri, Andrea Passerini, and \textbf{Sagar Malhotra}\\
+GNN Explanations that do not Explain and How to find Them\\
+\emph{Under Review at International Conference on Learning Representations 2025.}\\
+% Pre-rebuttal Score: Accept (8), Weak Accept (6) and Weak Reject (4) \\
+\href{https://openreview.net/forum?id=HBcgLe6NZD}{ICLR 2026}(CORE Rank \textbf{A$^{*}$}, \textbf{28.18$\%$} acceptance rate)\\
+
+\years{2025}Alexander Pluska and \textbf{Sagar Malhotra}\\ 
 On Local Limits of Sparse Random Graphs:\\ Color Convergence and the Refined Configuration Model\\
 \emph{Neural Information Processing Systems 2025.} \\
 \href{https://neurips.cc/virtual/2025/poster/116124}{NeurIPS 2025} (CORE Rank \textbf{A$^{*}$}, \textbf{24.52$\%$} acceptance rate) \\   
 
 \years{2025}\underline{Peter Blohm}, Patrick Indri, Thomas Gärtner, \textbf{Sagar Malhotra}\\ 
 Probably Approximately Global Robustness Certification\\
-\emph{International Conference of Machine Learning 2025.} \\
+\emph{International Conference on Machine Learning (ICML), 2025} \\
 \href{https://openreview.net/forum?id=UKHlXpiFMy}{ICML 2025} (CORE Rank \textbf{A$^{*}$}, \textbf{26.9$\%$} acceptance rate) \\   
 
 \years{2025} Steve Azzolin$^{\dagger}$, \textbf{Sagar Malhotra}$^{\dagger}$, Andrea Passerini, Stefano Teso \\
 Beyond Topological Self-Explainable GNNs: A Formal Explainability Perspective\\
-\emph{International Conference of Machine Learning 2025.}\\
+\emph{International Conference on Machine Learning (ICML), 2025}\\
 \href{https://openreview.net/forum?id=mkqcUWBykZ}{ICML 2025} ($^{\dagger}$Equal Contribution, CORE Rank \textbf{A$^{*}$}, \textbf{26.9$\%$} acceptance rate)\\ 
 
 
@@ -178,7 +188,7 @@ Logical Distillation of Graph Neural Networks\\
 
 \years{2024}\underline{Florian Chen}, Felix Weitkämper, and \textbf{Sagar Malhotra}.\\
 Understanding Domain-Size Generalization in Markov Logic Networks\\
-\emph{Machine Learning and Knowledge Discovery in Databases. Research Track - European Conference} \\
+\emph{Machine Learning and Knowledge Discovery in Databases (ECML PKDD), Research Track} \\
 \href{https://arxiv.org/abs/2403.15933}{ECML PKDD 2024} (CORE Rank \textbf{A}, \textbf{24\%} acceptance rate)\\
 
 \years{2024}Alessandro Daniele, Tommaso Campari, \textbf{Sagar Malhotra} and Luciano Serafini\\
@@ -193,7 +203,7 @@ Simple and Effective Transfer Learning for Neuro-Symbolic Integration\\
 % \newpage
 
 \years{2022}\textbf{Sagar Malhotra} and Luciano Serafini\\
- On Projectivity in Markov Logic Networks \\ \emph{Machine Learning and Knowledge Discovery in Databases. Research Track - European Conference} \\  
+ On Projectivity in Markov Logic Networks \\ \emph{Machine Learning and Knowledge Discovery in Databases (ECML PKDD), Research Track} \\  
 % \textbf{Largest European conference on machine learning with $\sim$1000 submissions and an \\ acceptance rate of $\sim$25\%} 
 \href{https://link.springer.com/chapter/10.1007/978-3-031-26419-1_14}{ECML PKDD 2022} (CORE Rank \textbf{A}, \textbf{26\%} acceptance rate).\\ 
 
@@ -205,10 +215,9 @@ Weighted Model Counting in FO$^2$ with Cardinality Constraints and Counting Quan
 \href{https://ojs.aaai.org/index.php/AAAI/article/view/20525}{AAAI 2022} (CORE Rank \textbf{A$^{*}$}, \textbf{15\%} acceptance rate, \textbf{accepted as oral presentation}) \\
 
 \years{2021}\textbf{Sagar Malhotra} and Luciano Serafini\\
- A Combinatorial Approach to Weighted Model Counting in the Two Variable Fragment with Cardinality Constraints\\ \emph{International Conference of the Italian Association for Artificial Intelligence 2019}\\
+ A Combinatorial Approach to Weighted Model Counting in the Two Variable Fragment with Cardinality Constraints\\ \emph{International Conference of the Italian Association for Artificial Intelligence 2021 (AIxIA)}\\
 \href{https://link.springer.com/chapter/10.1007/978-3-031-08421-8_10}{AIxIA 2021}
 
-% \newpage
 \subsection*{Journal Publications}
 \years{2025}\textbf{Sagar Malhotra}, \underline{Davide Bizzaro} and Luciano Serafini\\
 Lifted Inference beyond First Order Logic \\
@@ -216,36 +225,42 @@ Lifted Inference beyond First Order Logic \\
 \href{https://doi.org/10.1016/j.artint.2025.104310}{AIJ} (\textbf{Q1} Journal)
 % \vspace*{-0.5em}
 
+% \subsection*{Under Review}
 
-\subsection*{Workshop Publications (Peer-reviewed)}
+
+\subsection*{Selected Workshop Publications (Peer-reviewed)}
 % \footnotemark[\value{footnote}]}
+\years{2025} \underline{Anton Zamyatin}, Patrick Indri, \textbf{Sagar Malhotra} and Thomas Gärtner\\
+Is BatchEnsemble a Single Model? On Calibration and Diversity of Efficient Ensembles\\
+\emph{Epistemic Intelligence in Machine Learning Workshop, EurIPS 2025}\\ \href{https://sites.google.com/view/eiml-eurips2025/home}{ EIML@EurIPS2025} \\
+
 \years{2025} \underline{Klaus Weinbauer}, Tieu-Long Phan, Peter F. Stadler,
 Thomas Gärtner, and \textbf{Sagar Malhotra}\\
 Prime Implicant Explanations for Reaction Feasibility Prediction\\
 \emph{Workshop on Advances in Interpretable ML and AI, ECML-PKDD 2025}\\
-\href{https://arxiv.org/abs/2510.09226}{AIMLAI}\\
+\href{https://arxiv.org/abs/2510.09226}{AIMLAI, ECML PKDD 2025}\\
 
 \years{2024} Patrick Indri, \underline{Peter Blohm}, Anagha Athavale, Ezio Bartocci, Georg Weissenbacher, Matteo Maffei, Dejan Nickovic, Thomas Gärtner, \textbf{Sagar Malhotra}\\
 Distillation based Robustness Verification with PAC Guarantees\\
 \emph{Next Generation of AI Safety Workshop, ICML 2024}\\
 \href{https://openreview.net/forum?id=vflefS3lmB}{NextGenAISafety, ICML 2024}\\
 
-\years{2024}\underline{Alexander Pluska}, Pascal Welke, Thomas G{\"a}rtner and \textbf{Sagar Malhotra}.\\
-Logical Distillation of Graph Neural Networks\\
-\emph{Workshop on Mechanistic Interpretability, ICML 2024}\\
-\href{https://openreview.net/forum?id=TfYnD2gYRO}{MI Workshop, ICML 2024}\\ \\
+% \years{2024}\underline{Alexander Pluska}, Pascal Welke, Thomas G{\"a}rtner and \textbf{Sagar Malhotra}.\\
+% Logical Distillation of Graph Neural Networks\\
+% \emph{Workshop on Mechanistic Interpretability, ICML 2024}\\
+% \href{https://openreview.net/forum?id=TfYnD2gYRO}{MI Workshop, ICML 2024}\\ \\
 % \newpage
 \years{2023}Alessandro Daniele, Tommaso Campari, \textbf{Sagar Malhotra} and Luciano Serafini. \\ Deep Symbolic Learning: Discovering Symbols and Rules from Perception \\  
 \emph{International Workshop on Neural-Symbolic Learning and Reasoning 2023}\\
-\href{https://sites.google.com/view/nesy2023/home/nesy2023-programme-outline?authuser=0}{NeSy 2023} (\textbf{Accepted for spotlight presentation})\\ \\
-\years{2022}\textbf{Sagar Malhotra} and Luciano Serafini\\
-On Projectivity in Markov Logic Networks\\ 
-\emph{International Workshop on Probabilistic Logic Programming 2022}\\ \href{https://easychair.org/publications/preprint/2lTk}{ PLP 2022}\\ \\
+\href{https://sites.google.com/view/nesy2023/home/nesy2023-programme-outline?authuser=0}{NeSy 2023} (\textbf{Accepted for spotlight presentation in the recently published track})
+% \years{2022}\textbf{Sagar Malhotra} and Luciano Serafini\\
+% On Projectivity in Markov Logic Networks\\ 
+% \emph{International Workshop on Probabilistic Logic Programming 2022}\\ \href{https://easychair.org/publications/preprint/2lTk}{ PLP 2022}\\ \\
 % \newpage
 % \emph{R.i.C.e.R.c.A: RCRA Incontri E Confronti, AIxIA 2022.} \href{https://ricerca2022.wordpress.com}{ R.i.C.e.R.c.A 2022}\\  \\
 % \newpage
-\years{2021}\textbf{Sagar Malhotra} and Luciano Serafini. Weighted Model Counting in FO$^2$ with Cardinality Constraints and Counting Quantifiers: A Closed Form Formula\\ \emph{International Workshop on Statistical Relational AI, IJCLR 2021. }\\
-\href{https://starai.cs.kuleuven.be/2021/}{ StarAI, IJCLR 2021}  
+% \years{2021}\textbf{Sagar Malhotra} and Luciano Serafini. Weighted Model Counting in FO$^2$ with Cardinality Constraints and Counting Quantifiers: A Closed Form Formula\\ \emph{International Workshop on Statistical Relational AI, IJCLR 2021. }\\
+% \href{https://starai.cs.kuleuven.be/2021/}{ StarAI, IJCLR 2021}  
 % \years{{2020}}\textbf{Sagar Malhotra} and Luciano Serafini. Weighted Model Counting in C$^2$ (Abstract) \\
 % \emph{Workshop on Machine Learning and Data Mining, AIxIA 2020}\\
 %  \href{https://sites.google.com/view/mldm2020-workshop/program?authuser=0}{MLDM 2020}\\
@@ -299,58 +314,60 @@ On Projectivity in Markov Logic Networks\\
 % $\cdot$ Consistency of probabilistic inference\\
 % $\cdot$ Estimating asymptotic properties from sub-sampled relational structures\\
 % \newpage
-\section*{Talks and Tutorials}
+\section*{Selected Talks and Tutorials}
 % \noindent
 \years{2025} What can logic do for safe and explainable AI?\\
-\emph{Invited talk at Aachen Symposium on Representation Learning to Act and Plan, 2025}\\ 
+\textbf{Invited talk}\\ 
+\emph{Aachen Symposium on Representation Learning to Act and Plan, 2025}\\ 
 \href{https://symposium.ml.rwth-aachen.de/#Venue}{Aachen RLeap Symposium 2025}\\ \\
 \years{2025} Probabilistic Verification of Black-Box Systems\\
+\textbf{Invited talk}\\ 
 \emph{Spring workshop on Mining and Learning, 2025}\\ 
 \href{https://dtai.cs.kuleuven.be/events/SML25/}{SMiLe 2025} \\ \\
-
 % \newpage
-
 \years{2024} Fundamental Problems in Statistical Relational AI\\
-\emph{Half-day tutorial as a solo presenter}\\
+\textbf{Half-day tutorial (solo presenter, selection through peer-review)}\\
 \emph{International Conference on Principles of Knowledge Representation and Reasoning, 2024} \\
 \href{https://kr.org/KR2024/workshops_tutorials.php}{KR 2024}\\ \\
-\years{2024}On Consistency of Learning and Inference in Statistical Relational Learning \\
-\emph{Invited Talk at MLDM Workshop at the AIxIA Conference 2024, Bolzano, Italy }\\
-\href{https://sites.google.com/view/mldm2024/program?authuser=0}{MLDM 2024}\\ \\
+\newpage
+\years{2024} On Consistency of Learning and Inference in Statistical Relational Learning \\
+\textbf{Invited talk}\\
+\emph{MLDM Workshop at the AIxIA Conference 2024, Bolzano, Italy }\\
+\href{https://sites.google.com/view/mldm2024/program?authuser=0}{MLDM 2024}\\  \\
 \years{2022}On Probabilistic Inference in Logical Domains\\
-\emph{Invited talk at the Institute of Informatics, Ludwig Maximilian University of Munich, Germany}\\  \\
-\years{2022}A Tutorial on Probabilistic Inference in Logical Domains\\ \emph{Guest Lecture at the Knowledge representation and Learning course, University of Padova, Italy}\\ \\
+\textbf{Research seminar (invited)}\\
+\emph{Institute of Informatics, Ludwig Maximilian University of Munich, Germany}\\  \\
+\years{2022}A Tutorial on Probabilistic Inference in Logical Domains\\ 
+\textbf{Guest Lecture}\\
+\emph{Guest Lecture at the Knowledge representation and Learning course, University of Padova, Italy}\\ \\
 \years{2022}Weighted First-Order Model Counting \\
-\emph{DocInProgress Colloquium, Department of Mathematics, University of Trento, Italy} \\ \\ 
-\years{2022}Weighted First-Order Model Counting\\
-\emph{AAAI 2022@FBK Workshop, Trento, Italy  }\href{https://www.youtube.com/watch?v=2TRXEdq-NZg&t=3937s}{(Video)}
+\emph{DocInProgress Colloquium, Department of Mathematics, University of Trento, Italy}  
+% \years{2022}Weighted First-Order Model Counting\\
+% \emph{AAAI 2022@FBK Workshop, Trento, Italy  }\href{https://www.youtube.com/watch?v=2TRXEdq-NZg&t=3937s}{(Video)}
 
 %%\hrule
 % \section*{Programming Skills}
 % \noindent 
 % Fluent: Python, Pandas, \LaTeX\\
 % Familiar: Mathematica, R, Pytorch, HTML
-
-
-
 \section*{Selected Reviewing and PC Experience}
 Session Chair at ECML 2024 and KR 2024
 
-PC Member for AAAI 23-25, KR 23-25, ECAI-25 and IJCAI 24-25
+PC Member for AAAI 23-25, KR 23-26, ECAI-25-26 and IJCAI 24-26
 
-Reviewer for ICML 24-25, ICLR 24-25, NeurIPS 23-25, AISTATS 23-25, ICALP 2025
+Reviewer for ICML 24-26, ICLR 24-25, NeurIPS 23-25, AISTATS 23-25, ICALP 2025, NeSy 2025-26
 
 Reviewer for Q1 AI/ML journals like DAMI and AIJ
 % Session Chair at ECML 2024, Session Chair at KR 2024,Reviewer for  Data Mining and Knowledge Discovery Journal (Q1), Reviewer for Artificial Intelligence Journal (Q1), Reviewer ICLR 2024-25, PC member AAAI 2024-25, Reviewer NeurIPS 2023-25, PC Member KR 2023-25, PC Member IJCAI 2024-25, PC Member PLP workshop 2023-24, Reviewer ICLR 2024-25, Reviewer AISTATS 2024-25, PC Member SAC 2024, PC Member MLG Workshop-ECML 2023, Reviewer NeSy Conference 2025.
 \section*{Student Supervision}
-\subsection*{Master's thesis supervision}
+\subsection*{Master's thesis (co-)supervision}
 \years{2025-Now} Michael Pritz,  TU Wien, Austria\\
 % Master's thesis supervision\\ 
 Title: Towards Enforcing Behaviors within
-Transformers using Differentiable Constraints\\ 
-\\
+Transformers using Differentiable Constraints\\
+
 \years{2025} Peter Blohm,  TU Wien, Austria\\
-% Master's thesis supervision\\
+\textbf{Runner-up for Best Master Thesis Award}\\
 Title: Probabilistic Verification of Black-Box Systems\\
 
 \years{2023} Davide Bizzaro,  University of Padova, Italy\\
@@ -365,19 +382,22 @@ Title: Lifted Inference Beyond First Order Logic
     % \newpage
 
     \years{2024} Alexander Pluska,  TU Wien, Austria\\ 
-    Role: Supervised in a graduate course, leading to a conference publication at KR 2024\\ 
+    Role: Supervised in a graduate course, leading to an award-winning publication at KR 2024\\ 
 
 \years{2023-Now} Supervised multiple (10+) Bachelor’s, Master’s and PhD students in seminar courses.
 
 % \newpage
 
 \section*{Teaching Experience}
-\years{2025W} \textbf{Neurosymbolic Reasoning (VU, 6 ECTS, MSc. and Ph.D., TU Wien)}\\
-\textbf{Experience.} Teaching a new 6 ECTS course with Prof. Thomas Eiter for the Master's in Logic and AI at TU Wien. The course is a significant extension of my previous 3ECTS course on \say{Modern Applications of Logic in Machine Learning} (designed and taught as a solo-instructor). The course will introduce students to fundamentals of Neurosymbolic AI and its applications, especially for developing safe and explainable AI.  \\
+\years{2025W - Now} \textbf{Neurosymbolic Reasoning (VU, 6 ECTS, MSc. and Ph.D., TU Wien)}\\
+\textbf{Role:} Teaching and designing the first edition of the course with Prof. Thomas Eiter. I am responsible for covering: foundational ideas in probabilistic logic; fuzzy logic; maximum entropy distributions; probabilistic NeSy models like semantic loss and semantic probabilistic layer; fuzzy NeSy models like logic tensor networks and Knowledge enhanced NNs. \\  
+
+\newpage
 
 
-\years{2025S}\textbf{Modern Applications of Logic in Machine Learning (VU, 3 ECTS, MSc. and Ph.D., TU Wien)}\\ 
-\textbf{Experience:}  Responsible for creating and teaching the entire course as a \textbf{solo instructor}. Created a new curriculum for graduates students interested in recent developments on the intersection of logic and machine learning. The course consists of five inter-dependent sections: Statistical relational learning, Algorithms (model counting and MaxSAT), Neuro- \\symbolic AI, logical expressivity of ML models and Explainable AI. \\
+\years{2025S- Now}\textbf{Modern Applications of Logic in Machine Learning (VU, 3 ECTS, MSc. and Ph.D., TU Wien)}\\ 
+\textbf{Role:}  Responsible for creating and teaching the entire course as a \textbf{solo instructor}. 
+
 % \begin{itemize}
     % \item \textbf{Statistical relational learning}: models that integrate logic, probability and learning e.g., Markov logic, Problog etc. 
     % \item \textbf{Algorithms}: ML relevant algorithmic problems in logic such as weighted model counting and MaxSAT 
@@ -388,22 +408,26 @@ Title: Lifted Inference Beyond First Order Logic
 \textbf{The course was well attended, with all 15 of the 15 offered places taken-up by the students. The course evaluation also showed positive results.}\\
 
 % \newpage
-\years{2023 - Now} \textbf{Introduction to Machine Learning (VU, 6 ECTS, B.Sc. $\sim$100 Students, TU Wien)}\\
-\textbf{Experience:} Part of the team that designed the first edition of the course, responsible for creating and teaching the module on Probabilistic ML. I also taught the lectures for Probabilistic Machine Learning and was responsible for the office hours for various modules of the course. I developed automatically graded python based exercises that gave students hands-on experience. Also wrote a large question bank for the theoretical exam. \\ \\
+\years{2023W - Now} \textbf{Introduction to Machine Learning (VU, 6 ECTS, B.Sc. $\sim$100 Students, TU Wien)}\\
+\textbf{Role:} Part of the team that designed the first edition of the course, responsible for creating and teaching the module on Probabilistic ML.\\ 
+% I also taught the lectures for Probabilistic Machine Learning and was responsible for the office hours for various modules of the course. I developed automatically graded python based exercises that gave students hands-on experience. Also wrote a large question bank for the theoretical exam. \\ 
 
- \years{2023 - Now} \textbf{Theoretical Foundations and Research Topics in Machine Learning\\ (VU, 3 ECTS, M.Sc. and Ph.D., TU Wien)}\\
- \textbf{Experience:} Responsible for conducting interactive active-learning based coursework and exercise sessions involving concepts from ML, like PAC learning, Kernel methods and GNNs.\\
+% \newpage
 
- \years{2023 - Now} \textbf{Machine Learning Algorithms and Applications
+ \years{2023W - Now} \textbf{Theoretical Foundations and Research Topics in Machine Learning\\ (VU, 3 ECTS, M.Sc. and Ph.D., TU Wien)}\\
+ \textbf{Role:} Partially responsible for conducting interactive exercise sessions involving concepts from ML, like PAC learning, Kernel methods and GNNs.\\
+
+ \years{2023W - Now} \textbf{Machine Learning Algorithms and Applications
 (PR, 3 ECTS, M.Sc. and Ph.D., TU Wien)}\\
-\textbf{Experience:} This is a project based course organized by the Machine Learning Research Unit. I have consistently offered new projects in this course. One of the offered projects led to a publication with a student, Alexander Pluska, at the \emph{International Conference on Principles of Knowledge Representation and Reasoning 2024}. \\ 
+\textbf{Role:} This is a project based course organized by our research unit. I have consistently offered new projects in this course. One of the offered projects led to an award-winning publication with a student, Alexander Pluska, at KR 2024. \\ 
 
- \years{2023 - Now} \textbf{Scientific Research and Writing (SE, 3 ECTS, B.Sc., TU Wien)}\\ 
- \textbf{Experience:} This course is part of the TU Wien scientific writing course. For the practical part of the course, our research unit offers many research topics to students to write a report.
- I organize a mock-conference and peer-review procedure for reviewing the reports of the participating students.  \\
+ \years{2023W - Now} \textbf{Scientific Research and Writing (SE, 3 ECTS, B.Sc., TU Wien)}\\ 
+ \textbf{Role:} This course is part of the TU Wien scientific writing course. For the practical part of the course, our research unit offers many research topics to students to write a report.
+ I organize a mock-conference and peer-review procedure on EasyChair for the course.  \\
 
  \years{2025W-Now} \textbf{Teaching Co-ordinator for Machine Learning Research Unit, TU Wien}\\
- \textbf{Experience:} Responsible for managing the teaching coordination between the Machine Learning Research Unit and the deans of education at TU Wien. Learning to navigate administrative aspects of organizing teaching hours for the research unit.
+ \textbf{Role:} Responsible for managing the teaching coordination between the Machine Learning Research Unit and the deans of education at TU Wien. 
+%  Learning to navigate administrative aspects of organizing teaching hours for the research unit.
 
  %  I conduct many of the exercise and course-work sessions on PAC learning and graph neural networks.
 
@@ -419,22 +443,50 @@ Title: Lifted Inference Beyond First Order Logic
 % \newpage 
 
 \section*{References}
-Prof. Thomas Gärtner\\
+\setlength{\columnsep}{15pt}
+\begin{multicols}{2}
+{\small Prof. Thomas Gärtner (PostDoc Host)\\
 % Head of Unit\\
 Head of Machine Learning Research Unit\\
 TU Wien, Vienna, Austria\\
-Email: \href{mailto: thomas.gaertner@tuwien.ac.at}{thomas.gaertner@tuwien.ac.at} \\ 
+Email: \href{mailto: thomas.gaertner@tuwien.ac.at}{thomas.gaertner@tuwien.ac.at} \\
 
-Prof. Luciano Serafini \\
+Prof. Luciano Serafini (PhD Supervisor)\\
 % Head of Unit\\
-Head of Data and Knowledge Management Group\\
+Head of Data and Knowledge Management Unit\\
 Fondazione Bruno Kessler, Trento, Italy\\
 Email: \href{mailto: serafini@fbk.eu}{serafini@fbk.eu} \\ 
 
-Prof. Andrea Passerini \\
+Prof. Andrea Passerini (Collaborator)\\ 
+% Relationship: Collaborator on GNN explainability \\
 Head of Structured Machine Learning Group\\
 University of Trento, Trento, Italy \\ 
 Email: \href{mailto: andrea.passerini@unitn.it}{andrea.passerini@unitn.it} \\ 
+
+
+}
+\columnbreak
+
+{\small
+Prof. Thomas Eiter (Co-Lecturer)\\ 
+% Relationship: Collaborator on GNN explainability \\
+Head of Logic and Computation Institute\\
+and Knowledge-Based Systems Research Unit \\
+TU Wien, Vienna, Austria\\ 
+Email: \href{mailto: thomas.eiter@tuwien.ac.at}{thomas.eiter@tuwien.ac.at} \\ 
+
+Prof. Hector Geffner\footnotemark[1] \\
+Alexander von Humboldt Professor\\
+Chair of Machine Learning and Reasoning\\
+RWTH Aachen University, Germany\\
+Email: \href{mailto: hector.geffner@ml.rwth-aachen.de}{hector.geffner@ml.rwth-aachen.de} \\ 
+
+Prof. Magdalena Ortiz\footnotemark[1]\\
+Knowledge-Based Systems Research Unit\\
+TU Wien, Vienna, Austria\\
+Email: \href{mailto: magdalena.ortiz@tuwien.ac.at}{magdalena.ortiz@tuwien.ac.at}
+}
+
 
 % Dr. Felix Weitkämper \\
 % Institute of Informatics, LMU, Munich, Germany \\
@@ -448,5 +500,6 @@ Email: \href{mailto: andrea.passerini@unitn.it}{andrea.passerini@unitn.it} \\
 % {\scriptsize  Last updated: \today\- •\- 
 % \href{https://countinglogic.github.io/research/CV/CV.pdf}{For latest version click here. }}
 % \end{center}
-
+\end{multicols}
+\footnotetext[1]{Not close collaborators.}
 \end{document}
